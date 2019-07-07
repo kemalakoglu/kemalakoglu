@@ -18,8 +18,8 @@ namespace Core.Infrastructure.Presentation.API.Extensions
                     Contact = new Contact
                     {
                         Name = "Swagger Implementation of Kemal Akoğlu",
-                        //Url = "http://doco.com.tr",
-                        Email = "kemal.akoglu@doco.com.tr"
+                        Url = "http://kemalakoglu.com",
+                        Email = "kemalakoglu@me.com"
                     }
                 });
             });

@@ -76,6 +76,11 @@ namespace Core.Infrastructure.Domain.Repository
 
         }
 
+        public T GetByKey(long key)
+        {
+            return repositoryContext.Set<T>().Find(key);
+        }
+
         public T GetByKey(int key)
         {
             return repositoryContext.Set<T>().Find(key);

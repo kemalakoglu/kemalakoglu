@@ -27,6 +27,8 @@ namespace Core.Infrastructure.Core.Contract
         void InsertBulk(IEnumerable<T> entity);
         void UpdateBulk(IEnumerable<T> entity);
         void Save();
+
+        T GetByKey(long key);
         T GetByKey(int key);
         T GetByKey(string key);
         T GetByKey(object key);

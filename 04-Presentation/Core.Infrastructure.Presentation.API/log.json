@@ -951,3 +951,207 @@
 {"Timestamp":"2019-05-09T11:39:59.4537439+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.RefTypeValue.IRefTypeService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
 {"Timestamp":"2019-05-09T11:40:40.9324577+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
 {"Timestamp":"2019-05-09T11:40:40.9870845+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.RefTypeValue.IRefTypeService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T20:57:29.5877037+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T20:57:32.2994525+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T20:57:48.9424850+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T20:57:49.9223564+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T20:58:43.8375131+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T21:04:42.9050106+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T21:06:11.8078378+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T21:07:03.4327532+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T21:08:10.3937069+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T21:09:23.1952225+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T21:10:07.8023702+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T21:10:55.8069351+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T21:10:58.3519345+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T21:10:58.3519345+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-06T21:10:59.1584766+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:08:52.8080370+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:09:44.6683106+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:09:47.2008495+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:10:26.6685665+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:10:28.0116415+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:10:38.9566755+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:10:50.1226916+03:00","Level":"Information","MessageTemplate":"Create İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:13:40.5354781+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:13:43.1703165+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:13:46.5015071+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:13:48.0828457+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:14:30.4890212+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:14:33.7240012+03:00","Level":"Information","MessageTemplate":"Create İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:24:19.2157384+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:24:22.1099360+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:26:49.2950687+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:26:51.8770957+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:26:51.8770932+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:26:51.8771053+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:26:52.2970134+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:27:13.1429897+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:30:44.8200241+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:30:47.4008758+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:31:55.1858390+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:31:55.8821441+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:32:08.3653983+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:32:46.2533836+03:00","Level":"Error","MessageTemplate":"Invalid column name 'ParentId'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:33:00.7503306+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:33:19.1935949+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:33:21.7961326+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:33:24.4979711+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:33:26.9158774+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:33:41.4992397+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:33:56.1872062+03:00","Level":"Information","MessageTemplate":"Update İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:34:12.0111376+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:34:14.5003834+03:00","Level":"Information","MessageTemplate":"Update İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:53:13.0907199+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:53:15.7331046+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:53:15.7331045+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:53:16.6563210+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:54:11.5006928+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:54:14.1927792+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:54:14.1928186+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:54:14.6085700+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:54:28.8488954+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T14:54:51.9498396+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:00:53.2719537+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:00:55.8627853+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:02:46.1891304+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:02:46.3624315+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui.css","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:02:46.8503984+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:03:01.7252994+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:04:03.9430804+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:04:06.3625509+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:04:11.6884429+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:04:12.8129459+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:04:18.2666459+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:04:28.1465369+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:04:33.6497763+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:04:40.0778125+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:10:34.6124954+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:10:37.2341845+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:10:40.7602340+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:10:42.1472117+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:10:46.7919339+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:29:53.5006542+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:29:56.3308685+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:29:56.3308685+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:29:56.8734333+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:30:59.3338959+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:31:02.1119585+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:31:02.1119703+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:31:02.6782779+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:32:07.9716165+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:32:10.7534490+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:32:12.5703620+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:32:13.4675225+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:32:22.2939297+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:32:52.1585983+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:32:54.6636422+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:32:58.7951473+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:33:00.4566331+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:34:35.2332372+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:34:37.8148785+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:34:37.8148785+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:34:38.3548534+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:34:43.5688986+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:35:33.8975831+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:35:37.1320244+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:35:37.1320246+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:35:37.4272074+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui-standalone-preset.js","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:35:39.8385894+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:36:34.4680445+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:37:59.5453543+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:38:02.0275517+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:38:03.8920467+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:38:15.0026249+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:39:58.9363055+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:41:17.9476228+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:41:20.6811861+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:41:20.6811857+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:41:21.2623504+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:41:26.1806241+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:54:31.7313717+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:54:34.2942367+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:57:56.8202954+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:57:59.7967002+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:57:59.7967002+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:58:00.2822298+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:58:05.7912042+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:58:06.7408652+03:00","Level":"Information","MessageTemplate":"GetByParent İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:58:31.7887185+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:58:32.1985707+03:00","Level":"Information","MessageTemplate":"Create İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:58:38.1279095+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T15:58:38.2529330+03:00","Level":"Information","MessageTemplate":"GetByParent İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:02:09.3269900+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:03:54.2972886+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:03:57.0667133+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:04:04.6398739+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:04:09.7614515+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:04:44.3126554+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:04:46.9926107+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:04:46.9926025+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:04:47.6737193+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:10:49.3064281+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:10:52.1625341+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:10:55.3993927+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:11:14.1273640+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:14:37.3771717+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:14:38.7473303+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:15:03.6064911+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:15:04.1794536+03:00","Level":"Information","MessageTemplate":"Create İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:23:00.3102130+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:23:02.1611666+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:23:19.8141998+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:23:40.6410954+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:24:33.6552010+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:24:35.7288841+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:24:40.7713192+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:24:57.2182778+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:25:15.4068403+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:25:28.7627696+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:27:34.0861072+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:27:35.9916168+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:27:35.9916171+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:27:47.5833329+03:00","Level":"Information","MessageTemplate":"Create İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:28:01.8730892+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:36:55.5622779+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:36:57.3236387+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:37:14.4075631+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:37:14.9485233+03:00","Level":"Information","MessageTemplate":"Create İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:37:33.9715463+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:37:34.0411851+03:00","Level":"Information","MessageTemplate":"Create İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:37:36.8117385+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:37:37.0344771+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:37:37.0466706+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/favicon-32x32.png","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:38:09.7799190+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:38:09.9362234+03:00","Level":"Information","MessageTemplate":"Create İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:38:53.0009260+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:38:56.2416261+03:00","Level":"Information","MessageTemplate":"Update İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:43:36.0377692+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:43:37.4980904+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:43:37.4980904+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:43:38.1294078+03:00","Level":"Information","MessageTemplate":"GetByParent İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:46:19.2716932+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:46:21.2516582+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:46:21.2516802+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:48:00.3172264+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:48:02.4440544+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:48:03.5315671+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:48:11.5501571+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:48:49.6544707+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:48:51.3393789+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:49:00.2046849+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:49:18.9864573+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:50:36.2301960+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:50:38.1037507+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:52:27.6599254+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:52:29.6858895+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:52:41.6921409+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T16:52:48.4069020+03:00","Level":"Information","MessageTemplate":"Kayıt Bulunamadı","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T17:14:52.2528363+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T17:14:53.8616441+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T17:14:57.9376221+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T17:14:59.0826238+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T17:15:06.7721427+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T17:15:07.2146823+03:00","Level":"Information","MessageTemplate":"Kayıt Bulunamadı","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T17:15:30.5779403+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-07-07T17:15:30.8086559+03:00","Level":"Information","MessageTemplate":"Create İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}

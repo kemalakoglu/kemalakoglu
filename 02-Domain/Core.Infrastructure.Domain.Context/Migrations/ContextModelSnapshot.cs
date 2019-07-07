@@ -15,7 +15,7 @@ namespace Core.Infrastructure.Domain.Context.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.8-servicing-32085")
+                .HasAnnotation("ProductVersion", "2.1.1-rtm-30846")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -31,11 +31,15 @@ namespace Core.Infrastructure.Domain.Context.Migrations
 
                     b.Property<string>("Name");
 
+                    b.Property<long?>("ParentId");
+
                     b.Property<bool>("Status");
 
                     b.Property<DateTime?>("UpdateDate");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ParentId");
 
                     b.ToTable("RefType");
                 });
@@ -50,13 +54,13 @@ namespace Core.Infrastructure.Domain.Context.Migrations
 
                     b.Property<bool>("IsActive");
 
-                    b.Property<string>("Name");
-
                     b.Property<long?>("RefTypeId");
 
                     b.Property<bool>("Status");
 
                     b.Property<DateTime?>("UpdateDate");
+
+                    b.Property<string>("Value");
 
                     b.HasKey("Id");
 
@@ -182,11 +186,9 @@ namespace Core.Infrastructure.Domain.Context.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.Property<string>("LoginProvider")
-                        .HasMaxLength(128);
+                    b.Property<string>("LoginProvider");
 
-                    b.Property<string>("ProviderKey")
-                        .HasMaxLength(128);
+                    b.Property<string>("ProviderKey");
 
                     b.Property<string>("ProviderDisplayName");
 
@@ -217,17 +219,22 @@ namespace Core.Infrastructure.Domain.Context.Migrations
                 {
                     b.Property<string>("UserId");
 
-                    b.Property<string>("LoginProvider")
-                        .HasMaxLength(128);
+                    b.Property<string>("LoginProvider");
 
-                    b.Property<string>("Name")
-                        .HasMaxLength(128);
+                    b.Property<string>("Name");
 
                     b.Property<string>("Value");
 
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens");
+                });
+
+            modelBuilder.Entity("Core.Infrastructure.Domain.Aggregate.RefTypeValue.RefType", b =>
+                {
+                    b.HasOne("Core.Infrastructure.Domain.Aggregate.RefTypeValue.RefType", "Parent")
+                        .WithMany()
+                        .HasForeignKey("ParentId");
                 });
 
             modelBuilder.Entity("Core.Infrastructure.Domain.Aggregate.RefTypeValue.RefValue", b =>
