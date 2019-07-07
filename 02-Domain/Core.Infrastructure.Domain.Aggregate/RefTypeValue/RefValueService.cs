@@ -10,7 +10,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
     {
         public ResponseDTO<RefValueDTO> GetByKey(long key)
         {
-            throw new NotImplementedException();
+         return new ResponseDTO<RefValueDTO>();
         }
 
         public ResponseDTO<RefValueDTO> Create(RefValueDTO DTO)
