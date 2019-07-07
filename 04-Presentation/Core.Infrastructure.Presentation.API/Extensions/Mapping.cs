@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
 using Core.Infrastructure.Domain.Aggregate.RefTypeValue;
+using Core.Infrastructure.Domain.Context.Context;
 
 namespace Core.Infrastructure.Presentation.API.Extensions
 {
@@ -10,7 +11,10 @@ namespace Core.Infrastructure.Presentation.API.Extensions
         {
             Mapper.Initialize(cfg =>
             {
-                cfg.CreateMap<RefTypeDTO, RefType>();
+                cfg.CreateMap<RefType,RefTypeDTO >()
+                    .ForMember(x => x.ParentId, opt => opt.Ignore()).ForMember(x=>x.UpdateDate,opt=>opt.AllowNull());
+                cfg.CreateMap<RefTypeDTO,RefType>()
+                    .ForMember(x => x.Parent, opt => opt.Ignore());
             });
         }
     }

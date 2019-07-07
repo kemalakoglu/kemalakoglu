@@ -2,6 +2,7 @@
 using Core.Infrastructure.Application.Service;
 using Core.Infrastructure.Application.UnitOfWork;
 using Core.Infrastructure.Core.Contract;
+using Core.Infrastructure.Domain.Aggregate.RefTypeValue;
 using Core.Infrastructure.Domain.Aggregate.User;
 using Core.Infrastructure.Domain.Context.Context;
 using Core.Infrastructure.Domain.Contract.Service;
@@ -33,6 +34,7 @@ namespace Core.Infrastructure.Presentation.API.Extensions
         {
             
             services.AddScoped<IUserStoreService, UserStoreService>();
+            services.AddScoped<IRefTypeService, RefTypeService>();
         }
 
         public static void ConfigureApplicationService(this IServiceCollection services)

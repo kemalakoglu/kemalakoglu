@@ -19,7 +19,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         }
 
         /// <summary>
-        ///     User Registration
+        /// AddRefType
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
@@ -29,5 +29,31 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         {
             return Ok(this.appService.AddRefType(request));
         }
+
+        /// <summary>
+        /// Update Ref Type
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
+        [Route("api/RefType/UpdateRefType")]
+        [HttpPost]
+        public IActionResult UpdateRefType([FromBody]RefTypeDTO request)
+        {
+            return Ok(this.appService.UpdateRefType(request));
+        }
+
+        /// <summary>
+        /// Update Ref Type
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
+        [Route("api/RefType/GetRefTypesByParent")]
+        [HttpGet]
+        public IActionResult GetRefTypesByParent(long parentId)
+        {
+            return Ok(this.appService.GetRefTypesByParent(parentId));
+        }
+
+        
     }
 }
