@@ -11,8 +11,9 @@ namespace Core.Infrastructure.Application.Contract.Services
     public interface ICoreApplicationService
     {
         Task<IdentityUser> GetUserByMail(RegisterDTO request);
-        ResponseDTO<RefTypeDTO> AddRefType(RefTypeDTO request);
         ResponseDTO<RefTypeDTO> UpdateRefType(RefTypeDTO request);
-        ResponseListDTO<RefTypeDTO> GetRefTypesByParent(long? parentId);
+        ResponseListDTO<RefTypeDTO> GetRefTypesByParent(long parentId);
+        ResponseDTO<AddRefTypeResponseDTO> AddRefType(AddRefTypeRequestDTO request);
+        ResponseDTO<RefTypeDTO> DeleteRefType(long parentId);
     }
 }

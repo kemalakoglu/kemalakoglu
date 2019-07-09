@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
 using Core.Infrastructure.Domain.Aggregate;
@@ -7,7 +8,7 @@ using Core.Infrastructure.Domain.Aggregate.Base;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
-    public class RefType:BaseEntity
+    public class RefType : BaseEntity
     {
         public RefType() { }
 
@@ -19,7 +20,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             this.IsActive = isActive;
         }
 
-        public RefType(bool status,  string name, bool isActive, DateTime? updateDate)
+        public RefType(bool status, string name, bool isActive, DateTime? updateDate)
         {
             this.Status = status;
             this.InsertDate = updateDate;
@@ -27,12 +28,13 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             this.IsActive = isActive;
         }
         public string Name { get; protected set; }
-        public RefType Parent { get; protected set; }
-        public void SetParent(RefType parent )
+
+        public RefType Parent { get; set; }
+
+        public void SetParent(RefType parent)
         {
             this.Parent = parent;
         }
-
         public void Update(bool status, string name, bool isActive, DateTime? updateDate)
         {
             this.Status = status;

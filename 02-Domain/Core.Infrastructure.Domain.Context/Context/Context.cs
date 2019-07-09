@@ -2,11 +2,14 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Newtonsoft.Json;
 
 namespace Core.Infrastructure.Domain.Context.Context
 {
     public class Context : IdentityDbContext<IdentityUser>
     {
+        //private readonly ILazyLoader lazyLoader;
         public Context()
         {
         }
@@ -14,6 +17,7 @@ namespace Core.Infrastructure.Domain.Context.Context
         public Context(DbContextOptions<Context> options)
             : base(options)
         {
+            //this.lazyLoader = lazyLoader;
         }
 
         public virtual DbSet<RefType> RefType { get; set; }
@@ -29,6 +33,7 @@ namespace Core.Infrastructure.Domain.Context.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            //modelBuilder.Entity<RefType>(entity => { modelBuilder.Entity<RefType>().OwnsOne(x => x.Parent); });
         }
     }
 }

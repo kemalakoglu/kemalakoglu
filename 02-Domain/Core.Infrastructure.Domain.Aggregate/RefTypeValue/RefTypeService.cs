@@ -25,11 +25,18 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 
         public ResponseDTO<RefTypeDTO> Create(RefTypeDTO DTO)
         {
+            throw new NotImplementedException();
+        }
+
+        public ResponseDTO<AddRefTypeResponseDTO> Create(AddRefTypeRequestDTO DTO)
+        {
             var entity = new RefType(DTO.Status, DTO.InsertDate, DTO.Name, DTO.IsActive);
-            if (DTO.ParentId > 0) entity.SetParent(unitOfWork.Repository<RefType>().GetByKey(DTO.ParentId));
+            if (DTO.ParentId > 0)
+                entity.SetParent(this.unitOfWork.Repository<RefType>().GetByKey(DTO.ParentId));
+
             unitOfWork.Repository<RefType>().Create(entity);
             unitOfWork.EndTransaction();
-            return CreateResponse<RefTypeDTO>.Return(DTO, "Create");
+            return CreateResponse<AddRefTypeResponseDTO>.Return(Mapper.Map(DTO,new AddRefTypeResponseDTO()), "Create");
         }
 
         public ResponseDTO<RefTypeDTO> Update(RefTypeDTO DTO)
@@ -49,13 +56,17 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             return CreateResponse<RefTypeDTO>.Return(DTO, "Delete");
         }
 
-        public ResponseListDTO<RefTypeDTO> GetByParent(long? parentId)
+        public ResponseListDTO<RefTypeDTO> GetByParent(long parentId)
         {
             IEnumerable<RefType> entity;
-            if (parentId > 0)
-                entity = unitOfWork.Repository<RefType>().Query().Filter(x => x.Parent.Id == parentId.Value).Get();
+            if (parentId>0)
+            {
+                entity = unitOfWork.Repository<RefType>().Query().Filter(x => x.Parent.Id == parentId).Get();
+            }
             else
-                entity = unitOfWork.Repository<RefType>().Query().Filter(x => x.Parent == null).Get();
+            {
+                entity = unitOfWork.Repository<RefType>().Query().Filter(x => x.Parent.Id == null).Get();
+            }
 
             unitOfWork.EndTransaction();
             var response = new List<RefTypeDTO>();
@@ -69,11 +80,10 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
                     IsActive = refType.IsActive,
                     Name = refType.Name
                 };
-
                 response.Add(responseItem);
             }
-            //var response = mapper.Map(entity, new List<RefTypeDTO>());
 
+            //List<RefTypeDTO> response = new List<RefTypeDTO>();
             return CreateResponse<RefTypeDTO>.Return(response, "GetByParent");
         }
     }

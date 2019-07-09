@@ -25,7 +25,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <returns></returns>
         [Route("api/RefType/AddRefType")]
         [HttpPost]
-        public IActionResult AddRefType([FromBody]RefTypeDTO request)
+        public IActionResult AddRefType([FromBody]AddRefTypeRequestDTO request)
         {
             return Ok(this.appService.AddRefType(request));
         }
@@ -43,7 +43,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         }
 
         /// <summary>
-        /// Update Ref Type
+        /// GetRefTypesByParent
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
@@ -54,6 +54,16 @@ namespace Core.Infrastructure.Presentation.API.Controllers
             return Ok(this.appService.GetRefTypesByParent(parentId));
         }
 
-        
+        /// <summary>
+        /// GetRefTypesByParent
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
+        [Route("api/RefType/DeleteRefType")]
+        [HttpGet]
+        public IActionResult DeleteRefType(long id)
+        {
+            return Ok(this.appService.DeleteRefType(id));
+        }
     }
 }

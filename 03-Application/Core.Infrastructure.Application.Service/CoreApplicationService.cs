@@ -25,9 +25,14 @@ namespace Core.Infrastructure.Application.Service
         }
 
 #region RefTypeValue Aggregate
-        public ResponseDTO<RefTypeDTO> AddRefType(RefTypeDTO request)
+        public ResponseDTO<AddRefTypeResponseDTO> AddRefType(AddRefTypeRequestDTO request)
         {
             return this.refTypeService.Create(request);
+        }
+
+        public ResponseDTO<RefTypeDTO> DeleteRefType(long id)
+        {
+            return this.refTypeService.Delete(new RefTypeDTO {Id = id});
         }
 
         public ResponseDTO<RefTypeDTO> UpdateRefType(RefTypeDTO request)
@@ -40,7 +45,7 @@ namespace Core.Infrastructure.Application.Service
             return this.refTypeService.Delete(request);
         }
 
-        public ResponseListDTO<RefTypeDTO> GetRefTypesByParent(long? parentId)
+        public ResponseListDTO<RefTypeDTO> GetRefTypesByParent(long parentId)
         {
             return this.refTypeService.GetByParent(parentId);
         }
