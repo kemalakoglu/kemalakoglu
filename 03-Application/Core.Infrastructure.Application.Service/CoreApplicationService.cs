@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Core.Infrastructure.Application.Contract.DTO;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
+using Core.Infrastructure.Application.Contract.DTO.RefValue;
 using Core.Infrastructure.Application.Contract.Services;
 using Core.Infrastructure.Domain.Aggregate.RefTypeValue;
 using Core.Infrastructure.Domain.Contract.Service;
@@ -13,11 +15,13 @@ namespace Core.Infrastructure.Application.Service
     {
         private readonly IUserStoreService userStoreService;
         private readonly IRefTypeService refTypeService;
+        private readonly IRefValueService refValueService;
 
-        public CoreApplicationService(IUserStoreService userStoreService, IRefTypeService refTypeService)
+        public CoreApplicationService(IUserStoreService userStoreService, IRefTypeService refTypeService, IRefValueService refvalueService)
         {
             this.userStoreService = userStoreService;
             this.refTypeService = refTypeService;
+            this.refValueService = refvalueService;
         }
         public Task<IdentityUser> GetUserByMail(RegisterDTO request)
         {
@@ -49,6 +53,17 @@ namespace Core.Infrastructure.Application.Service
         {
             return this.refTypeService.GetByParent(parentId);
         }
+
+        public ResponseListDTO<RefValueDTO> GeRefValuesByRefTypeId(long refTypeId)
+        {
+            return this.refValueService.GetByRefTypeId(refTypeId);
+        }
+
+        public ResponseDTO<AddRefValueResponseDTO> AddRefValue(AddRefValueRequestDTO refValue)
+        {
+            return this.refValueService.Create(refValue);
+        }
+
         #endregion
     }
 }

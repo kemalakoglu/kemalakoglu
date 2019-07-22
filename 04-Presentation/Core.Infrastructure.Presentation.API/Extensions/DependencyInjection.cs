@@ -35,6 +35,7 @@ namespace Core.Infrastructure.Presentation.API.Extensions
             
             services.AddScoped<IUserStoreService, UserStoreService>();
             services.AddScoped<IRefTypeService, RefTypeService>();
+            services.AddScoped<IRefValueService, RefValueService>();
         }
 
         public static void ConfigureApplicationService(this IServiceCollection services)
