@@ -4,12 +4,18 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using Core.Infrastructure.Domain.Aggregate;
 using Core.Infrastructure.Domain.Aggregate.Base;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
     public class RefValue:BaseEntity
     {
+        private readonly ILazyLoader lazyLoader;
         public RefValue() { }
+        public RefValue(ILazyLoader lazyLoader)
+        {
+            this.lazyLoader = lazyLoader;
+        }
         public RefValue(string value, bool status, DateTime? insertDate, DateTime? updateDate, bool isActive, RefType refType)
         {
             this.Status = status;
@@ -20,6 +26,12 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             this.RefType = refType;
         }
         public string Value { get; protected set; }
-        public RefType RefType { get; protected set; }
+        public RefType RefType
+        {
+            get => lazyLoader.Load(this, ref refType);
+            set => refType = value;
+        }
+
+        public RefType refType;
     }
 }

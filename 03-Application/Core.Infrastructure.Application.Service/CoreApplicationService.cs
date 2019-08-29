@@ -64,6 +64,11 @@ namespace Core.Infrastructure.Application.Service
             return this.refValueService.Create(refValue);
         }
 
+        public ResponseListDTO<RefValueDTO> GetRefValuesByPage()
+        {
+            return this.refValueService.GetRefValuesByPage();
+        }
+
         #endregion
     }
 }

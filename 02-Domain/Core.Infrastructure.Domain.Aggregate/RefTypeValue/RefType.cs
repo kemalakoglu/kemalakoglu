@@ -5,12 +5,19 @@ using System.Text;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
 using Core.Infrastructure.Domain.Aggregate;
 using Core.Infrastructure.Domain.Aggregate.Base;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
     public class RefType : BaseEntity
     {
+        private readonly ILazyLoader lazyLoader;
         public RefType() { }
+
+        public RefType(ILazyLoader lazyLoader)
+        {
+            this.lazyLoader = lazyLoader;
+        }
 
         public RefType(bool status, DateTime? insertDate, string name, bool isActive)
         {
@@ -29,7 +36,12 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         }
         public string Name { get; protected set; }
 
-        public RefType Parent { get; set; }
+        public RefType Parent {
+            get => lazyLoader.Load(this, ref parent);
+            set => parent = value;
+        }
+
+        public RefType parent;
 
         public void SetParent(RefType parent)
         {

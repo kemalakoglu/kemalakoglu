@@ -41,5 +41,16 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         {
             return Ok(this.appService.AddRefValue(refValue));
         }
+
+        /// <summary>
+        /// GetRefValuesByPage
+        /// </summary>
+        /// <returns></returns>
+        [Route("api/RefValue/GetRefValuesByPage")]
+        [HttpGet]
+        public IActionResult GetRefValuesByPage()
+        {
+            return Ok(this.appService.GetRefValuesByPage());
+        }
     }
 }

@@ -10,6 +10,6 @@ namespace Core.Infrastructure.Application.Contract.DTO.RefType
     public class AddRefTypeRequestDTO:BaseDTO
     {
         [DataMember] public string Name { get; set; }
-        [DataMember] public long ParentId { get; set; }
+        [DataMember] public RefTypeDTO Parent { get; set; }
     }
 }

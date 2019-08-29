@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using AutoMapper;
 using Core.Infrastructure.Application.Contract.DTO;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
@@ -31,8 +32,8 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         public ResponseDTO<AddRefTypeResponseDTO> Create(AddRefTypeRequestDTO DTO)
         {
             var entity = new RefType(DTO.Status, DTO.InsertDate, DTO.Name, DTO.IsActive);
-            if (DTO.ParentId > 0)
-                entity.SetParent(this.unitOfWork.Repository<RefType>().GetByKey(DTO.ParentId));
+            if (DTO.Parent.Id > 0)
+                entity.SetParent(this.unitOfWork.Repository<RefType>().GetByKey(DTO.Parent.Id));
 
             unitOfWork.Repository<RefType>().Create(entity);
             unitOfWork.EndTransaction();
@@ -60,31 +61,14 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         {
             IEnumerable<RefType> entity;
             if (parentId>0)
-            {
                 entity = unitOfWork.Repository<RefType>().Query().Filter(x => x.Parent.Id == parentId).Get();
-            }
             else
-            {
                 entity = unitOfWork.Repository<RefType>().Query().Filter(x => x.Parent.Id == null).Get();
-            }
 
             unitOfWork.EndTransaction();
-            var response = new List<RefTypeDTO>();
-            foreach (var refType in entity)
-            {
-                var responseItem = new RefTypeDTO
-                {
-                    Id = refType.Id,
-                    InsertDate = refType.InsertDate,
-                    UpdateDate = refType.UpdateDate,
-                    IsActive = refType.IsActive,
-                    Name = refType.Name
-                };
-                response.Add(responseItem);
-            }
 
             //List<RefTypeDTO> response = new List<RefTypeDTO>();
-            return CreateResponse<RefTypeDTO>.Return(response, "GetByParent");
+            return CreateResponse<RefTypeDTO>.Return(Mapper.Map<RefType[], IEnumerable<RefTypeDTO>>(entity.ToArray()), "GetByParent");
         }
     }
 }

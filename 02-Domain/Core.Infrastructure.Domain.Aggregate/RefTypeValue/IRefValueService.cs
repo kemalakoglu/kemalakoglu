@@ -11,5 +11,6 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
     {
         ResponseListDTO<RefValueDTO> GetByRefTypeId(long refTypeId);
         ResponseDTO<AddRefValueResponseDTO> Create(AddRefValueRequestDTO DTO);
+        ResponseListDTO<RefValueDTO> GetRefValuesByPage();
     }
 }

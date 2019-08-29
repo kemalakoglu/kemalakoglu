@@ -18,6 +18,7 @@ namespace Core.Infrastructure.Domain.Context.Context
             : base(options)
         {
             //this.lazyLoader = lazyLoader;
+            
         }
 
         public virtual DbSet<RefType> RefType { get; set; }

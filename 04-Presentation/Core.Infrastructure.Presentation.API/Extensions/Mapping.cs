@@ -1,4 +1,6 @@
-﻿using AutoMapper;
+﻿using System.Collections.Generic;
+using System.Linq;
+using AutoMapper;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
 using Core.Infrastructure.Application.Contract.DTO.RefValue;
 using Core.Infrastructure.Domain.Aggregate.RefTypeValue;
@@ -12,10 +14,9 @@ namespace Core.Infrastructure.Presentation.API.Extensions
         {
             Mapper.Initialize(cfg =>
             {
-                cfg.CreateMap<RefType,RefTypeDTO>().ForMember(x=>x.Parent, opt=>opt.MapFrom(y=>y.Parent));
-              
-                cfg.CreateMap<RefValue, RefValueDTO>().ForMember(x => x.RefType, opt => opt.MapFrom(y => y.RefType));
-
+                cfg.AllowNullCollections = true;
+                cfg.CreateMap<RefType, RefTypeDTO>();
+                cfg.CreateMap<RefValue, RefValueDTO>();
                 cfg.CreateMap<AddRefTypeResponseDTO, AddRefTypeRequestDTO>();
             });
         }
