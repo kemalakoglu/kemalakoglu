@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Core.Infrastructure.Domain.Context.Migrations
 {
-    public partial class Initial : Migration
+    public partial class Initialv10 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -57,11 +57,18 @@ namespace Core.Infrastructure.Domain.Context.Migrations
                     InsertDate = table.Column<DateTime>(nullable: true),
                     UpdateDate = table.Column<DateTime>(nullable: true),
                     IsActive = table.Column<bool>(nullable: false),
-                    Name = table.Column<string>(nullable: true)
+                    Name = table.Column<string>(nullable: true),
+                    ParentId = table.Column<long>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_RefType", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_RefType_RefType_ParentId",
+                        column: x => x.ParentId,
+                        principalTable: "RefType",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -232,6 +239,11 @@ namespace Core.Infrastructure.Domain.Context.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_RefType_ParentId",
+                table: "RefType",
+                column: "ParentId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_RefValue_RefTypeId",

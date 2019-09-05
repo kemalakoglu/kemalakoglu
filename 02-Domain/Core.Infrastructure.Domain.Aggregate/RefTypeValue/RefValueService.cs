@@ -1,21 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using AutoMapper;
 using Core.Infrastructure.Application.Contract.DTO;
 using Core.Infrastructure.Application.Contract.DTO.RefValue;
+using Core.Infrastructure.Core.Contract;
+using Core.Infrastructure.Core.Helper;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
     public class RefValueService : IRefValueService
     {
+        private readonly IUnitOfWork uow;
+
+        public RefValueService(IUnitOfWork uow)
+        {
+            this.uow = uow;
+        }
+
         public ResponseDTO<RefValueDTO> GetByKey(long key)
         {
-            throw new NotImplementedException();
+            return CreateResponse<RefValueDTO>.Return(Mapper.Map(this.uow.Repository<RefValue>().GetByKey(key), new RefValueDTO()), "GetByKey");
         }
 
         public ResponseDTO<RefValueDTO> Create(RefValueDTO DTO)
         {
             throw new NotImplementedException();
+        }
+
+        public ResponseDTO<AddRefValueResponseDTO> Create(AddRefValueRequestDTO DTO)
+        {
+            RefValue entity = new RefValue(DTO.Value, true, DateTime.Now, null, true, this.uow.Repository<RefType>().GetByKey(DTO.RefTypeId), DTO.Name);
+            this.uow.Repository<RefValue>().Create(entity);
+            this.uow.EndTransaction();
+            return CreateResponse<AddRefValueResponseDTO>.Return(new AddRefValueResponseDTO { Succeed = true }, "Create");
+        }
+
+        public ResponseListDTO<RefValueDTO> GetRefValuesByPage()
+        {
+            IEnumerable<RefValue> entityList =
+                this.uow.Repository<RefValue>().Query().Filter(x => x.RefType.Parent.Id == 1).Get();
+            this.uow.EndTransaction();
+
+            return CreateResponse<RefValueDTO>.Return(Mapper.Map<RefValue[], RefValueDTO[]>(entityList.ToArray()),
+                "GetRefValuesByPage");
         }
 
         public ResponseDTO<RefValueDTO> Update(RefValueDTO DTO)
@@ -25,7 +54,18 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 
         public ResponseDTO<RefValueDTO> Delete(RefValueDTO DTO)
         {
-            throw new NotImplementedException();
+            RefValue entity= this.uow.Repository<RefValue>().GetByKey(DTO.Id);
+            this.uow.Repository<RefValue>().Delete(entity);
+            this.uow.EndTransaction();
+            return CreateResponse<RefValueDTO>.Return(DTO,
+                "GetRefValuesByPage");
+        }
+
+        public ResponseListDTO<RefValueDTO> GetByRefTypeId(long refTypeId)
+        {
+            var entity = this.uow.Repository<RefValue>().Query().Filter(x => x.RefType.Id == refTypeId).Get();
+           
+            return CreateResponse<RefValueDTO>.Return(Mapper.Map<RefValue[],RefValueDTO[]>(entity.ToArray()), "GetByRefTypeId");
         }
     }
 }

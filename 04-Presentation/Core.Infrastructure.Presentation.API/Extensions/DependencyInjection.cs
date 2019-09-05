@@ -18,7 +18,7 @@ namespace Core.Infrastructure.Presentation.API.Extensions
         public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
         {
             var connectionString = config["mysqlconnection:connectionString"];
-            services.AddDbContext<Context>(o => o.UseSqlServer(connectionString));
+            services.AddDbContext<InfrastructureContext>(o => o.UseSqlServer(connectionString));
 
             //services.AddDefaultIdentity<IdentityUser>()
             //    .AddEntityFrameworkStores<Context>()
@@ -35,6 +35,7 @@ namespace Core.Infrastructure.Presentation.API.Extensions
             
             services.AddScoped<IUserStoreService, UserStoreService>();
             services.AddScoped<IRefTypeService, RefTypeService>();
+            services.AddScoped<IRefValueService, RefValueService>();
         }
 
         public static void ConfigureApplicationService(this IServiceCollection services)

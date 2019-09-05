@@ -9,6 +9,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
     public interface IRefTypeService: IBaseService<RefTypeDTO>
     {
-        ResponseListDTO<RefTypeDTO> GetByParent(long? parentId);
+        ResponseListDTO<RefTypeDTO> GetByParent(long parentId);
+        ResponseDTO<AddRefTypeResponseDTO> Create(AddRefTypeRequestDTO DTO);
     }
 }

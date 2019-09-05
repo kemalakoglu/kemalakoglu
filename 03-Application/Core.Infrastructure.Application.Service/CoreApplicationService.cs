@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Core.Infrastructure.Application.Contract.DTO;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
+using Core.Infrastructure.Application.Contract.DTO.RefValue;
 using Core.Infrastructure.Application.Contract.Services;
 using Core.Infrastructure.Domain.Aggregate.RefTypeValue;
 using Core.Infrastructure.Domain.Contract.Service;
@@ -13,11 +15,13 @@ namespace Core.Infrastructure.Application.Service
     {
         private readonly IUserStoreService userStoreService;
         private readonly IRefTypeService refTypeService;
+        private readonly IRefValueService refValueService;
 
-        public CoreApplicationService(IUserStoreService userStoreService, IRefTypeService refTypeService)
+        public CoreApplicationService(IUserStoreService userStoreService, IRefTypeService refTypeService, IRefValueService refvalueService)
         {
             this.userStoreService = userStoreService;
             this.refTypeService = refTypeService;
+            this.refValueService = refvalueService;
         }
         public Task<IdentityUser> GetUserByMail(RegisterDTO request)
         {
@@ -25,9 +29,14 @@ namespace Core.Infrastructure.Application.Service
         }
 
 #region RefTypeValue Aggregate
-        public ResponseDTO<RefTypeDTO> AddRefType(RefTypeDTO request)
+        public ResponseDTO<AddRefTypeResponseDTO> AddRefType(AddRefTypeRequestDTO request)
         {
             return this.refTypeService.Create(request);
+        }
+
+        public ResponseDTO<RefTypeDTO> DeleteRefType(long id)
+        {
+            return this.refTypeService.Delete(new RefTypeDTO {Id = id});
         }
 
         public ResponseDTO<RefTypeDTO> UpdateRefType(RefTypeDTO request)
@@ -40,10 +49,31 @@ namespace Core.Infrastructure.Application.Service
             return this.refTypeService.Delete(request);
         }
 
-        public ResponseListDTO<RefTypeDTO> GetRefTypesByParent(long? parentId)
+        public ResponseListDTO<RefTypeDTO> GetRefTypesByParent(long parentId)
         {
             return this.refTypeService.GetByParent(parentId);
         }
+
+        public ResponseListDTO<RefValueDTO> GeRefValuesByRefTypeId(long refTypeId)
+        {
+            return this.refValueService.GetByRefTypeId(refTypeId);
+        }
+
+        public ResponseDTO<AddRefValueResponseDTO> AddRefValue(AddRefValueRequestDTO refValue)
+        {
+            return this.refValueService.Create(refValue);
+        }
+
+        public ResponseListDTO<RefValueDTO> GetRefValuesByPage()
+        {
+            return this.refValueService.GetRefValuesByPage();
+        }
+
+        public ResponseDTO<RefValueDTO> DeleteRefValue(RefValueDTO request)
+        {
+            return this.refValueService.Delete(request);
+        }
+
         #endregion
     }
 }

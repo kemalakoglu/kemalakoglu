@@ -9,9 +9,9 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Core.Infrastructure.Domain.Context.Migrations
 {
-    [DbContext(typeof(Context.Context))]
-    [Migration("20190706180924_Initial")]
-    partial class Initial
+    [DbContext(typeof(Context.InfrastructureContext))]
+    [Migration("20190709121235_Initial-v.1.0")]
+    partial class Initialv10
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,11 +33,15 @@ namespace Core.Infrastructure.Domain.Context.Migrations
 
                     b.Property<string>("Name");
 
+                    b.Property<long?>("ParentId");
+
                     b.Property<bool>("Status");
 
                     b.Property<DateTime?>("UpdateDate");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ParentId");
 
                     b.ToTable("RefType");
                 });
@@ -230,6 +234,13 @@ namespace Core.Infrastructure.Domain.Context.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens");
+                });
+
+            modelBuilder.Entity("Core.Infrastructure.Domain.Aggregate.RefTypeValue.RefType", b =>
+                {
+                    b.HasOne("Core.Infrastructure.Domain.Aggregate.RefTypeValue.RefType", "Parent")
+                        .WithMany()
+                        .HasForeignKey("ParentId");
                 });
 
             modelBuilder.Entity("Core.Infrastructure.Domain.Aggregate.RefTypeValue.RefValue", b =>

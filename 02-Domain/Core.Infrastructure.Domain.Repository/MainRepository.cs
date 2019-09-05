@@ -11,12 +11,12 @@ namespace Core.Infrastructure.Domain.Repository
 {
     public class MainRepository<T> : IRepository<T> where T : class
     {
-        public MainRepository(Context.Context.Context repositoryContext)
+        public MainRepository(Context.Context.InfrastructureContext repositoryContext)
         {
             this.repositoryContext = repositoryContext;
         }
 
-        protected Context.Context.Context repositoryContext { get; set; }
+        protected Context.Context.InfrastructureContext repositoryContext { get; set; }
 
         /// <summary>
         ///     UserManager

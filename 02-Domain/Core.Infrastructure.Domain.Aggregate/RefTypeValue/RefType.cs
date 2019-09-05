@@ -1,15 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
 using Core.Infrastructure.Domain.Aggregate;
 using Core.Infrastructure.Domain.Aggregate.Base;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
-    public class RefType:BaseEntity
+    public class RefType : BaseEntity
     {
+        private readonly ILazyLoader lazyLoader;
         public RefType() { }
+
+        public RefType(ILazyLoader lazyLoader)
+        {
+            this.lazyLoader = lazyLoader;
+        }
 
         public RefType(bool status, DateTime? insertDate, string name, bool isActive)
         {
@@ -19,7 +27,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             this.IsActive = isActive;
         }
 
-        public RefType(bool status,  string name, bool isActive, DateTime? updateDate)
+        public RefType(bool status, string name, bool isActive, DateTime? updateDate)
         {
             this.Status = status;
             this.InsertDate = updateDate;
@@ -27,12 +35,18 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             this.IsActive = isActive;
         }
         public string Name { get; protected set; }
-        public RefType Parent { get; protected set; }
-        public void SetParent(RefType parent )
+
+        public RefType Parent {
+            get => lazyLoader.Load(this, ref parent);
+            set => parent = value;
+        }
+
+        public RefType parent;
+
+        public void SetParent(RefType parent)
         {
             this.Parent = parent;
         }
-
         public void Update(bool status, string name, bool isActive, DateTime? updateDate)
         {
             this.Status = status;
