@@ -18,7 +18,7 @@ namespace Core.Infrastructure.Presentation.API.Extensions
         public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
         {
             var connectionString = config["mysqlconnection:connectionString"];
-            services.AddDbContext<Context>(o => o.UseSqlServer(connectionString));
+            services.AddDbContext<InfrastructureContext>(o => o.UseSqlServer(connectionString));
 
             //services.AddDefaultIdentity<IdentityUser>()
             //    .AddEntityFrameworkStores<Context>()

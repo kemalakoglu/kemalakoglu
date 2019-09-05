@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Domain", "02-Domain", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Presentation", "04-Presentation", "{ACC0486E-F1E0-4983-A0AD-535548A41EBC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D5AEAAF3-1770-4406-99B0-8A15087A07F7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Test", "05-Test", "{D5AEAAF3-1770-4406-99B0-8A15087A07F7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Infrastructure.Core.Contract", "01-Core\Core.Infrastructure.Core.Contract\Core.Infrastructure.Core.Contract.csproj", "{629CA465-FB07-45B6-9DD6-0C4A30CF886F}"
 EndProject

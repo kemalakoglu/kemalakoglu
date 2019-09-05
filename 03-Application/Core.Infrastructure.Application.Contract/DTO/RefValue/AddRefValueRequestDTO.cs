@@ -11,5 +11,6 @@ namespace Core.Infrastructure.Application.Contract.DTO.RefValue
     {
         [DataMember] public string Value { get; set; }
         [DataMember] public long RefTypeId { get; set; }
+        [DataMember] public string Name { get; protected set; }
     }
 }

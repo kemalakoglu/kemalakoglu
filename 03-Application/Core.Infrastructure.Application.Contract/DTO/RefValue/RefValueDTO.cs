@@ -10,7 +10,8 @@ namespace Core.Infrastructure.Application.Contract.DTO.RefValue
     [DataContract]
     public class RefValueDTO : BaseDTO
     {
-       [DataMember] public string Value { get; set; }
+        [DataMember] public string Value { get; set; }
         [DataMember] public RefTypeDTO RefType { get; set; }
+        [DataMember] public string Name { get; set; }
     }
 }

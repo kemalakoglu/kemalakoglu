@@ -37,9 +37,9 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <returns></returns>
         [Route("api/RefValue/AddRefValue")]
         [HttpPost]
-        public IActionResult AddRefValue(AddRefValueRequestDTO refValue)
+        public IActionResult AddRefValue(AddRefValueRequestDTO request)
         {
-            return Ok(this.appService.AddRefValue(refValue));
+            return Ok(this.appService.AddRefValue(request));
         }
 
         /// <summary>
@@ -51,6 +51,17 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         public IActionResult GetRefValuesByPage()
         {
             return Ok(this.appService.GetRefValuesByPage());
+        }
+
+        /// <summary>
+        /// GetRefValuesByPage
+        /// </summary>
+        /// <returns></returns>
+        [Route("api/RefValue/DeleteRefValue")]
+        [HttpPost]
+        public IActionResult DeleteRefValue(RefValueDTO request)
+        {
+            return Ok(this.appService.DeleteRefValue(request));
         }
     }
 }

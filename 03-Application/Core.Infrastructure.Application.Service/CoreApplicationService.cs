@@ -69,6 +69,11 @@ namespace Core.Infrastructure.Application.Service
             return this.refValueService.GetRefValuesByPage();
         }
 
+        public ResponseDTO<RefValueDTO> DeleteRefValue(RefValueDTO request)
+        {
+            return this.refValueService.Delete(request);
+        }
+
         #endregion
     }
 }

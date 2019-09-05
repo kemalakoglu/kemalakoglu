@@ -1786,3 +1786,177 @@
 {"Timestamp":"2019-08-28T18:05:21.3688096+03:00","Level":"Information","MessageTemplate":"GetByParent İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
 {"Timestamp":"2019-08-29T07:57:13.7144084+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
 {"Timestamp":"2019-08-29T07:57:13.9356198+03:00","Level":"Information","MessageTemplate":"GetByParent İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:07:06.3803001+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:07:11.1549709+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:10:11.5920551+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:10:13.4189418+03:00","Level":"Information","MessageTemplate":"GetByParent İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:10:14.8675443+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:10:15.2092231+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:18:20.0003155+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:22:27.3112520+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:29:16.5106518+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:29:19.4322020+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:29:19.4322127+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:29:21.0926732+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:29:29.8318345+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:29:30.0834277+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:31:11.7662487+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:31:14.7218465+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:31:42.5803308+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:31:43.9883824+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:49:23.2858122+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:53:47.4649490+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:53:49.9865452+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:54:02.2773546+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:54:03.5480596+03:00","Level":"Information","MessageTemplate":"GetByParent İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:54:19.6133759+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:54:20.0604826+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:57:57.5659749+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:57:57.8265076+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:58:27.8655152+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:58:28.0923178+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:59:16.4692055+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T21:59:16.7127203+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:00:19.1985912+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:00:21.5647629+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:00:22.7541098+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:00:26.0724511+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:00:26.0913540+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:00:38.7271674+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:00:41.7291866+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:01:03.6248947+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:01:04.9812273+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:02:16.6958065+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:02:17.0082226+03:00","Level":"Information","MessageTemplate":"GetByParent İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:02:17.6711505+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:02:17.8612117+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:03:49.5513573+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:03:49.8679109+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:04:56.1878518+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:04:56.4570433+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:05:47.0721348+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:05:47.1270991+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:06:01.8194385+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:07:03.4877946+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:07:54.2743925+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:09:19.3609522+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:09:22.1390367+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:10:01.6570164+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:10:01.6994950+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:13:23.0585020+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:13:25.9291999+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:13:48.8497469+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:13:48.8790935+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:14:06.5295331+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:14:30.6523022+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:14:31.1159931+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:14:41.4964639+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:14:41.7170395+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:15:55.6120447+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:15:58.0622853+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:16:16.1051981+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:16:16.1356349+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:17:12.5598950+03:00","Level":"Error","MessageTemplate":"Error mapping types.\r\n\r\nMapping types:\r\nRefValue -> RefValueDTO\r\nCore.Infrastructure.Domain.Aggregate.RefTypeValue.RefValue -> Core.Infrastructure.Application.Contract.DTO.RefValue.RefValueDTO\r\n\r\nType Map configuration:\r\nRefValue -> RefValueDTO\r\nCore.Infrastructure.Domain.Aggregate.RefTypeValue.RefValue -> Core.Infrastructure.Application.Contract.DTO.RefValue.RefValueDTO\r\n\r\nDestination Member:\r\nRefType\r\n","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:17:12.7306119+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:17:12.7426709+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:17:21.2627291+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:17:21.2945880+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:17:21.3107732+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:17:24.3510859+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:17:24.3693213+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:17:26.4264278+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:17:37.7353767+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T22:17:38.0703228+03:00","Level":"Information","MessageTemplate":"Kayıt Bulunamadı","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T23:20:31.4194802+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T23:20:32.6565793+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-08-31T23:20:33.2118921+03:00","Level":"Information","MessageTemplate":"Kayıt Bulunamadı","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T08:01:51.1496308+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T08:01:51.4636772+03:00","Level":"Information","MessageTemplate":"Kayıt Bulunamadı","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:34:44.3347964+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:35:07.1347051+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:35:37.1340307+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:36:07.1329066+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:36:37.1336809+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:37:07.5440368+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:37:37.5433711+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:38:07.5422085+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:38:37.5657651+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:39:07.5442779+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:39:37.5445343+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:40:07.5431836+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:40:37.5440901+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:41:07.5436093+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-02T15:41:37.5426693+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Dashboard/GetDailyRecords","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T10:54:49.8632334+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T10:54:51.8681926+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:25:47.5279153+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:25:48.7134460+03:00","Level":"Information","MessageTemplate":"GetByParent İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:25:53.4256944+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:25:53.5491377+03:00","Level":"Information","MessageTemplate":"Kayıt Bulunamadı","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:26:06.6689246+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/AddRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:26:06.6803386+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/AddRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:26:06.8591384+03:00","Level":"Information","MessageTemplate":"Create İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:37:21.2500142+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/AddRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:37:21.2914842+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/AddRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:37:29.0924707+03:00","Level":"Information","MessageTemplate":"Create İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:43:16.9563313+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:43:18.4694406+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:43:46.7811586+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:43:47.7749584+03:00","Level":"Information","MessageTemplate":"GetByParent İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:44:26.3775310+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:44:26.5743715+03:00","Level":"Information","MessageTemplate":"Kayıt Bulunamadı","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:44:38.1765544+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T11:44:38.2286463+03:00","Level":"Information","MessageTemplate":"Kayıt Bulunamadı","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:33:16.0862971+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:33:16.1991385+03:00","Level":"Information","MessageTemplate":"Kayıt Bulunamadı","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:33:36.5854037+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:33:36.6654131+03:00","Level":"Information","MessageTemplate":"Kayıt Bulunamadı","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:35:51.3306159+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/AddRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:35:51.3500416+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/AddRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:35:51.5146647+03:00","Level":"Information","MessageTemplate":"Create İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:37:13.8703288+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:37:13.9977713+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:40:31.6846862+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:40:31.9173589+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:43:35.1780493+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:43:35.3157747+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:43:45.8524523+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:43:45.8673004+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:43:56.6638101+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:43:56.7216722+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:43:56.7278789+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:43:57.7229938+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:43:57.7303897+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:43:58.4029497+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:43:58.4101902+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:43:59.0165974+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:44:11.1828416+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:44:11.1904324+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:44:24.8883737+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:44:24.9096834+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:44:24.9178995+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:44:25.4758498+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:44:25.4917674+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:44:26.0096518+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:44:26.0179232+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:44:26.5630065+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:46:12.8413686+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:46:14.4640313+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:46:50.1174865+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:46:51.0438885+03:00","Level":"Information","MessageTemplate":"GetByParent İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:47:07.2567230+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:47:07.4871481+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:47:20.3787143+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:47:20.3952539+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:47:28.8449479+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:47:28.9129994+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:47:28.9193103+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:47:29.9998390+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:47:30.0075350+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:47:30.6186782+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:47:30.6265980+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:47:31.2100510+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:48:13.7513603+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:48:13.7670743+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:49:49.3962569+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-03T13:49:51.1508727+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}

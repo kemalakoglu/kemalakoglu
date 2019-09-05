@@ -9,9 +9,9 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Core.Infrastructure.Domain.Context.Migrations
 {
-    [DbContext(typeof(Context.InfrastructureContext))]
-    [Migration("20190709121235_Initial-v.1.0")]
-    partial class Initialv10
+    [DbContext(typeof(InfrastructureContext))]
+    [Migration("20190831181821_RefValueTableIsUpdated-v.1.1")]
+    partial class RefValueTableIsUpdatedv11
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -56,13 +56,16 @@ namespace Core.Infrastructure.Domain.Context.Migrations
 
                     b.Property<bool>("IsActive");
 
+                    b.Property<string>("Name");
+
                     b.Property<long?>("RefTypeId");
 
                     b.Property<bool>("Status");
 
                     b.Property<DateTime?>("UpdateDate");
 
-                    b.Property<string>("Value");
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(MAX)");
 
                     b.HasKey("Id");
 

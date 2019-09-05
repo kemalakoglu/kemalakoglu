@@ -31,7 +31,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 
         public ResponseDTO<AddRefValueResponseDTO> Create(AddRefValueRequestDTO DTO)
         {
-            RefValue entity = new RefValue(DTO.Value, true, DateTime.Now, null, true, this.uow.Repository<RefType>().GetByKey(DTO.RefTypeId));
+            RefValue entity = new RefValue(DTO.Value, true, DateTime.Now, null, true, this.uow.Repository<RefType>().GetByKey(DTO.RefTypeId), DTO.Name);
             this.uow.Repository<RefValue>().Create(entity);
             this.uow.EndTransaction();
             return CreateResponse<AddRefValueResponseDTO>.Return(new AddRefValueResponseDTO { Succeed = true }, "Create");
@@ -54,7 +54,11 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 
         public ResponseDTO<RefValueDTO> Delete(RefValueDTO DTO)
         {
-            throw new NotImplementedException();
+            RefValue entity= this.uow.Repository<RefValue>().GetByKey(DTO.Id);
+            this.uow.Repository<RefValue>().Delete(entity);
+            this.uow.EndTransaction();
+            return CreateResponse<RefValueDTO>.Return(DTO,
+                "GetRefValuesByPage");
         }
 
         public ResponseListDTO<RefValueDTO> GetByRefTypeId(long refTypeId)

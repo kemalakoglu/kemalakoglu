@@ -6,10 +6,10 @@ namespace Core.Infrastructure.Domain.Repository
 {
     public class RepositoryWrapper : IRepositoryWrapper
     {
-        private readonly Context.Context.Context context;
+        private readonly Context.Context.InfrastructureContext context;
         //private RefTypeRepository RefTypeRepository;
 
-        public RepositoryWrapper(Context.Context.Context Context)
+        public RepositoryWrapper(Context.Context.InfrastructureContext Context)
         {
             context = Context;
         }

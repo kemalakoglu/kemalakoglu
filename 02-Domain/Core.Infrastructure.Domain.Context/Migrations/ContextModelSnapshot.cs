@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Core.Infrastructure.Domain.Context.Migrations
 {
-    [DbContext(typeof(Context.Context))]
+    [DbContext(typeof(InfrastructureContext))]
     partial class ContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -54,13 +54,16 @@ namespace Core.Infrastructure.Domain.Context.Migrations
 
                     b.Property<bool>("IsActive");
 
+                    b.Property<string>("Name");
+
                     b.Property<long?>("RefTypeId");
 
                     b.Property<bool>("Status");
 
                     b.Property<DateTime?>("UpdateDate");
 
-                    b.Property<string>("Value");
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(MAX)");
 
                     b.HasKey("Id");
 
