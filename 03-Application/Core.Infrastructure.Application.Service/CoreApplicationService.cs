@@ -39,6 +39,11 @@ namespace Core.Infrastructure.Application.Service
             return this.refTypeService.Delete(new RefTypeDTO {Id = id});
         }
 
+        public ResponseDTO<RefTypeDTO> SoftDeleteRefType(long id)
+        {
+            return this.refTypeService.SoftDelete(id);
+        }
+
         public ResponseDTO<RefTypeDTO> UpdateRefType(RefTypeDTO request)
         {
             return this.refTypeService.Update(request);
@@ -47,6 +52,11 @@ namespace Core.Infrastructure.Application.Service
         public ResponseDTO<RefTypeDTO> DeleteRefType(RefTypeDTO request)
         {
             return this.refTypeService.Delete(request);
+        }
+
+        public ResponseDTO<RefTypeDTO> SoftDeleteRefType(RefTypeDTO request)
+        {
+            return this.refTypeService.SoftDelete(request.Id);
         }
 
         public ResponseListDTO<RefTypeDTO> GetRefTypesByParent(long parentId)

@@ -12,6 +12,7 @@ namespace Core.Infrastructure.Core.Resources
         public const string NotFound = "RC0003";
         public const string Unauthorized = "RC0004";
         public const string BadRequest = "RC0005";
+        public const string HasChild = "RC0006";
 
         public static string GetDescription(string RC)
         {

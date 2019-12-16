@@ -36,5 +36,10 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         }
 
         public RefType refType;
+
+        public void SetStatus(bool status)
+        {
+            this.Status = status;
+        }
     }
 }

@@ -118,21 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RC0000" xml:space="preserve">
-    <value>{0} İşlemi Başarıyla Gerçekleştirildi.</value>
+    <value>{0} Operation is succeeded.</value>
   </data>
   <data name="RC0001" xml:space="preserve">
-    <value>{0} Alanı Boş Bırakılamaz.</value>
+    <value>{0} Field Can not be null.</value>
   </data>
   <data name="RC0002" xml:space="preserve">
-    <value>İşlem Başarısız Sonuçlandı. İşlem Detayı : {0}</value>
+    <value>Operation is failed. Details are : {0}</value>
   </data>
   <data name="RC0003" xml:space="preserve">
-    <value>Kayıt Bulunamadı</value>
+    <value>Data Not Found.</value>
   </data>
   <data name="RC0004" xml:space="preserve">
-    <value>Yetkisiz İşlem</value>
+    <value>Unauthorized operation.</value>
   </data>
   <data name="RC0005" xml:space="preserve">
-    <value>Erişim Hatası.</value>
+    <value>Network Error.</value>
+  </data>
+  <data name="RC0006" xml:space="preserve">
+    <value>{0} Has Chlids. Please First Remove Childs to Continue Operation.</value>
   </data>
 </root>

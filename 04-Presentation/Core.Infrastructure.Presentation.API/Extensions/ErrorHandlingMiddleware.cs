@@ -91,6 +91,7 @@ namespace Core.Infrastructure.Presentation.API.Extensions
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int) code;
             return context.Response.WriteAsync(JsonConvert.SerializeObject(response));
+
         }
     }
 }

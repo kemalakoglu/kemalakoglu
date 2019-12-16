@@ -16,6 +16,7 @@ namespace Core.Infrastructure.Application.Contract.Services
         ResponseListDTO<RefTypeDTO> GetRefTypesByParent(long parentId);
         ResponseDTO<AddRefTypeResponseDTO> AddRefType(AddRefTypeRequestDTO request);
         ResponseDTO<RefTypeDTO> DeleteRefType(long parentId);
+        ResponseDTO<RefTypeDTO> SoftDeleteRefType(long id);
         ResponseListDTO<RefValueDTO> GeRefValuesByRefTypeId(long refTypeId);
         ResponseDTO<AddRefValueResponseDTO> AddRefValue(AddRefValueRequestDTO refValue);
         ResponseListDTO<RefValueDTO> GetRefValuesByPage();

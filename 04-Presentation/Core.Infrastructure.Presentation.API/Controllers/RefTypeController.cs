@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Core.Infrastructure.Application.Contract.DTO;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
 using Core.Infrastructure.Application.Contract.Services;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Core.Infrastructure.Presentation.API.Controllers
@@ -64,6 +65,18 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         public IActionResult DeleteRefType(long id)
         {
             return Ok(this.appService.DeleteRefType(id));
+        }
+
+        /// <summary>
+        /// GetRefTypesByParent
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
+        [Route("api/RefType/SoftDeleteRefType")]
+        [HttpGet]
+        public IActionResult SoftDeleteRefType(long id)
+        {
+            return Ok(this.appService.SoftDeleteRefType(id));
         }
     }
 }

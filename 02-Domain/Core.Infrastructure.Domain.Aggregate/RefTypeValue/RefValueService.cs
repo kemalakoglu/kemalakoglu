@@ -61,6 +61,16 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
                 "GetRefValuesByPage");
         }
 
+        public ResponseDTO<RefValueDTO> SoftDelete(long Id)
+        {
+            RefValue entity = this.uow.Repository<RefValue>().GetByKey(Id);
+            entity.SetStatus(false);
+            this.uow.Repository<RefValue>().Update(entity);
+            this.uow.EndTransaction();
+            return CreateResponse<RefValueDTO>.Return(Mapper.Map<RefValueDTO>(entity),
+                "GetRefValuesByPage");
+        }
+
         public ResponseListDTO<RefValueDTO> GetByRefTypeId(long refTypeId)
         {
             var entity = this.uow.Repository<RefValue>().Query().Filter(x => x.RefType.Id == refTypeId).Get();

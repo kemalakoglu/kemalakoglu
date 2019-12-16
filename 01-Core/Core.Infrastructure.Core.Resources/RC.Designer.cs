@@ -61,7 +61,7 @@ namespace Core.Infrastructure.Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} İşlemi Başarıyla Gerçekleştirildi..
+        ///   Looks up a localized string similar to {0} Operation is succeeded..
         /// </summary>
         internal static string RC0000 {
             get {
@@ -70,7 +70,7 @@ namespace Core.Infrastructure.Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} Alanı Boş Bırakılamaz..
+        ///   Looks up a localized string similar to {0} Field Can not be null..
         /// </summary>
         internal static string RC0001 {
             get {
@@ -79,7 +79,7 @@ namespace Core.Infrastructure.Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to İşlem Başarısız Sonuçlandı. İşlem Detayı : {0}.
+        ///   Looks up a localized string similar to Operation is failed. Details are : {0}.
         /// </summary>
         internal static string RC0002 {
             get {
@@ -88,7 +88,7 @@ namespace Core.Infrastructure.Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Kayıt Bulunamadı.
+        ///   Looks up a localized string similar to Data Not Found..
         /// </summary>
         internal static string RC0003 {
             get {
@@ -97,7 +97,7 @@ namespace Core.Infrastructure.Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Yetkisiz İşlem.
+        ///   Looks up a localized string similar to Unauthorized operation..
         /// </summary>
         internal static string RC0004 {
             get {
@@ -106,11 +106,20 @@ namespace Core.Infrastructure.Core.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Erişim Hatası..
+        ///   Looks up a localized string similar to Network Error..
         /// </summary>
         internal static string RC0005 {
             get {
                 return ResourceManager.GetString("RC0005", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} Has Chlids. Please First Remove Childs to Continue Operation..
+        /// </summary>
+        internal static string RC0006 {
+            get {
+                return ResourceManager.GetString("RC0006", resourceCulture);
             }
         }
     }

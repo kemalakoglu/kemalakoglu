@@ -8,5 +8,6 @@ namespace Core.Infrastructure.Domain.Aggregate.Base
         ResponseDTO<T> Create(T DTO);
         ResponseDTO<T> Update(T DTO);
         ResponseDTO<T> Delete(T DTO);
+        ResponseDTO<T> SoftDelete(long Id);
     }
 }
