@@ -38,6 +38,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 
             unitOfWork.Repository<RefType>().Create(entity);
             unitOfWork.EndTransaction();
+            DTO.Id = entity.Id;
             return CreateResponse<AddRefTypeResponseDTO>.Return(Mapper.Map(DTO,new AddRefTypeResponseDTO()), "Create");
         }
 

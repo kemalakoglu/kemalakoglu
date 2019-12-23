@@ -4966,3 +4966,1009 @@
 {"Timestamp":"2019-12-16T10:50:24.1096115+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
 {"Timestamp":"2019-12-16T10:50:24.1199920+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
 {"Timestamp":"2019-12-16T10:50:24.2061494+03:00","Level":"Information","MessageTemplate":"Update Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T14:56:03.5364568+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T14:56:05.5160812+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T14:58:21.5506677+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T14:58:22.4414019+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T14:58:37.8481145+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T14:58:37.8638793+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T14:59:28.9229479+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T14:59:29.6789058+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T14:59:29.6900641+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T14:59:30.5384178+03:00","Level":"Information","MessageTemplate":"Create Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:00:35.2157474+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:00:35.3439519+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:32.4032199+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:33.6256120+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:34.4510884+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:40.5148528+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:40.6028808+03:00","Level":"Information","MessageTemplate":"RefType Soft Delete Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:43.7820242+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:43.8013970+03:00","Level":"Information","MessageTemplate":"RefType Soft Delete Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:47.1441390+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:47.1550454+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:47.1692013+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:47.1729470+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:47.1827959+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:47.1860839+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:47.1967820+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:47.2001119+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:59.3493686+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:59.3734088+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:01:59.4414398+03:00","Level":"Information","MessageTemplate":"Create Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:02:15.3585883+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:02:16.8946622+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:02:24.6898586+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:02:26.1486544+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:02:39.1122332+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:02:39.1294270+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:02:53.7379567+03:00","Level":"Information","MessageTemplate":"Create Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:03:33.5110483+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:03:33.5994086+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:03:41.0805810+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:03:41.2268637+03:00","Level":"Information","MessageTemplate":"RefType Soft Delete Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:03:43.6236304+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:03:43.7403618+03:00","Level":"Information","MessageTemplate":"RefType Soft Delete Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:03:51.2567725+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:03:51.4068681+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:03:54.5973557+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:03:54.6643932+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:09:07.6618965+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:09:08.4236375+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:48:19.9804338+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T15:48:20.2107825+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:09:55.3145241+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:09:55.5311671+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:10:11.1807761+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:10:11.3158075+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:11:09.0328820+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:11:09.1669691+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:15:13.9260231+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:15:14.0823802+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:15:54.7656439+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:15:54.9029665+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:16:15.6768392+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:16:15.8010837+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:16:28.0541725+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:16:28.1250691+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:17:00.1465100+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:17:00.2568772+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:20:26.1072584+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:20:26.1975787+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:20:48.9771989+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:20:49.0604925+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:21:03.0475008+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:21:03.1499600+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:21:16.7611486+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:21:16.8508885+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:22:00.4414639+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:22:00.5468106+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:23:38.2608174+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:23:38.3670977+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:23:57.2539047+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:23:57.3478036+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:24:11.9734870+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:24:12.0901169+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:24:32.9169072+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:24:33.0121483+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:24:45.4074324+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:24:48.7006175+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:24:50.5865611+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:24:50.7153386+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:13.4931183+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:15.2512698+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:23.6111593+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:24.9865429+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:25.0672917+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:25.1510093+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:25.1691819+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:25.2265229+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:25.2463186+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:25.3168802+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:33.7170478+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:33.7682303+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:33.7850991+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:33.8329065+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:33.8500687+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:33.8992228+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:33.9187790+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:33.9674765+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:39.0627248+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:39.1086290+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:39.1268983+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:39.1749187+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:39.1912798+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:39.2393538+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:39.2557258+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:39.3008027+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:44.3969892+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:44.4439066+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:44.4617099+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:44.5086983+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:44.5238784+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:44.5690088+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:44.5845108+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:25:44.6318985+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:26:52.0379235+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:26:52.5057507+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:27:18.3152906+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:27:18.4073634+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:27:28.7351841+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:27:28.8300534+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:27:32.3309985+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:27:32.3843518+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:27:32.3988616+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:27:32.4455082+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:27:32.4587554+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:27:32.5063647+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:27:32.5383477+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:27:32.5805444+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:36:08.8142059+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:36:08.8261495+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:36:09.0439721+03:00","Level":"Information","MessageTemplate":"Create Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:37:44.9067577+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:37:45.0388936+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:37:45.0598302+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:37:45.1273277+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:37:45.1397261+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:37:45.2068414+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:37:45.2269711+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:37:45.2947839+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:00.5224220+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:00.5969471+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:00.6182558+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:00.6897005+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:00.7023615+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:00.7672618+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:00.7782748+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:00.8434974+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:08.5313938+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:08.5429791+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:08.5777377+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:08.5864659+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:08.6131219+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:08.6238451+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:08.6499739+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:08.6589307+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:08.6848585+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:23.6947551+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:25.0170576+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:32.0154123+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:32.9356189+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:38.7590194+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:38.9814874+03:00","Level":"Information","MessageTemplate":"RefType Soft Delete Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:43.4285209+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:43.4827955+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:43.5277806+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:43.5705172+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:43.5841719+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:43.6321372+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:43.6452263+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:38:43.6854300+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:39:19.8419440+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:39:19.9269159+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:39:22.6917960+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:39:22.7493397+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:39:22.7731492+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:39:22.8277027+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:39:22.8447787+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:39:22.9055249+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:39:22.9221591+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T16:39:22.9872130+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T20:00:02.0050674+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-17T20:00:02.1983102+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T14:21:21.6798708+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T14:21:24.1140319+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:15:16.0022761+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:15:17.1376940+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:15:18.1275462+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:15:18.2984894+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:17:21.0196911+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:17:21.1263754+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:17:53.4145948+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:17:53.5296627+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:18:27.1036888+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:18:27.2293791+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:44.3985244+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:44.5409397+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:53.3385621+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/AddRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:53.3540609+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/AddRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:53.5157504+03:00","Level":"Information","MessageTemplate":"Create Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:56.8329636+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:56.8658982+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:57.0155249+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:57.0272817+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:57.0694962+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:57.0765503+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:57.1184345+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:57.1257987+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/DeleteRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:19:57.1790272+03:00","Level":"Error","MessageTemplate":"Value cannot be null.\r\nParameter name: entity","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:20:25.8542442+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:20:26.1392739+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:21:26.5760371+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:21:26.8612363+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:22:36.2556678+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:22:36.4520301+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:23:13.2444760+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:23:13.3920377+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:23:22.3857103+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:23:22.5090248+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:23:35.6307327+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:23:35.7384849+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:23:41.7683532+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:23:41.8479082+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:23:44.8495488+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:23:44.9391679+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:24:05.9571122+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:24:06.0877896+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:24:08.9809611+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:24:09.0627002+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:24:10.1467550+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:24:10.2612709+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:24:26.1347910+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:24:26.3899367+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:24:39.0190948+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T15:24:39.1771036+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T18:22:10.0789386+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T18:22:10.8995957+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-18T18:22:11.4376131+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T07:43:43.2991737+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T07:43:43.3944475+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T09:57:14.2621583+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:34:51.9436302+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:34:52.3555755+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:35:02.2537223+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:35:02.3777270+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:35:14.5306239+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:35:14.6221785+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:35:33.1810755+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:35:33.3791049+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:40:03.4859286+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:40:03.5937353+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:40:21.3958737+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:40:21.4967153+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:41:37.1053895+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:41:37.2509271+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:43:20.3309257+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:43:20.4707857+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:43:39.3314770+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:43:39.4732299+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:44:15.2728290+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:44:15.4174771+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:44:17.9219495+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:44:18.0109144+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:45:34.3926431+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:45:34.5358553+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:46:04.5309563+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:46:04.6695545+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:52:26.4723173+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:52:26.6466006+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:53:33.4104048+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:53:33.5206042+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:54:29.8931851+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:54:29.9902402+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:54:40.8448085+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:54:40.9318707+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:55:09.3828801+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:55:09.4897290+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:55:28.6806995+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:55:28.7938858+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:57:29.7541206+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:57:29.9301956+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:58:37.6101581+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:58:37.7866104+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:58:45.3214142+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:58:45.4405006+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:58:53.5081827+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:58:53.6218833+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:59:55.1964526+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T10:59:55.3998428+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:00:50.3951604+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:00:50.5109770+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:13:47.0173363+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:13:47.1750698+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:13:49.8918599+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:13:49.9806859+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:14:10.0060329+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:14:10.0767569+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:14:11.9799363+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:14:12.0854558+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:14:44.2658058+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:14:44.3674065+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:32:36.3427233+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:32:36.5067483+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:33:19.7456489+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:33:19.8448060+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:34:10.9631213+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:34:11.1423640+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:34:45.4858726+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:34:45.6212523+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:35:34.5962039+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:35:34.7305084+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:36:04.1153895+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:36:04.2278211+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:36:32.7871974+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:36:32.8992039+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:36:44.3785907+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:36:44.4879102+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:37:04.3709140+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:37:04.4891038+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:38:11.9015435+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:38:12.0392110+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:38:20.4395506+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:38:20.5555808+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:39:10.8730699+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:39:10.9820343+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:39:37.1813755+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:39:37.3153072+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:40:01.5450236+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:40:01.6881140+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:40:43.6490622+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:40:43.7731037+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:41:39.8215521+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:41:40.1036441+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:42:27.8527995+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:42:28.0118010+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:43:29.3374315+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:43:29.5031016+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:44:05.3683500+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:44:05.6233783+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:46:29.5424090+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:46:29.7563367+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:47:45.7484876+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:47:46.0369734+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:48:04.3012154+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:48:04.4596774+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:48:31.3586275+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:48:31.5121608+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:49:00.1088409+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T11:49:00.2448938+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:30:35.1417860+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:30:35.6446761+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:31:25.9262543+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:31:26.0527762+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:34:33.6825898+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:34:33.8298747+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:38:05.0764630+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:38:05.1698810+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:39:45.4364472+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:39:45.5377574+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:40:01.8664205+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:40:01.9593768+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:42:56.6073786+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:42:56.8553349+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:43:14.5731896+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:43:14.8467070+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:43:42.9222315+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:43:43.2236374+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:44:15.4124580+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:44:15.9234390+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:45:07.0497362+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:45:07.1969387+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:45:26.7200976+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:45:26.8872247+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:45:55.3094055+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:45:55.5598468+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:46:49.6141848+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:46:49.9039916+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:47:51.7735921+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:47:52.0723486+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:48:17.7155776+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:48:18.4473286+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:48:26.0794640+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T13:48:26.2368998+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:33:23.8827151+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:33:24.1217535+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:33:46.2854702+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:33:46.4586378+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:33:46.9384514+03:00","Level":"Information","MessageTemplate":"Update Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:33:58.3454230+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:33:58.3621842+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:33:58.5296321+03:00","Level":"Information","MessageTemplate":"Update Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:35:41.9306493+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:35:42.1036117+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:35:46.5748738+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:35:46.5930667+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-19T14:35:46.7504226+03:00","Level":"Information","MessageTemplate":"Update Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:31:22.0792790+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:31:24.2185147+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:31:53.0837778+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:31:54.0454253+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:31:54.6828071+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:31:56.4252236+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:31:56.4995783+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:32:01.3479834+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:32:01.3540405+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:32:04.9573215+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:32:04.9658437+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:32:44.0379708+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:32:44.0521371+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:33:08.8358373+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:33:08.8476621+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:33:27.0449860+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:33:27.0546568+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:33:45.0577734+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:33:45.0696278+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:34:19.5308780+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:34:19.5424018+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:34:24.4858587+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:34:24.4910431+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:34:27.1040191+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:34:27.1083482+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:35:09.9007417+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:35:09.9092097+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:35:28.1406841+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:35:28.1550212+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:35:35.4330759+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:35:35.4372584+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:35:58.3477848+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:35:58.3683926+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:36:03.8572899+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:36:03.8613383+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:36:40.9467015+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:36:40.9568440+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:37:14.7863262+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:37:14.7960110+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:46:26.0948692+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:46:26.1620951+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:51:09.2714335+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:51:09.2791432+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:51:24.1870587+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:51:24.1934990+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:51:55.3601030+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:51:55.3673397+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:52:07.5407271+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:52:07.5442076+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:52:08.9034800+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:52:08.9115278+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:53:14.0225598+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:53:14.0390116+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:53:55.1328473+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:53:55.1467798+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:54:39.5447127+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:54:39.5515342+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:56:44.2991198+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:56:44.3122140+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:57:25.1148752+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T12:57:25.1253795+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:00:17.6312741+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:00:17.6379463+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:01:01.5314412+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:01:01.5441459+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:01:32.4012894+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:01:32.4075450+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:01:45.7479748+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:01:45.7550297+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:02:02.8386373+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:02:02.8441797+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:02:22.7829687+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:02:22.7909317+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:03:36.9250905+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:03:36.9346098+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:11:30.4874027+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:11:30.5355577+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:17:42.8030061+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:17:42.9000507+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:17:46.8043049+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:17:46.8117438+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:20:01.0448597+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:20:01.0562753+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:21:04.3139686+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:21:04.3257965+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:22:17.9932075+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:22:18.0015530+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:27:02.7280991+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:27:02.7816815+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:27:05.3768478+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:27:05.3992035+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:27:50.5489936+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:27:50.5604898+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:28:10.4486550+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T13:28:10.4643695+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T14:20:33.0294831+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T14:20:33.0773003+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T14:20:58.6670469+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T14:20:58.6819447+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T14:21:10.2298705+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T14:21:10.2362053+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:17:01.5312982+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:17:01.6218861+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:39:52.6107881+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:39:52.6800835+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:40:21.4318900+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:40:21.4435090+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:40:34.5165517+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:40:34.5270424+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:40:56.3332746+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:40:56.3453923+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:41:30.4439112+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:41:30.4529756+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:45:38.5928468+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:45:38.6017815+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:47:09.5196255+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:47:09.5298381+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:47:40.1031615+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:47:40.1161209+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:48:11.2829875+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:48:11.3030635+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:48:19.0350226+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:48:19.0397085+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:50:58.4909714+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:50:58.5021671+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:51:10.6957732+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:51:10.6993042+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:51:52.0426355+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:51:52.0560167+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:52:21.9054647+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:52:21.9163009+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:54:44.3066040+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:54:44.3163209+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:54:58.2363037+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:54:58.2397176+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:55:34.3446029+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:55:34.3567829+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:56:14.6154653+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:56:14.6582412+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:56:19.5728240+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:56:19.5893033+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:57:15.7837350+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:57:15.7972467+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:57:26.0535006+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T15:57:26.0620073+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:00:26.9484804+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:00:26.9587599+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:00:28.6332716+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:00:28.6404482+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:00:40.2502569+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:00:40.2576405+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:01:28.2404098+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:01:28.2486371+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:01:43.2061104+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:01:43.2143740+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:02:08.8081549+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:02:08.8168306+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:02:43.4769396+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:02:43.4858508+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:03:30.0602963+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:03:30.0720399+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:04:48.4686092+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:04:48.4742052+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:05:37.7027339+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:05:37.7108226+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:05:39.9110546+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:05:39.9212984+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:18:16.3922089+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:18:16.4412207+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:18:34.8241053+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:18:34.8288612+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:18:48.1434112+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:18:48.1897285+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:22:01.9827587+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:22:01.9942385+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:22:17.6647050+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:22:17.6750749+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:22:47.8046130+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:22:47.8887878+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:23:28.5924392+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:23:28.6047913+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:23:42.1183028+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:23:42.1281986+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:28:52.5594765+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:28:52.6154912+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:28:56.6090276+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:28:56.6165694+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:30:57.6755299+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:30:57.6885508+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:31:14.0950586+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:31:14.0998193+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:31:37.6473888+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:31:37.6580897+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:32:11.7598741+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:32:11.7706978+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:32:25.8468802+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:32:25.8515740+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:32:58.3309198+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:32:58.3407160+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:33:24.5553287+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:33:24.5649801+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:34:06.1415789+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:34:06.1526236+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:35:00.6143668+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:35:00.6254456+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:35:58.1258431+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:35:58.1403825+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:37:02.5691289+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:37:02.5808610+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:37:11.0216891+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:37:11.0283627+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:37:44.6197172+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:37:44.6304536+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:38:20.8863294+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:38:20.8974424+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:38:38.1685354+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:38:38.1791672+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:38:46.4147835+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:38:46.4241516+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:40:34.4398207+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:40:34.4480096+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:40:48.2103468+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:40:48.2170558+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:41:38.2630692+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:41:38.2738248+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:51:54.3261933+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T16:51:54.3903007+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T19:25:04.5576987+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-20T19:25:04.5700496+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-22T21:05:31.1357231+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-22T21:05:31.2232056+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T07:49:30.8033613+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T07:49:30.8911396+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T08:54:57.8158795+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T08:56:10.2048409+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T08:56:10.4659299+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:00:51.9623530+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:00:52.0692662+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:00:54.5531934+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:00:54.6793632+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:01:18.0315849+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:01:18.1626107+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:01:49.2842248+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:01:49.4098450+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:02:18.1691611+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:02:18.2874405+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:03:20.8729800+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:03:21.0480942+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:05:03.8745150+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:05:04.0037030+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:06:29.2882013+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:06:29.4459942+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:07:31.5332690+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:07:31.7052181+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:08:42.2642419+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:08:42.4321334+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:10:29.3635080+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:10:29.4613461+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:10:31.8420216+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:10:31.9583075+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:14:08.6881227+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:14:08.8102283+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:18:08.5887926+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:18:08.6718879+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:18:10.5249130+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:18:10.6248364+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:18:54.5886096+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:18:54.6806939+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:18:57.1952662+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:18:57.2927337+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:19:13.9162128+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:19:14.0661560+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:19:35.8364395+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:19:35.9573392+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:30:25.6385049+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:30:26.7479602+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:31:11.5073653+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:31:11.6420171+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:31:34.9375260+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:31:35.1019552+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:32:17.9671184+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:32:18.0799187+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:32:38.9558398+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:32:39.0866661+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:32:50.6254326+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:32:50.7388288+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:33:13.5535094+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:33:13.6738251+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:33:35.0042075+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:33:35.1315505+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:33:57.4750986+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:33:57.5983294+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:34:30.8464239+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:34:30.9783680+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:34:53.9551850+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:34:54.0860438+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:35:36.0298122+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:35:36.1591194+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:35:45.6667042+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:35:45.8300897+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:36:32.9807299+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:36:33.1031324+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:37:07.9521691+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:37:08.0753885+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:38:09.6999354+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:38:09.8784262+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:38:31.3910824+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:38:31.5000168+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:38:42.1035980+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:38:42.2216740+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:39:03.4532011+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:39:03.9132991+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:40:32.8685424+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:40:33.1658135+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:40:42.9066396+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:40:43.0269193+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:41:33.5942326+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:41:33.7435467+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:41:54.3504128+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:41:54.4802422+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:42:17.8262513+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:42:18.0545943+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:42:20.1356508+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:42:20.2280581+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:47:33.1029042+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:47:33.3144110+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:48:06.1555041+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:48:06.3021218+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:48:26.5795540+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:48:26.7318433+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:49:23.4379530+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:49:23.8010902+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:49:37.6900937+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:49:37.8138397+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:49:55.9610895+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:49:56.1373895+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:50:01.8580758+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:50:01.9729798+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:51:07.0618795+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:51:07.2101895+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:51:41.5511388+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:51:41.6686173+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:59:22.8082530+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:59:23.1577433+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:59:34.2773280+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:59:34.4212405+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:59:58.6084185+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T09:59:58.7543541+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:00:30.3645183+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:00:30.6854194+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:01:07.9588927+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:01:08.1040314+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:01:19.0282882+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:01:19.2460367+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:02:19.7164921+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:02:19.9554361+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:02:33.5209049+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:02:33.6478501+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:02:53.5265024+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:02:53.6557251+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:07:05.1498169+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:07:05.5059452+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:07:18.0563913+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:07:18.1942377+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:12:24.2711378+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:12:24.4075104+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:12:49.4562268+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:12:49.5524156+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:40:05.1096416+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:40:05.2705589+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:52:42.9475989+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T10:52:43.6863957+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:12:19.6381465+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:12:19.8474396+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:12:21.2513352+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:12:21.3473551+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:18:50.4783754+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:18:50.7100748+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:20:35.8244428+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:20:35.9511962+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:34:27.5563267+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:34:28.3698164+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:36:33.4425137+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:36:33.5799260+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:41:11.2449688+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:41:11.4568832+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:41:31.0352463+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:41:31.1932807+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:44:40.7259723+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:44:40.8799872+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:44:57.8432305+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:44:57.9774655+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:45:17.6227453+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:45:17.8055465+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:45:28.9877269+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:45:29.1469269+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:45:37.6677157+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:45:37.8043525+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:45:58.5854949+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:45:59.0671043+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:46:03.7467621+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:46:03.8826145+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:47:51.8275545+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:47:51.9380664+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:48:44.2144809+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:48:44.3587770+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:50:35.0207122+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:50:35.1618456+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:06.0896822+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:06.1620451+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:11.4361347+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:11.5047122+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:15.7135683+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:15.8748162+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:15.9161804+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:15.9599991+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:15.9712964+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:16.0121845+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:16.0236760+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:16.0671831+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:22.7771496+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:22.7913472+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:23.0278377+03:00","Level":"Information","MessageTemplate":"Update Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:36.6161898+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:36.6245326+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:36.6997257+03:00","Level":"Information","MessageTemplate":"Update Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:41.5653260+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:51:41.6414330+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:52:24.1512904+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:52:24.2463066+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:52:42.1673136+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:52:42.2716592+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:53:04.9908330+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:53:05.1456178+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:53:32.7240978+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:53:32.8687419+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:53:48.8959586+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:53:49.0096531+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:54:26.0564340+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:54:26.1575742+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:54:30.0093964+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:54:30.1011599+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:54:32.1632149+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:54:32.2312894+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:04.3376026+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:04.7957685+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:09.8031519+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:09.8997671+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:23.9620409+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:23.9661177+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:23.9973441+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:24.0701860+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:24.2995585+03:00","Level":"Information","MessageTemplate":"Create Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:31.1392069+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:31.2126239+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:45.2060067+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:45.2177744+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:45.2243308+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:45.3546218+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:45.3680671+03:00","Level":"Information","MessageTemplate":"Update Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:51.2524183+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:55:51.3408783+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:56:48.2932935+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:56:48.4701173+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:57:11.3196425+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:57:11.4228696+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:57:20.5471968+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:57:20.6581527+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:57:29.0409468+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/SoftDeleteRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:57:29.1759190+03:00","Level":"Information","MessageTemplate":"RefType Soft Delete Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:57:32.1675086+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T11:57:32.2700275+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:12:08.8307571+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:12:09.0620689+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:32:37.2284408+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:32:37.3442373+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:32:54.1023031+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:32:54.2360660+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:33:25.8896149+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:33:25.9953378+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:34:00.9279449+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/AddRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:34:00.9489008+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/AddRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:34:01.0562613+03:00","Level":"Information","MessageTemplate":"Create Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:34:05.9917532+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:34:06.0906470+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:34:54.4568107+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:34:54.6163124+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:37:18.3645246+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:37:18.4838559+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:37:34.8926853+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:37:35.0082451+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:39:54.7495982+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:39:54.9049362+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:41:04.8635670+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:41:05.0176591+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:41:25.4497644+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:41:25.5810992+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:42:33.0545343+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:42:33.2324712+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:46:18.0743307+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:46:18.2126822+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:46:47.4128517+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:46:47.5699853+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:47:13.2273777+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:47:13.4137739+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:47:20.3960620+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:47:20.4767928+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:47:45.6578743+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:47:45.7509194+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:52:32.7387046+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:52:32.9041386+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:52:57.4853656+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:52:57.6202556+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:53:24.3552367+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:53:24.4782826+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:54:36.1216502+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:54:36.5956675+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:56:18.8281888+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:56:19.4075121+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:56:39.3052711+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:56:39.4436898+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:56:57.7854236+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T13:56:57.8749472+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:00:33.7675258+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:00:33.8849921+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:02:04.2074855+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:02:04.3606776+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:03:19.3648416+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:03:19.5497563+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:07:10.6541064+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:07:10.7563108+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:08:06.7802521+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:08:06.9141401+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:09:21.8616139+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:09:22.1007010+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:10:22.8558115+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:10:22.9891053+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:15:32.9386767+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:15:33.0802441+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:15:54.0095343+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:15:54.1495385+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:16:57.6135757+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:16:57.7378395+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:18:15.3658127+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:18:15.5002623+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:23:18.7840985+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:23:18.8976375+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:27:37.1274917+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:27:37.2668454+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:28:27.9168033+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:28:28.2099465+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:28:31.0295940+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:28:31.2803081+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:28:31.2959308+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:28:31.3103165+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:53:04.0692325+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:53:04.2279890+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:53:16.4483776+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:53:16.5832240+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:53:34.7661149+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:53:34.8602172+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:55:28.4883614+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:55:28.6397065+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:56:12.8567485+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:56:12.9776794+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:57:35.8277011+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:57:36.1761838+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:57:54.1170923+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:57:55.0859558+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:58:06.3812825+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:58:06.5451119+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:59:12.7683976+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:59:12.9872253+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:59:19.2552857+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:59:19.4107498+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:59:29.2100868+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T14:59:29.3445520+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:00:08.5720354+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:00:08.7532125+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:00:50.6786323+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:00:50.8010739+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:01:00.2708763+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:01:00.3962101+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:01:14.5250446+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:01:14.7195679+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:02:26.7451294+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/AddRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:02:26.7804751+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/AddRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:02:26.8747022+03:00","Level":"Information","MessageTemplate":"Create Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:03:58.2818426+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:03:58.4075316+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:04:15.0695378+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:04:15.2136064+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:04:24.6068671+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:04:24.7574408+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:12:07.9514217+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:12:08.0775116+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:20:30.8450623+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:20:30.9613223+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:22:53.0088886+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:22:53.1449919+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:24:44.5276944+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2019-12-23T15:24:44.6731003+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
