@@ -21,5 +21,7 @@ namespace Core.Infrastructure.Application.Contract.Services
         ResponseDTO<AddRefValueResponseDTO> AddRefValue(AddRefValueRequestDTO refValue);
         ResponseListDTO<RefValueDTO> GetRefValuesByPage();
         ResponseDTO<RefValueDTO> DeleteRefValue(RefValueDTO request);
+        ResponseDTO<RefValueDTO> UpdateRefValue(RefValueDTO request);
+        ResponseDTO<RefValueDTO> SoftDeleteRefValue(RefValueDTO request);
     }
 }

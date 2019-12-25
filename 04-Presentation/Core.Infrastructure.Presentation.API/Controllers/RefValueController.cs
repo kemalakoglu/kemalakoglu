@@ -37,7 +37,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <returns></returns>
         [Route("api/RefValue/AddRefValue")]
         [HttpPost]
-        public IActionResult AddRefValue(AddRefValueRequestDTO request)
+        public IActionResult AddRefValue([FromBody] AddRefValueRequestDTO request)
         {
             return Ok(this.appService.AddRefValue(request));
         }
@@ -59,9 +59,27 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <returns></returns>
         [Route("api/RefValue/DeleteRefValue")]
         [HttpPost]
-        public IActionResult DeleteRefValue(RefValueDTO request)
+        public IActionResult DeleteRefValue([FromBody] RefValueDTO request)
         {
             return Ok(this.appService.DeleteRefValue(request));
+        }
+
+        [Route("api/RefValue/UpdateRefValue")]
+        [HttpPost]
+        public IActionResult UpdateRefValue([FromBody]RefValueDTO request)
+        {
+            return Ok(this.appService.UpdateRefValue(request));
+        }
+
+        /// <summary>
+        /// GetRefValuesByPage
+        /// </summary>
+        /// <returns></returns>
+        [Route("api/RefValue/SoftDeleteRefValue")]
+        [HttpPost]
+        public IActionResult SoftDeleteRefValue([FromBody] RefValueDTO request)
+        {
+            return Ok(this.appService.SoftDeleteRefValue(request));
         }
     }
 }
