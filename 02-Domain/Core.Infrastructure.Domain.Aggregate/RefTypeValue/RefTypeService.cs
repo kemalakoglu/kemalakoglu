@@ -6,12 +6,13 @@ using Core.Infrastructure.Application.Contract.DTO;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
 using Core.Infrastructure.Core.Contract;
 using Core.Infrastructure.Core.Helper;
+using Core.Infrastructure.Core.Resources;
+using Core.Infrastructure.Presentation.API.Extensions;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
     public class RefTypeService : IRefTypeService
     {
-        private readonly IMapper mapper;
         private readonly IUnitOfWork unitOfWork;
 
         public RefTypeService(IUnitOfWork unitOfWork)
@@ -31,19 +32,20 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 
         public ResponseDTO<AddRefTypeResponseDTO> Create(AddRefTypeRequestDTO DTO)
         {
-            var entity = new RefType(DTO.Status, DTO.InsertDate, DTO.Name, DTO.IsActive);
+            var entity = new RefType(DateTime.Now, DTO.Name, true);
             if (DTO.Parent.Id > 0)
                 entity.SetParent(this.unitOfWork.Repository<RefType>().GetByKey(DTO.Parent.Id));
 
             unitOfWork.Repository<RefType>().Create(entity);
             unitOfWork.EndTransaction();
+            DTO.Id = entity.Id;
             return CreateResponse<AddRefTypeResponseDTO>.Return(Mapper.Map(DTO,new AddRefTypeResponseDTO()), "Create");
         }
 
         public ResponseDTO<RefTypeDTO> Update(RefTypeDTO DTO)
         {
             var entity = unitOfWork.Repository<RefType>().GetByKey(DTO.Id);
-            entity.Update(DTO.Status, DTO.Name, DTO.IsActive, DTO.UpdateDate);
+            entity.Update(DTO.Name, DTO.IsActive, DateTime.Now);
             unitOfWork.Repository<RefType>().Update(entity);
             unitOfWork.EndTransaction();
             return CreateResponse<RefTypeDTO>.Return(DTO, "Update");
@@ -57,13 +59,27 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             return CreateResponse<RefTypeDTO>.Return(DTO, "Delete");
         }
 
+        public ResponseDTO<RefTypeDTO> SoftDelete(long Id)
+        {
+            var childs = this.unitOfWork.Repository<RefValue>().Get(x => x.RefType.Id == Id).FirstOrDefault();
+            if (childs!=null)
+            {
+                throw new BusinessException(ResponseMessage.HasChild,"RefType");
+            }
+            var entity = unitOfWork.Repository<RefType>().GetByKey(Id);
+            entity.SetStatus(false);
+            unitOfWork.Repository<RefType>().Update(entity);
+            unitOfWork.EndTransaction();
+            return CreateResponse<RefTypeDTO>.Return(Mapper.Map<RefType,RefTypeDTO>(entity),"RefType Soft Delete");
+        }
+
         public ResponseListDTO<RefTypeDTO> GetByParent(long parentId)
         {
             IEnumerable<RefType> entity;
             if (parentId>0)
-                entity = unitOfWork.Repository<RefType>().Query().Filter(x => x.Parent.Id == parentId).Get();
+                entity = unitOfWork.Repository<RefType>().Query().Filter(x => x.Parent.Id == parentId && x.Status==true).Get();
             else
-                entity = unitOfWork.Repository<RefType>().Query().Filter(x => x.Parent.Id == null).Get();
+                entity = unitOfWork.Repository<RefType>().Query().Filter(x => x.Parent.Id == null && x.Status == true).Get();
 
             unitOfWork.EndTransaction();
 

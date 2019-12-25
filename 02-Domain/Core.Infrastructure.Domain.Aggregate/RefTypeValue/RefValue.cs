@@ -36,5 +36,19 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         }
 
         public RefType refType;
+
+        public void SetStatus(bool status)
+        {
+            this.Status = status;
+        }
+
+        public void Update(string name, bool isActive, RefType refType, string value)
+        {
+            this.Name = name;
+            this.RefType = refType;
+            this.IsActive = isActive;
+            this.UpdateDate= DateTime.Now;
+            this.Value = value;
+        }
     }
 }
