@@ -1,10 +1,14 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Core.Infrastructure.Application.Contract.DTO;
+using Core.Infrastructure.Application.Contract.DTO.Blog;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
 using Core.Infrastructure.Application.Contract.DTO.RefValue;
 using Core.Infrastructure.Application.Contract.Services;
+using Core.Infrastructure.Core.Helper;
 using Core.Infrastructure.Domain.Aggregate.RefTypeValue;
 using Core.Infrastructure.Domain.Contract.Service;
 using Microsoft.AspNetCore.Identity;
@@ -54,6 +58,15 @@ namespace Core.Infrastructure.Application.Service
         public ResponseDTO<RefValueDTO> UpdateRefValue(RefValueDTO request) => this.refValueService.Update(request);
 
         public ResponseDTO<RefValueDTO> SoftDeleteRefValue(RefValueDTO request) => this.refValueService.SoftDelete(request.Id);
+        public ResponseDTO<GetHomeDataResponse> GetHomeData()
+        {
+            GetHomeDataResponse response= new GetHomeDataResponse();
+            IEnumerable<RefValueDTO> posts = this.refValueService.GetLastByNumber(5).Data;
+            response.Sections =  this.refTypeService.GetByParent(1).Data;
+            response.LatestPosts = posts.Take(3);
+            response.FeaturedPosts = posts.TakeLast(2);
+            return CreateResponse<GetHomeDataResponse>.Return(response, "GetHomeData");
+        }
 
         #endregion
     }
