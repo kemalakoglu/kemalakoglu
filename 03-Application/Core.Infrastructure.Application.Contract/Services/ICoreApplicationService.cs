@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using Core.Infrastructure.Application.Contract.DTO;
+using Core.Infrastructure.Application.Contract.DTO.Blog;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
 using Core.Infrastructure.Application.Contract.DTO.RefValue;
 using Microsoft.AspNetCore.Identity;
@@ -23,5 +24,6 @@ namespace Core.Infrastructure.Application.Contract.Services
         ResponseDTO<RefValueDTO> DeleteRefValue(RefValueDTO request);
         ResponseDTO<RefValueDTO> UpdateRefValue(RefValueDTO request);
         ResponseDTO<RefValueDTO> SoftDeleteRefValue(RefValueDTO request);
+        ResponseDTO<GetHomeDataResponse> GetHomeData();
     }
 }
