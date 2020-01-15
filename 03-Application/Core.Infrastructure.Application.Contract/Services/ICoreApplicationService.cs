@@ -12,7 +12,7 @@ namespace Core.Infrastructure.Application.Contract.Services
 {
     public interface ICoreApplicationService
     {
-        Task<IdentityUser> GetUserByMail(RegisterDTO request);
+
         ResponseDTO<RefTypeDTO> UpdateRefType(RefTypeDTO request);
         ResponseListDTO<RefTypeDTO> GetRefTypesByParent(long parentId);
         ResponseDTO<AddRefTypeResponseDTO> AddRefType(AddRefTypeRequestDTO request);
@@ -25,5 +25,12 @@ namespace Core.Infrastructure.Application.Contract.Services
         ResponseDTO<RefValueDTO> UpdateRefValue(RefValueDTO request);
         ResponseDTO<RefValueDTO> SoftDeleteRefValue(RefValueDTO request);
         ResponseDTO<GetHomeDataResponse> GetHomeData();
+        Task<IdentityResult> CreateAsync(IdentityUser user);
+        Task<IdentityUser> GetUserByEmail(string requestEmail);
+        Task<IdentityUser> FindByLoginAsync(string provider, string key);
+        void SignInAsync(IdentityUser user, bool isPersistance);
+        Task<SignInResult> PasswordSignInAsync(IdentityUser user, string password, bool isPersistance,
+            bool lockoutOnFailure);
+        Task<Task> AddLoginAsync(IdentityUser appUser, UserLoginInfo userLoginInfo);
     }
 }

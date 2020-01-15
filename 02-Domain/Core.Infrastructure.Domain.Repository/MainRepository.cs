@@ -18,16 +18,6 @@ namespace Core.Infrastructure.Domain.Repository
 
         protected Context.Context.InfrastructureContext repositoryContext { get; set; }
 
-        /// <summary>
-        ///     UserManager
-        /// </summary>
-        public UserManager<IdentityUser<string>> UserManager { get; set; }
-
-        /// <summary>
-        ///     RoleManager
-        /// </summary>
-        public RoleManager<IdentityUserRole<string>> RoleManager { get; set; }
-
         public IEnumerable<T> FindAll()
         {
             return repositoryContext.Set<T>();

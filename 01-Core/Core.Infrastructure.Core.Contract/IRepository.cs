@@ -8,16 +8,6 @@ namespace Core.Infrastructure.Core.Contract
 {
     public interface IRepository<T> where T : class
     {
-        /// <summary>
-        ///     UserManager
-        /// </summary>
-        UserManager<IdentityUser<string>> UserManager { get; set; }
-
-        /// <summary>
-        ///     RoleManager
-        /// </summary>
-        RoleManager<IdentityUserRole<string>> RoleManager { get; set; }
-
         IEnumerable<T> FindAll();
         IEnumerable<T> FindByCondition(Expression<Func<T, bool>> expression);
         void Create(T entity);

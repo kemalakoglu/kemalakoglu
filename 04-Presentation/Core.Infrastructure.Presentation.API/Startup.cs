@@ -1,10 +1,12 @@
-﻿using AutoMapper;
+﻿using System;
+using AutoMapper;
 using Core.Infrastructure.Domain.Context.Context;
 using Core.Infrastructure.Presentation.API.Extensions;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
