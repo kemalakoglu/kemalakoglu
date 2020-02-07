@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Infrastructure.Application.Contract.DTO;
-using Core.Infrastructure.Application.Contract.DTO.RefType;
+
+
 using Core.Infrastructure.Application.Contract.Services;
+using Core.Infrastructure.Domain.Contract.DTO.RefType;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 

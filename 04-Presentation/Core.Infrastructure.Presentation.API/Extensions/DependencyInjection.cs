@@ -7,6 +7,7 @@ using Core.Infrastructure.Domain.Aggregate.User;
 using Core.Infrastructure.Domain.Context.Context;
 using Core.Infrastructure.Domain.Contract.Service;
 using Core.Infrastructure.Domain.Repository;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -20,8 +21,8 @@ namespace Core.Infrastructure.Presentation.API.Extensions
             var connectionString = config["mysqlconnection:connectionString"];
             services.AddDbContext<InfrastructureContext>(o => o.UseSqlServer(connectionString));
 
-            //services.AddDefaultIdentity<IdentityUser>()
-            //    .AddEntityFrameworkStores<Context>()
+            //services.AddIdentity<ApplicationUser, IdentityRole>()
+            //    .AddEntityFrameworkStores<InfrastructureContext>()
             //    .AddDefaultTokenProviders();
         }
 
@@ -32,9 +33,10 @@ namespace Core.Infrastructure.Presentation.API.Extensions
 
         public static void ConfigureDomainService(this IServiceCollection services)
         {
-            services.AddScoped<IUserStoreService, UserStoreService>();
+            services.AddScoped<IUserManagerService, UserStoreService>();
             services.AddScoped<IRefTypeService, RefTypeService>();
             services.AddScoped<IRefValueService, RefValueService>();
+            services.AddScoped<ISignInManagerService, SignInManagerService>();
         }
 
         public static void ConfigureApplicationService(this IServiceCollection services)

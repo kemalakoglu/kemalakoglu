@@ -6,14 +6,18 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using Core.Infrastructure.Application.Contract.DTO;
+
 using Core.Infrastructure.Application.Contract.Services;
+using Core.Infrastructure.Domain.Aggregate.User;
+using Core.Infrastructure.Domain.Contract.DTO;
+using Core.Infrastructure.Domain.Contract.DTO.Login;
 using Core.Infrastructure.Domain.Contract.Service;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Newtonsoft.Json;
 
 namespace Core.Infrastructure.Presentation.API.Controllers
 {
@@ -24,10 +28,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         private readonly ICoreApplicationService appService;
 
         public AccountController(
-            UserManager<IdentityUser> userManager,
-            SignInManager<IdentityUser> signInManager,
             IConfiguration configuration,
-            IUserStoreService userStoreService,
             ICoreApplicationService appService)
         {
             this.configuration = configuration;
@@ -41,20 +42,24 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <returns></returns>
         [Route("api/Account/Login")]
         [HttpPost]
-        public async Task<LoginDTO> Login([FromBody] LoginDTO model)
+        public async Task<LoginResponseDTO> Login([FromBody] LoginDTO model)
         {
             string hash = "956E90B4-BBB5-4F85-9101-583C2B3B3D89";
             string password = Convert.ToBase64String(GenerateSaltedHash(Encoding.UTF8.GetBytes(model.Password), Encoding.UTF8.GetBytes(hash)));
             var appUser = await this.appService.GetUserByEmail(model.Email);
-            var result = await this.appService.PasswordSignInAsync(appUser, password, true,false);
-            if (result.Succeeded)
-            {
-                var token = await GenerateJwtToken(model.Email, appUser);
-                await await this.appService.AddLoginAsync(appUser,
-                    new UserLoginInfo("JWT Token", token.ToString(),
-                        appUser.UserName == string.Empty ? string.Empty : appUser.UserName));
 
-                return await Task.FromResult(model);
+            var signInResult = await this.appService.PasswordSignInAsync(appUser.Email, password, model.IsPersistance, false);
+            if (signInResult.Succeeded)
+            {
+                var checkToken = await this.appService.FindByLoginAsync(appUser.PasswordHash, appUser.SecurityStamp);
+                if (checkToken == null)
+                {
+                    var token = await GenerateJwtToken(model.Email, appUser);
+                    UserLoginInfo userLoginInfo = new UserLoginInfo(appUser.PasswordHash, appUser.SecurityStamp, token.ToString());
+                    var result = await this.appService.AddLoginAsync(appUser, userLoginInfo);
+                    var tokenResult = await this.appService.UpdateExternalAuthenticationTokensAsync(appUser, token.ToString());
+                    if (result.Succeeded && tokenResult.Succeeded) return await Task.FromResult(new LoginResponseDTO{Token = token.ToString(), Username= appUser.UserName});
+                }
             }
 
             throw new ApplicationException("INVALID_LOGIN_ATTEMPT");
@@ -83,14 +88,35 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         {
             string hash = "956E90B4-BBB5-4F85-9101-583C2B3B3D89";
             string password = Convert.ToBase64String(GenerateSaltedHash(Encoding.UTF8.GetBytes(model.Password), Encoding.UTF8.GetBytes(hash)));
-            var user = new IdentityUser {UserName = model.Username, Email = model.Email, ConcurrencyStamp = string.Empty, EmailConfirmed = model.EmailConfirmed, PasswordHash = password};
-            var result = await this.appService.CreateAsync(user);
-            if (result.Succeeded) this.appService.SignInAsync(user, false);
+            var user = new ApplicationUser { UserName = model.Email, Email = model.Email};
+            var result = await this.appService.CreateAsync(user, password);
+            if (result.Succeeded) await this.appService.SignInAsync(user, false);
 
             if (result.Succeeded)
                 return await Task.FromResult(model);
             throw new ApplicationException("UNKNOWN_ERROR");
         }
+
+        /// <summary>
+        /// Logouts the specified model.
+        /// </summary>
+        /// <param name="model">The model.</param>
+        /// <returns></returns>
+        /// <exception cref="ApplicationException">UNKNOWN_ERROR</exception>
+        [Route("api/Account/Logout")]
+        [HttpPost]
+        public async Task<LoginResponseDTO> Logout([FromBody] LogoutDTO model)
+        {
+            var appUser = await this.appService.GetUserByEmail(model.Email);
+            var result = await this.appService.RemoveLoginAsync(appUser, appUser.PasswordHash, appUser.SecurityStamp);
+            if (result.Succeeded)
+            await this.appService.SignOutAsync();
+
+            if (result.Succeeded)
+                return await Task.FromResult(new LoginResponseDTO { Token = string.Empty });
+            throw new ApplicationException("UNKNOWN_ERROR");
+
+        } 
 
         /// <summary>
         /// Generates the JWT token.
@@ -146,5 +172,6 @@ namespace Core.Infrastructure.Presentation.API.Controllers
 
             return algorithm.ComputeHash(plainTextWithSaltBytes);
         }
+
     }
 }

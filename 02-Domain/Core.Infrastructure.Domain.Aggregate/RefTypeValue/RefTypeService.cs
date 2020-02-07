@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
-using Core.Infrastructure.Application.Contract.DTO;
-using Core.Infrastructure.Application.Contract.DTO.RefType;
+
+
 using Core.Infrastructure.Core.Contract;
 using Core.Infrastructure.Core.Helper;
 using Core.Infrastructure.Core.Resources;
+using Core.Infrastructure.Domain.Contract.DTO.RefType;
 using Core.Infrastructure.Presentation.API.Extensions;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue

@@ -9737,3 +9737,1017 @@
 {"Timestamp":"2020-01-15T14:54:22.7063686+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
 {"Timestamp":"2020-01-15T14:54:31.4662393+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
 {"Timestamp":"2020-01-15T14:55:11.4695165+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T15:48:13.9787945+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T15:48:15.9292108+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T15:48:51.6070384+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T15:49:05.3589193+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T15:49:30.8960734+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T15:50:08.2526270+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T15:56:31.7914291+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T15:56:33.2512339+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T15:56:33.2512386+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T15:58:23.2213530+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T15:58:25.0346405+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T15:58:32.8909664+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:00:16.4782468+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:01:26.1483697+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:01:27.5270618+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:01:32.4485918+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:01:32.7200414+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:01:37.9880893+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:01:46.7760614+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:02:28.7762832+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:02:30.6813038+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:02:41.4185574+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:03:06.5434546+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:25:14.5395321+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:25:16.1466934+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:25:22.7906066+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:25:47.2814218+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:27:06.9121167+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:27:57.5161876+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:27:59.2520497+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:28:22.1526928+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:29:04.0869051+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:29:21.3175747+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:30:09.1258917+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-15T16:30:48.4494330+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T09:11:30.6017950+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T09:11:32.3929379+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T09:11:32.8205921+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:38:13.8003136+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:38:15.6811633+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:41:31.9273098+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:41:31.9495717+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:41:32.9858031+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:47:18.1975370+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:47:18.2208982+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:47:18.4544450+03:00","Level":"Error","MessageTemplate":"String reference not set to an instance of a String.\r\nParameter name: s","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:47:22.7509152+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:47:22.9235007+03:00","Level":"Error","MessageTemplate":"String reference not set to an instance of a String.\r\nParameter name: s","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:47:50.1727214+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:47:50.1896219+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:48:29.7744713+03:00","Level":"Error","MessageTemplate":"String reference not set to an instance of a String.\r\nParameter name: s","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:49:18.5988273+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:49:18.6155995+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:49:22.9629271+03:00","Level":"Error","MessageTemplate":"String reference not set to an instance of a String.\r\nParameter name: s","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:49:49.5292641+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:49:49.5483805+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T11:50:20.3757666+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:49:48.5663530+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:49:48.5843776+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:50:00.1642908+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:50:23.1355473+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:50:23.1449585+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:51:24.9012444+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:51:46.0576327+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:54:45.2581624+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:54:46.9761695+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:55:09.9757036+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:55:09.9926408+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:56:44.8033739+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:57:57.2398056+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:57:58.8249704+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:58:13.3812269+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T13:58:13.3915069+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:01:27.6436792+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:01:27.6598922+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:01:27.9299259+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:01:43.5184505+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:01:43.5263929+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:01:43.7129608+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:01:48.0903332+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:03:34.8865475+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:03:34.8945039+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:10:15.6388648+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:10:15.6516797+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:10:25.2448525+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:10:25.2527110+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:10:29.3598710+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:10:32.6421776+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:10:32.6585827+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:11:39.5976265+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:11:39.6359275+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:11:43.9766735+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:11:50.6662114+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:11:50.6755071+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:11:54.7236371+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:47:35.0737079+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:47:37.0057364+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:47:41.5461534+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:47:41.5573670+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:47:56.1988725+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:47:56.2892476+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:48:20.1110598+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:48:20.1218480+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:48:24.9387721+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:48:24.9494554+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:48:25.1782303+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:50:30.9997778+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:50:31.0168866+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:50:31.3555029+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:50:31.3668795+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:50:31.7356686+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:50:31.7453647+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:50:32.1921503+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:50:32.2060216+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:50:32.6280445+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:51:20.8433662+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:51:32.0915671+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:51:37.9484337+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:51:37.9675638+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:51:51.4332752+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:51:52.4832524+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:51:53.2997370+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:52:21.6801366+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:52:23.6030198+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:53:11.3946906+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:53:20.4301125+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:53:24.3130982+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:53:25.7440831+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:53:25.7572750+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:53:28.1908280+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:54:11.6774333+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:54:18.1069383+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:54:25.2346032+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:54:25.2433821+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:54:25.3685629+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:54:25.5186097+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:57:33.6194286+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:57:35.1483078+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:57:50.3854912+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:57:50.4013851+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:58:29.5910271+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T14:58:39.3469410+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:00:22.8454038+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:00:24.5657087+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:00:54.3104632+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:00:57.5220514+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:00:58.6866696+03:00","Level":"Error","MessageTemplate":"Self referencing loop detected for property 'Task' with type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Microsoft.AspNetCore.Identity.IdentityResult,Microsoft.AspNetCore.Identity.UserManager`1+<AddLoginAsync>d__98[Microsoft.AspNetCore.Identity.IdentityUser]]'. Path 'StateMachine.<>t__builder'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:00:58.7040239+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:00:59.3703632+03:00","Level":"Error","MessageTemplate":"Self referencing loop detected for property 'Task' with type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Microsoft.AspNetCore.Identity.IdentityResult,Microsoft.AspNetCore.Identity.UserManager`1+<AddLoginAsync>d__98[Microsoft.AspNetCore.Identity.IdentityUser]]'. Path 'StateMachine.<>t__builder'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:00:59.4115851+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:00:59.8636463+03:00","Level":"Error","MessageTemplate":"Self referencing loop detected for property 'Task' with type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Microsoft.AspNetCore.Identity.IdentityResult,Microsoft.AspNetCore.Identity.UserManager`1+<AddLoginAsync>d__98[Microsoft.AspNetCore.Identity.IdentityUser]]'. Path 'StateMachine.<>t__builder'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:00:59.8747786+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:01:00.2519503+03:00","Level":"Error","MessageTemplate":"Self referencing loop detected for property 'Task' with type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Microsoft.AspNetCore.Identity.IdentityResult,Microsoft.AspNetCore.Identity.UserManager`1+<AddLoginAsync>d__98[Microsoft.AspNetCore.Identity.IdentityUser]]'. Path 'StateMachine.<>t__builder'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:10:05.1740952+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:10:30.2773703+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:11:16.2988061+03:00","Level":"Error","MessageTemplate":"Self referencing loop detected for property 'Task' with type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Microsoft.AspNetCore.Identity.IdentityResult,Microsoft.AspNetCore.Identity.UserManager`1+<AddLoginAsync>d__98[Microsoft.AspNetCore.Identity.IdentityUser]]'. Path 'StateMachine.<>t__builder'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:11:16.3345863+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:11:16.3531046+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:11:18.4655021+03:00","Level":"Error","MessageTemplate":"Self referencing loop detected for property 'Task' with type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Microsoft.AspNetCore.Identity.IdentityResult,Microsoft.AspNetCore.Identity.UserManager`1+<AddLoginAsync>d__98[Microsoft.AspNetCore.Identity.IdentityUser]]'. Path 'StateMachine.<>t__builder'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:11:18.5334207+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:11:19.6435197+03:00","Level":"Error","MessageTemplate":"Self referencing loop detected for property 'Task' with type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Microsoft.AspNetCore.Identity.IdentityResult,Microsoft.AspNetCore.Identity.UserManager`1+<AddLoginAsync>d__98[Microsoft.AspNetCore.Identity.IdentityUser]]'. Path 'StateMachine.<>t__builder'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:11:19.6523607+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:11:20.8283121+03:00","Level":"Error","MessageTemplate":"Self referencing loop detected for property 'Task' with type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Microsoft.AspNetCore.Identity.IdentityResult,Microsoft.AspNetCore.Identity.UserManager`1+<AddLoginAsync>d__98[Microsoft.AspNetCore.Identity.IdentityUser]]'. Path 'StateMachine.<>t__builder'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:12:20.9972602+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:12:24.0380733+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:13:08.1813235+03:00","Level":"Error","MessageTemplate":"Self referencing loop detected for property 'Task' with type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Microsoft.AspNetCore.Identity.IdentityResult,Microsoft.AspNetCore.Identity.UserManager`1+<AddLoginAsync>d__98[Microsoft.AspNetCore.Identity.IdentityUser]]'. Path 'StateMachine.<>t__builder'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:13:08.2673774+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:13:11.4593323+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:13:27.9844662+03:00","Level":"Error","MessageTemplate":"Self referencing loop detected for property 'Task' with type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Microsoft.AspNetCore.Identity.IdentityResult,Microsoft.AspNetCore.Identity.UserManager`1+<AddLoginAsync>d__98[Microsoft.AspNetCore.Identity.IdentityUser]]'. Path 'StateMachine.<>t__builder'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:13:27.9952845+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:13:28.0052061+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:13:29.5328854+03:00","Level":"Error","MessageTemplate":"Self referencing loop detected for property 'Task' with type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Microsoft.AspNetCore.Identity.IdentityResult,Microsoft.AspNetCore.Identity.UserManager`1+<AddLoginAsync>d__98[Microsoft.AspNetCore.Identity.IdentityUser]]'. Path 'StateMachine.<>t__builder'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:13:29.5497534+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:13:30.3873790+03:00","Level":"Error","MessageTemplate":"Self referencing loop detected for property 'Task' with type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[Microsoft.AspNetCore.Identity.IdentityResult,Microsoft.AspNetCore.Identity.UserManager`1+<AddLoginAsync>d__98[Microsoft.AspNetCore.Identity.IdentityUser]]'. Path 'StateMachine.<>t__builder'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:14:13.1753899+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:14:15.0434006+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:14:19.3213086+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:14:24.7312255+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:18:39.2789858+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:18:39.2958913+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:21:26.6167114+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:21:26.6331989+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:22:51.0966900+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:22:51.1426543+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:23:32.7881619+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:23:33.2431754+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:25:29.3316553+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:25:29.5062812+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:29:51.0214220+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:29:55.8359009+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:37:04.9644893+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:37:05.0946937+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:37:25.1651364+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:37:36.4529214+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:39:43.1570130+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:39:43.1770253+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:39:45.8519948+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:39:45.9693760+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:40:05.2458427+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T15:40:05.3509185+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:01:10.1169318+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:01:10.2471295+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:05:28.5046942+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:05:28.6005333+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:06:23.0696352+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:06:23.1610258+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:06:34.3196632+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:06:34.4171572+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:07:29.9965922+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:07:30.0888904+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:10:05.7024909+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:10:05.7236947+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:11:02.3636639+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:11:02.3716744+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:11:03.7538716+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:11:03.8295252+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:11:26.2281971+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:11:26.2383138+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:11:59.4010071+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:02.5570114+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:06.5802618+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:06.6765823+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:09.0837620+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:09.0865325+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:09.1848045+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:09.4541128+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:10.9436568+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:11.0255344+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:12.5037202+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:12.5066303+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:12.6167373+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:12.7792276+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:23.2864880+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:24.9650308+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:28.9274043+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:12:29.0144516+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:27:55.8406636+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:27:55.8486784+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:28:09.3907662+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:28:09.4069480+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:28:11.1287884+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:28:11.2228462+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:28:22.6660694+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:28:22.6680124+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:28:22.8622223+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:28:22.9864844+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:28:24.1043407+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:28:24.1824771+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:29:25.5238171+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:29:25.5320603+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:29:31.6718565+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:29:31.7765225+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:29:35.1747854+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:29:35.1841955+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:29:43.0458264+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:29:43.1215383+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:29:55.1711669+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:29:55.1803901+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:30:14.1809448+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:30:14.4505120+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:30:50.5101509+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:31:26.3222248+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:31:28.0465963+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:31:31.3926070+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:31:31.4039081+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:31:58.1979501+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:31:58.4467552+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:32:44.9218694+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:32:44.9365729+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:33:14.1433015+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:33:14.2280439+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:38:58.1568363+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:39:00.1572195+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:39:00.1572135+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:39:00.1740533+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:39:01.2223863+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:39:01.5159734+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:39:04.6714496+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:39:04.7797267+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:39:53.6325644+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:39:53.6464539+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:40:35.9517587+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:40:36.9714873+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:40:36.9846975+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:40:37.5234695+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:40:37.7109420+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:09.0011386+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:10.6355165+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:24.1091403+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:24.1183649+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:32.7788748+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:32.8310373+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:32.8916976+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:37.2845540+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:37.3281408+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:40.2338305+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:40.2787155+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:40.3428793+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:42:43.4021313+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:43:15.1818363+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:43:16.7079141+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:43:17.0009909+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:43:17.0119325+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:43:18.3599489+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:43:18.3738401+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:43:18.8671744+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:43:18.8740694+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:43:19.3128925+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:43:19.3220123+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:43:19.8006452+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:44:06.1390026+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:44:07.7630347+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:45:58.3647359+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:45:59.2153928+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:45:59.2270808+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:45:59.7596237+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-16T16:45:59.7699673+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:16:36.1360359+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:16:38.3011763+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:16:52.0635481+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:16:52.3854615+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:17:04.4986559+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:17:04.5077332+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:17:07.4385862+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:17:07.7391830+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:17:18.8855162+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:17:18.8923383+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:17:50.3156991+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:17:50.3953925+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:19:15.4758390+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:20:13.7247242+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:20:13.7337904+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:22:06.4145478+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:22:07.2504801+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:22:07.2618076+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:22:07.7781578+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:22:07.9224751+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:23:01.8444061+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:23:03.5607595+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:23:10.2986434+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:23:10.3077035+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:23:40.3627274+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:23:41.2078791+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:23:41.2209428+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:23:41.8083183+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:23:41.9443254+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:27:28.3790399+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:27:29.8732223+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:27:29.8732295+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:27:29.8927612+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:28:18.7024760+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:28:19.4992669+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:28:19.5115635+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:28:20.0222836+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:28:20.1853995+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:29:52.5469665+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:29:54.0754469+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:29:57.7527104+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:29:57.7640428+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:34:19.2944208+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:34:20.0928260+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:34:20.1048683+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:34:20.5658685+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:34:20.6782644+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:40:44.7792405+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:40:46.4899893+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:40:57.5324953+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:40:57.5418387+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:41:20.5949835+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:41:20.8336530+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:42:18.4058300+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:42:20.2433465+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:42:27.9955841+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:42:28.0068772+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:45:09.0259118+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:45:09.8683756+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:45:09.8798476+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:45:10.3496398+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:45:10.4722949+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:56:48.3306848+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:56:50.3716608+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:56:53.7967134+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:56:53.8065992+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:57:42.2674858+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T10:57:42.5865293+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:09:26.4923786+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:09:28.5050485+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:09:32.0231483+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:09:32.0339554+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:09:38.2631889+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:09:38.3364223+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:09:38.4121253+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:09:42.0830658+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:09:44.9740453+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:10:49.8994699+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:10:58.8445439+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:10:58.8522687+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:11:02.2129791+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:11:17.6707319+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:11:17.6786154+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:11:21.6279607+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:11:21.6618465+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:11:22.0999234+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:11:22.1063668+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:11:22.6301920+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:11:22.6380198+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:11:23.1608990+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:00.5349212+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:02.0965712+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:06.8929467+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:10.2549274+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:16.3469214+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:16.4149963+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:16.4822038+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:18.3809766+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:18.4366862+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:26.0980670+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:26.1526864+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:26.2033015+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:34:29.6587037+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:35:07.1209310+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:35:07.1356051+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:35:25.6798698+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:35:25.7370135+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:35:25.8559501+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:35:30.1860046+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:35:30.2373758+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:35:31.6954728+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:38:22.4335820+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:38:24.2134264+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:38:48.9731449+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:38:48.9913125+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:38:52.9195349+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (One or more errors occurred. (One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)))","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:38:52.9790584+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:38:54.7608351+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (One or more errors occurred. (One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)))","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:38:54.8195426+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:38:54.8997066+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:39:24.3056158+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (One or more errors occurred. (One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)))","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:39:24.3546417+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:39:27.1545655+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:41:25.7529008+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:41:27.4319727+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:41:31.6738464+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:41:31.6850751+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:41:37.3930104+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (One or more errors occurred. (One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)))","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:45:41.4432416+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:45:43.2589687+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:45:54.5675369+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:45:54.5811905+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:45:56.9106215+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.))","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:47:01.1984296+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:47:03.1084400+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:47:08.5869359+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:47:08.5979247+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:47:14.4598027+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:48:25.2468327+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:48:29.2549433+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:48:30.9012631+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:48:30.9165757+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:48:44.6658620+03:00","Level":"Error","MessageTemplate":"One or more errors occurred. (An error occurred while updating the entries. See the inner exception for details.)","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:50:09.8314302+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:50:11.4034378+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:50:41.4365818+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:50:41.4578557+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:55:00.3544582+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:55:02.2536028+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:55:10.1979189+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:55:10.2116055+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:55:54.4662547+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:55:56.6361285+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:56:11.0349723+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T11:56:11.0477376+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:13:52.9171977+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:13:54.8708559+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:14:06.6082123+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:14:06.6239533+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:14:12.1346502+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:16:32.9062485+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:16:35.0883881+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:16:38.8570568+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:16:38.8685927+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:16:44.0986050+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:17:51.3089152+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:17:52.9413142+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:18:32.4114702+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:18:32.4279971+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:18:38.2678743+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:28:42.2432518+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:28:44.4632267+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:33:25.3639609+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:33:26.6893045+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:33:37.2574079+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:33:55.9924659+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:34:15.6274133+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:34:20.7264487+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:34:41.6142653+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:36:31.4537240+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:39:58.3361435+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:39:59.9562054+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:40:38.3822165+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:40:40.1390520+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T13:40:53.2687377+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:08:08.8397058+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:17:57.5977892+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:17:59.0176285+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:18:16.9392558+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:19:38.6694968+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:23:53.0850982+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:23:54.8092690+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:24:01.7446226+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:24:12.7062331+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:31:40.6520105+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:36:18.8087518+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:37:24.8716121+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T14:38:12.5861491+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:05:44.9743627+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:09:31.9417910+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:10:16.0098432+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:21:17.5370909+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:22:37.4698351+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:26:26.6641842+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:28:36.6658307+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:30:47.1641786+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:33:14.8922321+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:34:13.9436131+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:41:20.8796562+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:45:00.4739986+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:48:28.3664582+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:48:30.4407720+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:48:55.9225939+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:48:59.6242140+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:49:20.0707528+03:00","Level":"Error","MessageTemplate":"UNKNOWN_ERROR","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T15:49:58.6579443+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:00:21.8417998+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:00:23.7223028+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:02:58.3891760+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:03:39.1727892+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:03:40.8057178+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:03:52.7592900+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:04:18.8076307+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:06:57.6241012+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:06:59.4615238+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:07:04.7843201+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:07:20.6198583+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:08:56.9129681+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-17T16:11:24.0508280+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:07:03.3160518+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:07:06.8721783+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:07:08.8194186+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:20:27.4257353+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:20:30.2388318+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:21:15.5453373+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:21:16.0895628+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:21:26.7818082+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:27:42.4221278+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:27:45.6348012+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:27:57.4886503+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:53:27.5524797+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:54:02.0627196+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T14:54:29.9177555+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T16:20:30.9429637+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T16:23:26.5997364+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T16:23:29.8351176+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T16:23:59.8686733+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T16:25:40.9597069+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T16:25:43.8326009+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T16:25:52.5566249+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T16:27:22.9295029+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-18T16:27:38.9160840+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:36:30.0447643+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:36:32.7905540+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:40:11.7794438+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:40:13.9615508+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:40:49.8814072+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:43:03.0336457+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:43:05.8242585+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:43:16.8735879+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:44:28.8588069+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:44:29.4167325+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:44:38.8493855+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:45:57.4419342+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:46:04.1291893+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:46:20.1295713+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:49:03.4185224+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:49:06.1335408+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:49:13.8659099+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T09:49:54.9125751+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T10:11:25.3008418+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T10:11:27.3543370+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T10:11:34.4986636+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T10:12:29.6302222+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T10:12:46.2775016+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T10:13:11.4636995+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T10:13:14.0009476+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T10:13:16.4188292+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-21T10:15:17.4534547+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:25:13.5129114+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:25:16.3407313+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:25:33.0551757+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:25:33.0721639+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:25:33.2777593+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:25:33.3339414+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:25:33.3643647+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:25:33.3754500+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:25:33.4045803+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:25:33.4135891+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:25:33.4502717+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:26:30.1791459+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:26:30.1968503+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:26:30.2248093+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:26:30.2456167+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:26:30.2840864+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:26:30.2942156+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:26:30.3243141+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:26:30.3355371+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:26:30.3647990+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:27:33.8034305+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:27:33.8216274+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:27:33.8770034+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:27:33.8966406+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:27:33.9301528+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:27:33.9498095+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:27:33.9920732+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:27:34.0043122+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:27:34.0384975+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:28:48.9476861+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:28:50.8917870+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:28:56.7535944+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:28:56.7671905+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:28:56.9597508+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:28:57.0436015+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:28:57.0882433+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:28:57.1116672+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:28:57.1482219+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:28:57.1604190+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:28:57.2037681+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:30:14.8492419+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:30:14.8780416+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:30:14.9034698+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:30:14.9200291+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:30:14.9456699+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:30:14.9556180+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:30:14.9826049+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:30:14.9918868+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:30:15.0151906+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:30:50.2498515+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:30:56.0080767+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:31:13.7412945+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:31:19.7889313+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:31:20.4210121+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:31:20.4318441+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/favicon-32x32.png","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:31:26.5597358+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:31:26.5914543+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:31:42.0019566+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:31:42.0337185+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:00.7319997+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:00.7629904+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:02.2739077+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:02.3070317+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:12.9968433+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:13.0286163+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:14.3662422+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:14.3977392+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:15.1431138+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:15.1728508+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:15.7988007+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:15.8260009+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:16.3387522+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:16.3680256+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:16.7898471+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:16.8211763+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:17.3207921+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:17.3506092+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:17.8264897+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:17.8553991+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:20.9044140+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:20.9351125+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:24.0667660+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:24.0942395+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:26.0571941+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:26.1590256+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:31.6544374+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:31.6849555+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:33.4777282+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:33.5081635+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:45.7557816+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:45.7891893+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:49.2878282+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:49.3179957+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:50.0798993+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:32:50.1119328+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.User.ISignInManagerService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:33:57.1958157+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:33:58.8863656+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:34:14.0503982+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:34:14.0666783+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:34:26.4444263+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:34:26.4780258+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:34:26.4842414+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:34:28.1237976+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:34:28.1322274+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:34:29.0810447+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:34:29.0900854+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:34:30.3956004+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:34:58.3480355+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:34:58.3554166+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:35:22.3418526+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:35:23.2219376+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:35:23.2323094+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:35:23.8680583+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:35:23.8876923+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:35:23.9174397+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:35:23.9408374+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:35:23.9840610+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:42:11.0948657+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:42:12.7835939+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:42:22.6118645+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:42:22.6221198+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:42:43.3421573+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:42:43.3570591+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:42:50.2500002+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:42:50.2618916+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:42:50.2683256+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:42:50.6368842+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:42:50.6464062+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:42:51.0295928+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:44:14.2822187+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:44:14.2897449+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:44:14.5876093+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:44:14.9210217+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:44:14.9302665+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:44:15.2750024+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:44:15.2836094+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:44:15.6175712+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:45:07.7925099+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:45:09.4087811+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:45:29.7286359+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:45:29.7456416+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:45:39.6984627+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:45:39.7387208+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:45:40.2988968+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:45:40.3096563+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:45:40.7207116+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:45:52.3309877+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:45:59.7299934+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:47:41.0099485+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:47:41.0217009+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:49:27.1784422+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:49:28.7480315+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:50:02.3697221+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T18:50:02.3776567+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:11:56.1609668+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:11:58.1648111+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:16:49.6407988+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:16:49.6592737+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:16:50.9640554+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:17:53.2248507+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:17:53.2409748+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:24:36.1515234+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:24:36.1584333+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:25:40.1562364+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:25:40.1652813+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:26:44.5499254+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:26:44.5587262+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:26:44.9790937+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:39:03.7954422+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:39:03.8361743+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T19:39:04.2002937+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:05:19.6736768+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:05:19.6809320+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:05:20.1658007+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:05:29.8018747+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:05:29.8133193+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:05:30.1637997+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:05:30.1725251+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:05:30.5207284+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:05:30.5292898+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:05:30.8871998+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:26:05.1448804+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:26:05.1596111+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:26:05.5524819+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:29:45.4414379+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:29:45.4570618+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:29:45.9207581+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:32:30.6797535+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:32:30.6874370+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:32:31.1548661+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:34:34.3159924+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:34:34.3225993+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:35:16.5011794+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:35:16.5087030+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:37:51.5941667+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:37:51.6085517+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:40:40.4638121+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:40:40.4714435+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-25T20:40:40.8287689+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T10:53:34.2139964+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T10:53:38.5274588+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T10:57:32.6623608+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T10:57:32.6713995+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:14:35.9057752+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:14:35.9196325+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:14:56.3371348+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:14:56.3593201+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:14:56.8096434+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:24:36.2344512+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:24:36.2566947+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:27:05.7446646+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:27:07.7908478+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:27:19.5584521+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:27:19.5710103+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:27:21.5905040+03:00","Level":"Error","MessageTemplate":"Unexpected character encountered while parsing value: e. Path '', line 0, position 0.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:28:16.6961063+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:28:16.7028588+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:28:17.2907767+03:00","Level":"Error","MessageTemplate":"Unexpected character encountered while parsing value: e. Path '', line 0, position 0.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:29:12.6042688+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:29:12.6293222+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:29:33.9324289+03:00","Level":"Error","MessageTemplate":"Unexpected character encountered while parsing value: e. Path '', line 0, position 0.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:34:24.7588432+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:34:26.6667820+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:35:08.8475399+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:35:08.8657024+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:37:01.9790081+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:37:02.0133727+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:37:19.2764727+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-27T11:37:19.7684959+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:50:20.7062192+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:50:23.8203867+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:55:12.7842876+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:55:12.8017297+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:56:40.4979690+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:56:40.5833100+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:56:41.0879315+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:56:41.1002200+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:56:41.5055370+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:56:41.5252617+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:56:41.9735471+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:56:41.9857920+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T09:56:42.4364314+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:01:15.4317138+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:01:16.0483262+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:01:33.0087136+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:01:33.2297035+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:01:35.6160431+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:01:35.8174884+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:01:40.4664426+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:01:40.6658372+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:01:43.8841509+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:01:43.8895710+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:01:44.0653890+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:01:44.5328884+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:03:03.1630263+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:03:03.2682189+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:06.5780096+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:06.5862760+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:34.1154363+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:34.2277084+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:38.6361985+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:38.7708286+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:41.2008334+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:41.2886284+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:42.1880257+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:42.2858159+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:43.0580788+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:43.1536268+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:43.7335635+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T10:05:43.8431356+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T12:38:27.6849173+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T12:38:27.8467215+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T12:38:31.3625732+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T12:38:31.4596006+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T12:38:56.6575206+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T12:38:56.7469127+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:05:12.4196356+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:05:12.4327199+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:05:49.0513888+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:05:49.3039594+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:05:52.0173140+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:05:52.1075180+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:05:52.1484391+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:05:52.1921512+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:06:10.6970915+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:06:10.7448309+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:06:10.7860311+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:06:10.8284407+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:18:33.5588111+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:18:48.1535030+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:19:15.5701738+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:19:16.2937895+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:21:02.0503958+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:21:13.0420734+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:21:15.6100736+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:21:15.6100778+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:21:17.3910509+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:21:26.6523237+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:21:26.7213428+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:21:26.7781943+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:21:26.8304140+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:22:48.5681236+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:22:50.2422235+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:23:22.1350114+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:23:22.4221849+03:00","Level":"Error","MessageTemplate":"Unexpected character encountered while parsing value: S. Path '', line 0, position 0.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:23:25.8562228+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:23:25.9564415+03:00","Level":"Error","MessageTemplate":"Unexpected character encountered while parsing value: S. Path '', line 0, position 0.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:23:25.9792737+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:23:26.0787489+03:00","Level":"Error","MessageTemplate":"Unexpected character encountered while parsing value: S. Path '', line 0, position 0.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:23:26.0965269+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:23:26.1906205+03:00","Level":"Error","MessageTemplate":"Unexpected character encountered while parsing value: S. Path '', line 0, position 0.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:24:24.9669886+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:24:25.0954677+03:00","Level":"Error","MessageTemplate":"Unexpected character encountered while parsing value: S. Path '', line 0, position 0.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:24:34.3583707+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:24:34.4689658+03:00","Level":"Error","MessageTemplate":"Unexpected character encountered while parsing value: S. Path '', line 0, position 0.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:24:34.4884986+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:24:34.5853801+03:00","Level":"Error","MessageTemplate":"Unexpected character encountered while parsing value: S. Path '', line 0, position 0.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:24:34.5952728+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:24:34.6915539+03:00","Level":"Error","MessageTemplate":"Unexpected character encountered while parsing value: S. Path '', line 0, position 0.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:35:56.7730986+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T13:35:58.5152328+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T14:50:31.1674627+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T14:50:31.9358441+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T14:50:34.5681664+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T14:50:43.8636310+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T14:50:43.9714558+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T14:51:43.8824849+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T14:58:58.6888514+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T14:58:58.8147680+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T16:06:25.4393635+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T16:08:18.7144118+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T16:08:18.8653359+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-29T16:12:36.5766090+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-31T13:57:57.7008131+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-31T13:58:00.0773958+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-31T13:59:24.4494457+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-31T13:59:24.4953262+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-31T13:59:58.6052671+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-31T13:59:59.1270368+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-01-31T14:01:09.9662280+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T10:13:25.6269833+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T10:13:27.7695790+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T10:13:43.9375836+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T10:13:43.9535724+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T10:13:51.7481120+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T10:13:51.7868290+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T10:13:51.7942924+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T10:13:55.4231933+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T10:13:55.4298940+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T10:13:55.7510224+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T10:13:55.7592951+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T10:13:56.0949055+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T12:53:02.9299065+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-06T12:53:04.4640899+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T09:59:12.0369713+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T09:59:13.9418964+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:00:02.6648008+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:00:02.6805603+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:02:10.9735040+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:02:10.9827874+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:05:13.3637008+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:05:13.3757063+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:07:43.8580922+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:07:43.8729683+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:10:56.9910748+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:10:58.6313505+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:11:43.6091300+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:11:43.6269349+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:12:07.6546580+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:12:08.1361294+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:22:10.2854124+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:22:10.2985576+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:22:37.7561015+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:22:37.8462269+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:48:56.8572608+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:48:56.8669935+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:48:57.3675869+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:48:57.4038308+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:48:57.7627228+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:48:57.7726465+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:48:58.1657707+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:48:58.1783315+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:48:58.5316316+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:49:58.5767534+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:49:58.5976838+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:50:07.2743153+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:50:07.3638810+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:57:17.3981465+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:57:18.3349241+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T10:57:18.3458031+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:02:20.5511264+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:02:23.0165766+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:51:53.5403410+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:51:53.5761271+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:54:40.5695752+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:54:40.5762402+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:54:51.2371407+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:54:51.5746549+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:55:10.0716557+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:55:10.0806980+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:55:56.2202755+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:55:56.2278043+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:56:07.8130340+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:56:07.9411980+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:56:52.9017293+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T11:56:52.9167025+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T13:02:02.7800554+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T13:02:02.7947126+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T13:02:06.1593397+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T13:02:06.3002894+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T13:05:40.6115559+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T13:05:40.6546137+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T13:06:15.8599868+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T13:06:15.9659439+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T13:07:01.1210659+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T13:07:01.2648992+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T13:07:12.5164359+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-07T13:07:12.5245670+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}

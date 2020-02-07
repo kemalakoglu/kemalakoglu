@@ -3,8 +3,9 @@ using System.Net;
 using System.Net.Http;
 using System.Security.Authentication;
 using System.Threading.Tasks;
-using Core.Infrastructure.Application.Contract.DTO;
+
 using Core.Infrastructure.Core.Resources;
+using Core.Infrastructure.Domain.Contract.DTO;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 using Serilog;

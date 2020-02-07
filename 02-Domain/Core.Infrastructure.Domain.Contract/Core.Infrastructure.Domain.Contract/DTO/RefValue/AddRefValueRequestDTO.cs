@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
-using Core.Infrastructure.Application.Contract.DTO.Base;
+using Core.Infrastructure.Domain.Contract.DTO.Base;
 
-namespace Core.Infrastructure.Application.Contract.DTO.RefValue
+namespace Core.Infrastructure.Domain.Contract.DTO.RefValue
 {
     [DataContract]
     public class AddRefValueRequestDTO : BaseDTO

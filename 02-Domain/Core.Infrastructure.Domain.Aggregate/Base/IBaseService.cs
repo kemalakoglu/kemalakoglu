@@ -1,4 +1,4 @@
-﻿using Core.Infrastructure.Application.Contract.DTO;
+﻿using Core.Infrastructure.Core.Helper;
 
 namespace Core.Infrastructure.Domain.Aggregate.Base
 {

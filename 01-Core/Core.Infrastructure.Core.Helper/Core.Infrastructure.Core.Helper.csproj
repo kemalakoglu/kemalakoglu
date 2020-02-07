@@ -10,7 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\03-Application\Core.Infrastructure.Application.Contract\Core.Infrastructure.Application.Contract.csproj" />
     <ProjectReference Include="..\Core.Infrastructure.Core.Resources\Core.Infrastructure.Core.Resources.csproj" />
   </ItemGroup>
 

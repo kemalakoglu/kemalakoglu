@@ -1,5 +1,6 @@
 ﻿using System;
 using AutoMapper;
+using Core.Infrastructure.Domain.Aggregate.User;
 using Core.Infrastructure.Domain.Context.Context;
 using Core.Infrastructure.Presentation.API.Extensions;
 using FluentValidation.AspNetCore;
@@ -37,6 +38,9 @@ namespace Core.Infrastructure.Presentation.API
             services.ConfigureFluentValidation();
             services.ConfigureRedisCache();
             Mapping.ConfigureMapping();
+            //services.Configure<PasswordHasherOptions>(options =>
+            //    options.CompatibilityMode = PasswordHasherCompatibilityMode.IdentityV2
+            //);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,6 +61,7 @@ namespace Core.Infrastructure.Presentation.API
             app.UseSwagger();
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/CoreInfrastructure/swagger.json", "CoreInfrastructure"); });
+            app.UseIdentity();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

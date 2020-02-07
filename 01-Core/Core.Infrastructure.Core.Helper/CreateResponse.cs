@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Core.Infrastructure.Application.Contract.DTO;
 using Core.Infrastructure.Core.Resources;
 using Serilog;
 using Serilog.Events;

@@ -1,4 +1,5 @@
 ﻿using Core.Infrastructure.Domain.Aggregate.RefTypeValue;
+using Core.Infrastructure.Domain.Aggregate.User;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -7,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace Core.Infrastructure.Domain.Context.Context
 {
-    public class InfrastructureContext : IdentityDbContext<IdentityUser>
+    public class InfrastructureContext : IdentityDbContext<ApplicationUser>
     {
         //private readonly ILazyLoader lazyLoader;
         public InfrastructureContext()

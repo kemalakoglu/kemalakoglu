@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Infrastructure.Application.Contract.DTO.RefValue;
+
 using Core.Infrastructure.Application.Contract.Services;
 using Core.Infrastructure.Domain.Aggregate.RefTypeValue;
+using Core.Infrastructure.Domain.Contract.DTO.RefValue;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Core.Infrastructure.Presentation.API.Controllers
