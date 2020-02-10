@@ -108,8 +108,10 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         public async Task<LoginResponseDTO> Logout([FromBody] LogoutDTO model)
         {
             var appUser = await this.appService.GetUserByEmail(model.Email);
+            var removeTokenResult = await
+                this.appService.RemoveAuthenticationTokenAsync(appUser, appUser.PasswordHash, appUser.PasswordHash);
             var result = await this.appService.RemoveLoginAsync(appUser, appUser.PasswordHash, appUser.SecurityStamp);
-            if (result.Succeeded)
+            if (result.Succeeded && removeTokenResult.Succeeded)
             await this.appService.SignOutAsync();
 
             if (result.Succeeded)

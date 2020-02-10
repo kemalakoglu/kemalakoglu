@@ -108,6 +108,16 @@ namespace Core.Infrastructure.Application.Service
             RemoveLoginAsync(ApplicationUser appUser, string loginProvider, string providerKey) =>
             await this.userManagerService.RemoveLoginAsync(appUser, loginProvider, providerKey);
 
+        /// <summary>
+        /// Removes the token asynchronous.
+        /// </summary>
+        /// <param name="appUser">The application user.</param>
+        /// <param name="loginProvider">The login provider.</param>
+        /// <param name="tokenName">Name of the token.</param>
+        /// <returns></returns>
+        public async Task<IdentityResult> RemoveAuthenticationTokenAsync(ApplicationUser appUser, string loginProvider, string tokenName) =>
+            await this.userManagerService.RemoveAuthenticationTokenAsync(appUser, loginProvider, tokenName);
+
         #endregion
         #region RefTypeValue Aggregate
 

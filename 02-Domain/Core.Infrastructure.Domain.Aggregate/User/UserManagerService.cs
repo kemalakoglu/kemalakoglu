@@ -1,4 +1,5 @@
 ﻿using System.Runtime.CompilerServices;
+using System.Threading;
 using System.Threading.Tasks;
 using Core.Infrastructure.Core.Contract;
 using Core.Infrastructure.Domain.Aggregate.User;
@@ -63,5 +64,15 @@ namespace Core.Infrastructure.Domain.Aggregate.User
         /// <returns></returns>
         public async Task<IdentityResult> RemoveLoginAsync(ApplicationUser appUser, string loginProvider,
             string providerKey) => await this.userManager.RemoveLoginAsync(appUser, loginProvider, providerKey);
+
+        /// <summary>
+        /// Removes the token asynchronous.
+        /// </summary>
+        /// <param name="appUser">The application user.</param>
+        /// <param name="loginProvider">The login provider.</param>
+        /// <param name="tokenName">Name of the token.</param>
+        /// <returns></returns>
+        public async Task<IdentityResult> RemoveAuthenticationTokenAsync(ApplicationUser appUser, string loginProvider,
+            string tokenName) => await this.userManager.RemoveAuthenticationTokenAsync(appUser, loginProvider, tokenName);
     }
 }

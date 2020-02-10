@@ -10751,3 +10751,128 @@
 {"Timestamp":"2020-02-07T13:07:01.2648992+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
 {"Timestamp":"2020-02-07T13:07:12.5164359+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
 {"Timestamp":"2020-02-07T13:07:12.5245670+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T09:46:33.5103303+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T09:46:36.2311978+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T09:47:13.7396129+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T09:47:13.7545207+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T09:47:17.8085578+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T09:47:18.1323966+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T09:47:21.3425280+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T09:47:21.3492477+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:09:57.6257013+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:09:59.4934385+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:11:29.9813367+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:11:30.0293253+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:12:28.9752529+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:12:28.9881446+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:15:29.0156137+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:17:05.3585860+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:17:05.3817807+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:20:40.7528718+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:20:42.6769877+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:23:17.3723278+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:23:17.3875269+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:23:39.8044590+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:23:39.8129625+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:23:56.2120118+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:23:57.0144623+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:48:40.2969591+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:48:42.0089642+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:48:53.3279439+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:48:53.3388895+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:48:58.9717595+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:49:06.5012290+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:49:06.5089695+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:49:48.0383126+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:49:48.0521224+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:49:50.0842495+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:50:01.3417977+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:50:01.3707956+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:50:02.9888250+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:50:03.0002141+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:50:04.0148697+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:50:04.0254936+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:50:05.0087417+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:50:17.8205510+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:50:17.8382114+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:50:20.8118900+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:51:02.3483577+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:51:02.3704699+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:51:07.6194308+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:51:11.4091170+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T10:51:11.4168720+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:19.0896015+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:20.6538551+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:43.0150466+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:43.0253642+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:47.8302191+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:47.8403084+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:48.1744912+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:50.6325686+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:50.6425223+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:50.6589894+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:50.8440506+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:51.2898899+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:57.9299985+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:46:57.9397343+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:47:09.2462141+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:47:09.2814641+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:47:09.2885849+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:47:10.5416957+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:47:10.5485710+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:47:11.2887631+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:47:11.2958553+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:47:12.0593680+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:22.0121628+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:22.0137226+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:26.7409339+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:26.7409339+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:26.7702423+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:26.8048130+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:29.6317380+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:29.6573246+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:29.6578623+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:30.3117712+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:31.0365020+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:31.0594573+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:31.0601920+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:31.7491852+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:32.4390007+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:32.4621221+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:36.9154455+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:36.9213796+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:38.8822552+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:48:38.8897711+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:26.0031778+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:26.0158203+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:28.3904220+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:28.3978723+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:28.4678989+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:30.6338578+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:30.6345128+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:30.6709431+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:30.8175278+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:30.9449542+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:36.0317987+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:36.0393029+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:36.1798918+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:46.5966017+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:46.6039732+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:49:52.1961505+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:00.0396608+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:00.0476937+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:00.1229091+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:14.8644909+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:14.8717130+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:14.9669294+03:00","Level":"Information","MessageTemplate":"Update Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:21.5311593+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:21.5411279+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/UpdateRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:21.6244592+03:00","Level":"Information","MessageTemplate":"Update Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:27.4691679+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:27.4701037+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:27.4815691+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:27.4828889+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:27.6407341+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:27.7439429+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:30.0962651+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T11:50:30.1699369+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}

@@ -174,6 +174,16 @@ namespace Core.Infrastructure.Application.Contract.Services
         /// <returns></returns>
         Task<IdentityResult> RemoveLoginAsync(ApplicationUser appUser, string loginProvider, string providerKey);
 
+        /// <summary>
+        /// Removes the token asynchronous.
+        /// </summary>
+        /// <param name="appUser">The application user.</param>
+        /// <param name="loginProvider">The login provider.</param>
+        /// <param name="tokenName">Name of the token.</param>
+        /// <returns></returns>
+        Task<IdentityResult> RemoveAuthenticationTokenAsync(ApplicationUser appUser, string loginProvider,
+            string tokenName);
+
         #endregion
     }
 }

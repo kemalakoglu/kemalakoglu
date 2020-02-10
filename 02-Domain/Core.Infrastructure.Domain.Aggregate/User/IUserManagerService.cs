@@ -11,5 +11,6 @@ namespace Core.Infrastructure.Domain.Contract.Service
         Task<ApplicationUser> FindByLoginAsync(string provider, string key);
         Task<IdentityResult> AddLoginAsync(ApplicationUser appUser, UserLoginInfo userLoginInfo);
         Task<IdentityResult> RemoveLoginAsync(ApplicationUser appUser, string loginProvider, string providerKey);
+        Task<IdentityResult> RemoveAuthenticationTokenAsync(ApplicationUser appUser, string loginProvider, string tokenName);
     }
 }

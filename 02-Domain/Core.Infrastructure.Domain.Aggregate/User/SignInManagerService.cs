@@ -58,7 +58,7 @@ namespace Core.Infrastructure.Domain.Aggregate.User
                 Name = user.PasswordHash,
                 Value = token
             });
-
+         
             ExternalLoginInfo loginInfo= new ExternalLoginInfo(new ClaimsPrincipal(), user.PasswordHash, user.SecurityStamp, token);
             loginInfo.AuthenticationTokens = tokens;
             return await this.signInManager.UpdateExternalAuthenticationTokensAsync(loginInfo);

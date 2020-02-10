@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Core.Infrastructure.Application.Contract.Services;
 using Core.Infrastructure.Domain.Aggregate.RefTypeValue;
 using Core.Infrastructure.Domain.Contract.DTO.RefValue;
+using Core.Infrastructure.Presentation.API.Extensions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Core.Infrastructure.Presentation.API.Controllers
@@ -25,6 +26,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <param name="request"></param>
         /// <returns></returns>
         [Route("api/RefValue/GeRefValuesByRefTypeId")]
+        [JwtAuthentication]
         [HttpGet]
         public IActionResult GeRefValuesByRefTypeId(long refTypeId)
         {
@@ -37,6 +39,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <param name="request"></param>
         /// <returns></returns>
         [Route("api/RefValue/AddRefValue")]
+        [JwtAuthentication]
         [HttpPost]
         public IActionResult AddRefValue([FromBody] AddRefValueRequestDTO request)
         {
@@ -48,6 +51,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// </summary>
         /// <returns></returns>
         [Route("api/RefValue/GetRefValuesByPage")]
+        [JwtAuthentication]
         [HttpGet]
         public IActionResult GetRefValuesByPage()
         {
@@ -59,6 +63,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// </summary>
         /// <returns></returns>
         [Route("api/RefValue/DeleteRefValue")]
+        [JwtAuthentication]
         [HttpPost]
         public IActionResult DeleteRefValue([FromBody] RefValueDTO request)
         {
@@ -66,6 +71,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         }
 
         [Route("api/RefValue/UpdateRefValue")]
+        [JwtAuthentication]
         [HttpPost]
         public IActionResult UpdateRefValue([FromBody]RefValueDTO request)
         {
@@ -77,6 +83,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// </summary>
         /// <returns></returns>
         [Route("api/RefValue/SoftDeleteRefValue")]
+        [JwtAuthentication]
         [HttpPost]
         public IActionResult SoftDeleteRefValue([FromBody] RefValueDTO request)
         {

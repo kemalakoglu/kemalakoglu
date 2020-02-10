@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Core.Infrastructure.Application.Contract.Services;
 using Core.Infrastructure.Domain.Contract.DTO.RefType;
+using Core.Infrastructure.Presentation.API.Extensions;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,6 +27,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <param name="request"></param>
         /// <returns></returns>
         [Route("api/RefType/AddRefType")]
+        [JwtAuthentication]
         [HttpPost]
         public IActionResult AddRefType([FromBody]AddRefTypeRequestDTO request)
         {
@@ -38,6 +40,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <param name="request"></param>
         /// <returns></returns>
         [Route("api/RefType/UpdateRefType")]
+        [JwtAuthentication]
         [HttpPost]
         public IActionResult UpdateRefType([FromBody]RefTypeDTO request)
         {
@@ -50,6 +53,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <param name="request"></param>
         /// <returns></returns>
         [Route("api/RefType/GetRefTypesByParent")]
+        [JwtAuthentication]
         [HttpGet]
         public IActionResult GetRefTypesByParent(long parentId)
         {
@@ -62,6 +66,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <param name="request"></param>
         /// <returns></returns>
         [Route("api/RefType/DeleteRefType")]
+        [JwtAuthentication]
         [HttpGet]
         public IActionResult DeleteRefType(long id)
         {
@@ -74,6 +79,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <param name="request"></param>
         /// <returns></returns>
         [Route("api/RefType/SoftDeleteRefType")]
+        [JwtAuthentication]
         [HttpGet]
         public IActionResult SoftDeleteRefType(long id)
         {
