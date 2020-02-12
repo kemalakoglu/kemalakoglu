@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
-using Core.Infrastructure.Application.Contract.DTO.Base;
-using Core.Infrastructure.Application.Contract.DTO.RefType;
+using Core.Infrastructure.Domain.Contract.DTO.Base;
+using Core.Infrastructure.Domain.Contract.DTO.RefType;
 
-namespace Core.Infrastructure.Application.Contract.DTO.RefValue
+namespace Core.Infrastructure.Domain.Contract.DTO.RefValue
 {
     [DataContract]
     public class RefValueDTO : BaseDTO

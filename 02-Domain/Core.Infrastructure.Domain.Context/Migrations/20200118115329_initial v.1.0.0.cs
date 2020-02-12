@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Core.Infrastructure.Domain.Context.Migrations
 {
-    public partial class Initialv10 : Migration
+    public partial class initialv100 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -187,7 +187,8 @@ namespace Core.Infrastructure.Domain.Context.Migrations
                     InsertDate = table.Column<DateTime>(nullable: true),
                     UpdateDate = table.Column<DateTime>(nullable: true),
                     IsActive = table.Column<bool>(nullable: false),
-                    Value = table.Column<string>(nullable: true),
+                    Value = table.Column<string>(type: "nvarchar(MAX)", nullable: true),
+                    Name = table.Column<string>(nullable: true),
                     RefTypeId = table.Column<long>(nullable: true)
                 },
                 constraints: table =>

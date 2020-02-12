@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Core.Infrastructure.Application.Contract.DTO;
-using Core.Infrastructure.Application.Contract.DTO.RefValue;
+using Core.Infrastructure.Core.Helper;
 using Core.Infrastructure.Domain.Aggregate.Base;
+using Core.Infrastructure.Domain.Contract.DTO.RefValue;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {

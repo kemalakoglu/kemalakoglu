@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
-using Core.Infrastructure.Application.Contract.DTO;
 using Core.Infrastructure.Core.Resources;
 using Dapper;
 

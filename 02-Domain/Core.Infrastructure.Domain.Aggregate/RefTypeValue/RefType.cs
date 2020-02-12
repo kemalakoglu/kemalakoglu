@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
-using Core.Infrastructure.Application.Contract.DTO.RefType;
+
 using Core.Infrastructure.Domain.Aggregate;
 using Core.Infrastructure.Domain.Aggregate.Base;
 using Microsoft.EntityFrameworkCore.Infrastructure;

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\01-Core\Core.Infrastructure.Core.Contract\Core.Infrastructure.Core.Contract.csproj" />
     <ProjectReference Include="..\..\01-Core\Core.Infrastructure.Core.Helper\Core.Infrastructure.Core.Helper.csproj" />
-    <ProjectReference Include="..\..\03-Application\Core.Infrastructure.Application.Contract\Core.Infrastructure.Application.Contract.csproj" />
+    <ProjectReference Include="..\Core.Infrastructure.Domain.Contract\Core.Infrastructure.Domain.Contract\Core.Infrastructure.Domain.Contract.csproj" />
   </ItemGroup>
 
 </Project>
