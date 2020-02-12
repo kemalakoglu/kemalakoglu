@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Core.Infrastructure.Domain.Aggregate.User
 {
-    public class SignInManagerService :ISignInManagerService
+    public class SignInManagerService : ISignInManagerService
     {
         private readonly SignInManager<ApplicationUser> signInManager;
         private readonly IUnitOfWork uow;
@@ -27,7 +27,8 @@ namespace Core.Infrastructure.Domain.Aggregate.User
         /// </summary>
         /// <param name="user">The user.</param>
         /// <param name="isPersistance">if set to <c>true</c> [is persistance].</param>
-        public async Task SignInAsync(ApplicationUser user, bool isPersistance) => await signInManager.SignInAsync(user, isPersistance);
+        public async Task SignInAsync(ApplicationUser user, bool isPersistance) =>
+            await signInManager.SignInAsync(user, isPersistance);
 
         /// <summary>
         /// Passwords the sign in asynchronous.
@@ -37,7 +38,9 @@ namespace Core.Infrastructure.Domain.Aggregate.User
         /// <param name="isPErsistance">if set to <c>true</c> [is p ersistance].</param>
         /// <param name="lockoutOnFailure">if set to <c>true</c> [lockout on failure].</param>
         /// <returns></returns>
-        public async Task<SignInResult> PasswordSignInAsync(string email, string password, bool isPersistance, bool lockoutOnFailure) => await this.signInManager.PasswordSignInAsync(email, password, isPersistance, lockoutOnFailure);
+        public async Task<SignInResult> PasswordSignInAsync(string email, string password, bool isPersistance,
+            bool lockoutOnFailure) =>
+            await this.signInManager.PasswordSignInAsync(email, password, isPersistance, lockoutOnFailure);
 
         /// <summary>
         /// Logouts this instance.
@@ -52,16 +55,23 @@ namespace Core.Infrastructure.Domain.Aggregate.User
         /// <returns></returns>
         public async Task<IdentityResult> UpdateExternalAuthenticationTokensAsync(ApplicationUser user, string token)
         {
-            List<AuthenticationToken> tokens= new List<AuthenticationToken>();
+            List<AuthenticationToken> tokens = new List<AuthenticationToken>();
             tokens.Add(new AuthenticationToken
             {
                 Name = user.PasswordHash,
                 Value = token
             });
-         
-            ExternalLoginInfo loginInfo= new ExternalLoginInfo(new ClaimsPrincipal(), user.PasswordHash, user.SecurityStamp, token);
+            ExternalLoginInfo loginInfo =
+                new ExternalLoginInfo(new ClaimsPrincipal(), user.PasswordHash, user.SecurityStamp, token);
             loginInfo.AuthenticationTokens = tokens;
             return await this.signInManager.UpdateExternalAuthenticationTokensAsync(loginInfo);
         }
+
+        /// <summary>
+        /// Refreshes the sign in asynchronous.
+        /// </summary>
+        /// <param name="appUser">The application user.</param>
+        public async void RefreshSignInAsync(ApplicationUser appUser) =>
+            await this.signInManager.RefreshSignInAsync(appUser);
     }
 }

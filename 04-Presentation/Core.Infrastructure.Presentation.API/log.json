@@ -10876,3 +10876,254 @@
 {"Timestamp":"2020-02-10T11:50:27.7439429+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
 {"Timestamp":"2020-02-10T11:50:30.0962651+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
 {"Timestamp":"2020-02-10T11:50:30.1699369+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:22:34.4254516+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:22:35.9162504+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:23:01.7491464+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:23:01.7598160+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:23:05.8195357+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:23:15.6462914+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:23:15.6759227+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:23:16.3500075+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:23:16.3668693+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:23:17.4584020+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:23:17.4708175+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:23:18.1319089+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:23:24.5224212+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:24:06.9835767+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:24:07.0006958+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:24:10.5565468+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:24:10.5661607+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:24:11.3005802+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:24:11.3145754+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:24:11.9988883+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:23.3232605+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:24.1279742+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:24.2663393+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:24.3094764+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:24.3118157+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:48.3625317+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:48.3672279+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:48.9795574+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:48.9816590+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:49.0259250+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:49.0309224+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:49.0813029+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:26:49.0841161+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:27:14.6111844+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:27:14.6127282+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:27:14.7778808+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:27:14.7795648+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:27:14.8065671+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:27:14.8214006+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:27:14.9016308+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:27:14.9047513+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:11.0258960+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:11.0271275+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:11.1507663+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:11.1521855+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:11.1876828+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:11.1902696+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:11.2062663+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:11.2077347+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:37.2092936+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:37.2132391+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:37.4408133+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:37.4442180+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:37.4908170+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:37.4930201+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:37.5136894+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:37.5153014+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:49.8013686+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:49.8111654+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:29:50.5764108+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:30:00.0002269+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:30:00.0074243+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:30:11.5241531+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:30:46.8468910+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:30:46.8601319+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:30:49.8520948+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:30:49.8722655+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:30:50.4168208+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:19.8350632+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:22.2622735+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:23.9685005+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:23.9822539+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:44.6486509+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:44.7002608+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:44.7150442+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:46.4875037+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:46.5086917+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:47.5670072+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:47.5803071+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:48.5296017+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:54.9638179+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:39:54.9712791+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:56:29.5597815+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:56:31.1705324+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:56:43.4547728+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:56:43.4634591+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:58:02.1275984+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:58:02.9364368+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:58:02.9461195+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:58:03.0905847+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:58:03.1027173+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:58:03.1049266+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:58:03.1140180+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:58:03.1151964+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:58:33.9815313+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T13:58:33.9854310+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:26:57.2524534+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:26:59.0017697+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:27:19.4482422+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:27:19.4627845+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:27:22.9602452+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:27:22.9685437+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:28:27.5905678+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:28:28.4092195+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:28:28.4196375+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:28:28.5637424+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:28:28.5746976+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:28:28.5767540+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:31:02.0914178+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:31:03.5319657+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:31:11.6292444+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:31:11.6396955+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:39:43.6712079+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:39:44.5326672+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:39:44.5426116+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:39:44.6893307+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:39:44.7020726+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:39:44.7044439+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:43:47.1574452+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:43:48.6585330+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:43:55.8508574+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:43:55.8642364+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:52:46.4956453+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:52:47.3061233+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:52:47.3165983+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:52:47.4683994+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:52:47.4814810+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:52:47.4839357+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:52:47.4932357+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:52:47.4942945+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:54:06.4286572+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:54:08.3143346+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:54:12.6539771+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:54:12.6642128+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:55:28.9495398+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:55:29.7282177+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:55:29.7381296+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:55:29.8914051+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:55:29.9027642+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:55:29.9049058+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:55:29.9132172+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T16:55:29.9143466+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T21:06:59.2368126+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T21:06:59.2438060+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T21:06:59.2479098+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T21:06:59.2867635+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T21:06:59.2888275+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T21:06:59.3131565+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T21:06:59.3150495+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T21:06:59.3305404+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-10T21:06:59.3322875+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T11:39:48.6911734+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T11:39:48.6985851+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T11:39:48.7127846+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T11:39:48.8325982+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T11:39:48.8342803+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T11:39:48.9257068+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T11:39:48.9271356+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T11:39:48.9494675+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T11:39:48.9517715+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:11:09.0148872+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:11:10.8238585+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:28:05.0910579+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:28:05.9188320+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:28:05.9287541+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:28:06.0907785+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:28:06.1062210+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:28:06.1091292+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:28:06.1218627+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:28:06.1235491+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:29:23.0952441+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:29:24.8001593+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:29:36.1781235+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:29:36.1890462+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:30:08.1734345+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:30:09.2802203+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:30:09.2936042+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:30:09.4708023+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:30:09.4844535+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:30:09.4873000+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:30:09.4975048+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:30:09.4994537+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:34:33.3265951+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:34:34.9717840+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:44:46.4636249+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:44:47.8857861+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:44:47.8999867+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:44:48.1758532+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:44:48.1985670+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:44:48.2025604+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:44:48.2202075+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T13:44:48.2222483+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:39:50.6792945+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:39:53.5377521+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:42:06.1905015+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:42:06.2120413+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:43:42.7989835+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:43:42.8359178+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:43:42.8573423+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:43:43.6919348+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:43:43.7121488+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:43:44.4817425+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:43:44.4920358+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:43:45.1963375+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:44:31.5080711+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:44:32.9297714+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:44:35.4538424+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:44:35.4603612+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:44:35.5452726+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui.css","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:44:35.5453694+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui-bundle.js","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:44:35.5467312+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui-standalone-preset.js","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:45:22.7090782+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:45:23.5459670+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:45:23.5563015+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:45:23.7085863+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:45:23.7192897+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-11T16:45:23.7220885+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T08:08:38.0478018+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T08:08:39.4743592+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T08:08:39.4928163+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T08:08:39.7289957+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T08:08:39.7652979+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T08:08:39.7686588+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T08:08:39.7806344+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T08:08:39.7824398+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T08:08:39.7916854+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T08:08:39.7934621+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:43:26.5219730+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:43:28.5731402+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:43:37.2093841+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:43:37.2193362+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:43:38.3077932+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:44:06.1858058+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:44:06.1996943+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:44:35.0677164+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:45:19.2955211+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:45:20.9736124+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:45:28.6708486+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:45:28.6881708+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:46:04.4187372+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:46:14.7505736+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:46:15.5117144+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:46:16.6952204+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:46:16.7165547+03:00","Level":"Error","MessageTemplate":"The method or operation is not implemented.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:46:38.4880040+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:46:40.0841267+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:46:47.3458098+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:46:47.3648431+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:46:48.7079743+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:46:57.1431453+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}
+{"Timestamp":"2020-02-12T10:46:57.1512623+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Logout","Properties":{"Application":"app"}}

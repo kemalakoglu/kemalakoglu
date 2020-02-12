@@ -34,6 +34,7 @@ namespace Core.Infrastructure.Presentation.API
             services.ConfigureSwagger();
             services.AddAutoMapper();
             services.ConfigureApplicationService();
+            services.ConfigureAttributes();
             services.ConfigureDomainService();
             services.ConfigureFluentValidation();
             services.ConfigureRedisCache();

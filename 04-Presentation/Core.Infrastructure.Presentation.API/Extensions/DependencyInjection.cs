@@ -8,6 +8,7 @@ using Core.Infrastructure.Domain.Context.Context;
 using Core.Infrastructure.Domain.Contract.Service;
 using Core.Infrastructure.Domain.Repository;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -42,6 +43,11 @@ namespace Core.Infrastructure.Presentation.API.Extensions
         public static void ConfigureApplicationService(this IServiceCollection services)
         {
             services.AddScoped<ICoreApplicationService, CoreApplicationService>();
+        }
+
+        public static void ConfigureAttributes(this IServiceCollection services)
+        {
+            services.AddScoped<JWTRefreshTokenAttribute>();
         }
 
         public static void ConfigureRepositoryWrapper(this IServiceCollection services)

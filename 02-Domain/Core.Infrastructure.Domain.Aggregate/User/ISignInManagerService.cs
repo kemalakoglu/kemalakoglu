@@ -40,5 +40,11 @@ namespace Core.Infrastructure.Domain.Aggregate.User
         /// <param name="token">The token.</param>
         /// <returns></returns>
         Task<IdentityResult> UpdateExternalAuthenticationTokensAsync(ApplicationUser user, string token);
+
+        /// <summary>
+        /// Refreshes the sign in asynchronous.
+        /// </summary>
+        /// <param name="appUser">The application user.</param>
+        void RefreshSignInAsync(ApplicationUser appUser);
     }
 }

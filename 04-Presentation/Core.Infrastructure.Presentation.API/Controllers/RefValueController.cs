@@ -27,6 +27,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <returns></returns>
         [Route("api/RefValue/GeRefValuesByRefTypeId")]
         [JwtAuthentication]
+        [ServiceFilter(typeof(JWTRefreshTokenAttribute))]
         [HttpGet]
         public IActionResult GeRefValuesByRefTypeId(long refTypeId)
         {
@@ -40,6 +41,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <returns></returns>
         [Route("api/RefValue/AddRefValue")]
         [JwtAuthentication]
+        [ServiceFilter(typeof(JWTRefreshTokenAttribute))]
         [HttpPost]
         public IActionResult AddRefValue([FromBody] AddRefValueRequestDTO request)
         {
@@ -52,6 +54,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <returns></returns>
         [Route("api/RefValue/GetRefValuesByPage")]
         [JwtAuthentication]
+        [ServiceFilter(typeof(JWTRefreshTokenAttribute))]
         [HttpGet]
         public IActionResult GetRefValuesByPage()
         {
@@ -64,6 +67,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <returns></returns>
         [Route("api/RefValue/DeleteRefValue")]
         [JwtAuthentication]
+        [ServiceFilter(typeof(JWTRefreshTokenAttribute))]
         [HttpPost]
         public IActionResult DeleteRefValue([FromBody] RefValueDTO request)
         {
@@ -72,6 +76,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
 
         [Route("api/RefValue/UpdateRefValue")]
         [JwtAuthentication]
+        [ServiceFilter(typeof(JWTRefreshTokenAttribute))]
         [HttpPost]
         public IActionResult UpdateRefValue([FromBody]RefValueDTO request)
         {
@@ -84,6 +89,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         /// <returns></returns>
         [Route("api/RefValue/SoftDeleteRefValue")]
         [JwtAuthentication]
+        [ServiceFilter(typeof(JWTRefreshTokenAttribute))]
         [HttpPost]
         public IActionResult SoftDeleteRefValue([FromBody] RefValueDTO request)
         {

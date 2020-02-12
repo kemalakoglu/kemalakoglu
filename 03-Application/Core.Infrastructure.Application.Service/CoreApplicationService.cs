@@ -118,6 +118,12 @@ namespace Core.Infrastructure.Application.Service
         public async Task<IdentityResult> RemoveAuthenticationTokenAsync(ApplicationUser appUser, string loginProvider, string tokenName) =>
             await this.userManagerService.RemoveAuthenticationTokenAsync(appUser, loginProvider, tokenName);
 
+        /// <summary>
+        /// Refreshes the sign in asynchronous.
+        /// </summary>
+        /// <param name="appUser">The application user.</param>
+        public async void RefreshSignInAsync(ApplicationUser appUser) =>
+            this.signInManagerService.RefreshSignInAsync(appUser);
         #endregion
         #region RefTypeValue Aggregate
 

@@ -184,6 +184,12 @@ namespace Core.Infrastructure.Application.Contract.Services
         Task<IdentityResult> RemoveAuthenticationTokenAsync(ApplicationUser appUser, string loginProvider,
             string tokenName);
 
+        /// <summary>
+        /// Refreshes the sign in asynchronous.
+        /// </summary>
+        /// <param name="appUser">The application user.</param>
+        void RefreshSignInAsync(ApplicationUser appUser);
+
         #endregion
     }
 }
