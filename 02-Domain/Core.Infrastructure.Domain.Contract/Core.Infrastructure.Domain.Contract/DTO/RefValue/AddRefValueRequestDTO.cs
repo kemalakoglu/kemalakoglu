@@ -13,5 +13,9 @@ namespace Core.Infrastructure.Domain.Contract.DTO.RefValue
         [DataMember] public long RefTypeId { get; set; }
         [DataMember] public string Name { get; set; }
         [DataMember] public bool IsActive { get; set; }
+        [DataMember] public string Description { get; set; }
+        [DataMember] public string Image { get; set; }
+        [DataMember] public string ImageText { get; set; }
+
     }
 }

@@ -50,7 +50,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         /// <returns></returns>
         public ResponseDTO<AddRefValueResponseDTO> Create(AddRefValueRequestDTO DTO)
         {
-            RefValue entity = new RefValue(DTO.Value, true, DateTime.Now, null, DTO.IsActive, this.uow.Repository<RefType>().GetByKey(DTO.RefTypeId), DTO.Name);
+            RefValue entity = new RefValue(DTO.Value, true, DateTime.Now, null, DTO.IsActive, this.uow.Repository<RefType>().GetByKey(DTO.RefTypeId), DTO.Name, DTO.Description, DTO.Image, DTO.ImageText);
             this.uow.Repository<RefValue>().Create(entity);
             this.uow.EndTransaction();
             return CreateResponse<AddRefValueResponseDTO>.Return(new AddRefValueResponseDTO { Succeed = true }, "Create");
@@ -94,7 +94,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         {
             RefValue entity = this.uow.Repository<RefValue>().GetByKey(DTO.Id);
             entity.Update(DTO.Name, DTO.IsActive,
-                this.uow.Repository<RefType>().GetByKey(DTO.RefType.Id), DTO.Value);
+                this.uow.Repository<RefType>().GetByKey(DTO.RefType.Id), DTO.Value, DTO.Description, DTO.Image, DTO.ImageText);
             this.uow.Repository<RefValue>().Update(entity);
             this.uow.EndTransaction();
             DTO.UpdateDate = entity.UpdateDate;
