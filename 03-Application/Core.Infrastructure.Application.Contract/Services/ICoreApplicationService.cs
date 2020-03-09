@@ -96,6 +96,13 @@ namespace Core.Infrastructure.Application.Contract.Services
         /// <returns></returns>
         ResponseDTO<GetHomeDataResponse> GetHomeData();
 
+        /// <summary>
+        /// Gets the reference value by identifier.
+        /// </summary>
+        /// <param name="Id">The identifier.</param>
+        /// <returns></returns>
+        ResponseDTO<RefValueDTO> GetRefValueById(long Id);
+
         #endregion
 
         #region ApplicationUser
@@ -191,5 +198,6 @@ namespace Core.Infrastructure.Application.Contract.Services
         void RefreshSignInAsync(ApplicationUser appUser);
 
         #endregion
+
     }
 }

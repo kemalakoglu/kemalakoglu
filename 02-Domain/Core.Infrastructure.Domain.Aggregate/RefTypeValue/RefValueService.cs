@@ -86,6 +86,19 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         }
 
         /// <summary>
+        /// Gets the reference value by identifier.
+        /// </summary>
+        /// <param name="id">The identifier.</param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public ResponseDTO<RefValueDTO> GetRefValueById(long id)
+        {
+            var entity = this.uow.Repository<RefValue>().Query().Filter(x => x.Id == id).Get().FirstOrDefault();
+
+            return CreateResponse<RefValueDTO>.Return(Mapper.Map(entity, new RefValueDTO()), "GetByRefTypeId");
+        }
+
+        /// <summary>
         /// Updates the specified dto.
         /// </summary>
         /// <param name="DTO">The dto.</param>

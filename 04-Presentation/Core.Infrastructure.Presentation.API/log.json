@@ -11194,3 +11194,603 @@
 {"Timestamp":"2020-02-12T13:14:30.4037084+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
 {"Timestamp":"2020-02-12T14:02:32.8813468+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
 {"Timestamp":"2020-02-12T14:03:17.9569412+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:50:29.2185172+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:50:31.6728202+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:57:11.1659000+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:57:11.1808260+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:57:15.0288294+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:57:15.0444979+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:57:15.5347443+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:58:31.6627169+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:58:31.6646423+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:58:31.6888913+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:58:31.6937041+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:58:32.1695828+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:58:32.6721706+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:59:43.9767300+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:59:44.0028249+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:59:44.0051028+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T09:59:44.0237468+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:09.3820779+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:09.4410992+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:09.4434495+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:09.4509448+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:09.5128801+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:09.5480351+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:12.8155672+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:14.8315459+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:14.8809653+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:14.9125642+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:14.9457531+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:16.0195212+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:16.0545345+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:16.0558066+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:18.2983087+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:18.3337900+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:18.3347715+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:18.3463753+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:20.6455829+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:20.6719176+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:20.6781603+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:21.6316434+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:21.6398114+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:21.6477497+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:22.7071919+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:22.7140939+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:23.6417241+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:44.6104097+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:45.8773185+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:45.8773244+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:45.8968473+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:45.8968480+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:47.0530212+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:47.0584391+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:00:49.1019114+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:01:08.5225533+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:01:08.5291926+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:01:33.0227736+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:01:45.8916505+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:01:45.8996058+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:02:04.0494140+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:02:04.0820515+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:02:04.0978005+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:02:08.3971579+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:02:08.4102177+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:02:12.7044990+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:02:12.7177917+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:02:12.7293886+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:02:19.9217477+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:45.5595178+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:45.5699078+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:45.5914622+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:45.5914623+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:52.4374073+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:52.4590227+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:52.5032673+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:52.5150605+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:52.5235723+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:52.5901796+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:57.7751205+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:57.8184967+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:57.8194760+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:57.8300463+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:57.8474601+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:57.8892832+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:59.5142844+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:59.5527529+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:05:59.5623605+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:06:00.5462622+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:06:11.7738608+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:06:11.7818895+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:06:17.1462850+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:06:17.1923127+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. This is usually caused by different threads using the same instance of DbContext, however instance members are not guaranteed to be thread safe. This could also be caused by a nested query being evaluated on the client, if this is the case rewrite the query avoiding nested invocations.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:06:17.2024099+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:06:17.2305561+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T10:06:17.2799143+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:18:22.8676742+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:18:25.2656194+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:20.5077811+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:20.5299553+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:21.9931317+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:24.6331578+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:24.6395158+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:24.6620277+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:24.8432975+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:25.0720431+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:36.9743711+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:36.9816601+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:37.1973182+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:52.6075613+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:52.6094368+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:52.6396102+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:52.6404874+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:52.9104697+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:53.0865512+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:57.7610010+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:57.7690753+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:21:57.8712877+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:03.0165700+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:03.0165701+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:03.0322818+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:03.0354756+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:03.2370731+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:03.3390175+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:11.6448346+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:11.6531102+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:11.7968210+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:27.9436330+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:27.9577549+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:28.0589185+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:28.8565372+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:28.8607063+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:28.8753190+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:29.0798148+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:22:29.2433379+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:25:32.3137163+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:25:32.6397703+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:25:32.7011134+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:25:32.7409589+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:27:49.3107493+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:27:49.3269050+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:10.3894995+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:10.4195028+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:10.4377767+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:11.4661549+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:11.4748024+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:12.3462579+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:12.3554018+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:12.9647936+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:28.4203713+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:28.4373595+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:41.1074079+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:41.1141317+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:41.1200451+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:45.1857733+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:45.1931449+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:48.6219586+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:48.6288258+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:48.6360519+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:28:51.9370005+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:30:06.2941423+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:30:06.3063046+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:30:31.0456664+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:31:58.0969564+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:31:58.2972404+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:31:58.3252709+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:31:58.3282495+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:03.3104178+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:03.5514331+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:03.5812876+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:03.5842657+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:32.1394724+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:32.3700620+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:32.3979138+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:32.4008768+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:50.0275715+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:50.2284121+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:50.2552734+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:50.2597186+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:59.1396031+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:59.3132862+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:59.3370242+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:32:59.3397668+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:34:57.4920409+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:34:57.7606393+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:34:57.7952586+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:34:57.7994130+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:36:54.4257467+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:36:54.4344456+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:36:58.3868551+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:37:04.0968659+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:37:04.2814237+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:37:04.3082921+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:37:04.3111710+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:37:10.0556942+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:37:10.2335828+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:37:10.2567358+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:37:10.2589009+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:37:55.2417705+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:37:55.4519568+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:37:55.4803171+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:37:55.4835018+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:38:45.8330142+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:38:46.0836394+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:38:46.1282208+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:38:46.1328666+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:50:32.7718597+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:50:32.7934749+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:50:32.9740882+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:50:37.3632433+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:50:37.5589087+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:50:37.5894493+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:50:37.5954623+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:50:58.0613795+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:50:58.0756941+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:50:58.2124494+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:51:02.6386874+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:51:02.8084827+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:51:02.8313582+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:51:02.8345030+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:52:39.8742743+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:52:39.8910614+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:52:40.0161602+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:52:47.6497056+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:52:47.6618496+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:52:47.6700463+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:52:47.6746798+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:52:48.0499088+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:52:48.1792911+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:53:59.9916597+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:54:00.2790430+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:54:00.3583288+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:54:00.3720601+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:55:10.7366078+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:55:10.7499137+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:55:10.9050473+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:55:16.7659487+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:55:16.9487086+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:55:16.9731115+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:55:16.9751681+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:56:33.7522872+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:56:33.9999141+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:56:34.0340573+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:56:34.0376751+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:56:40.8006102+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:56:41.1553382+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:56:41.2084056+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:56:41.2131301+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:58:23.3820130+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:58:23.3992268+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:58:23.5151172+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:59:37.5548455+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:59:37.5626098+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T11:59:37.6815915+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:01:57.0862201+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:01:57.1000792+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:01:57.1165366+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:01:57.1194837+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:01:57.5926333+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:01:57.9655661+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:02:35.1527139+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:02:35.1554549+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:02:35.1686348+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:02:35.1741629+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:02:35.8759031+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:02:36.1832266+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:03:05.4951968+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:03:05.4975103+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:03:05.5975674+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:03:05.6067165+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:03:06.2243987+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:03:06.5396891+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:06.7453874+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:06.7515482+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:06.7559245+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:06.7956678+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:07.1376059+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:07.3033265+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:37.0630544+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:37.0766435+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/UpdateRefValue","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:37.2079182+03:00","Level":"Information","MessageTemplate":"Update RefValue Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:43.1060042+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:43.2848680+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:43.3080446+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:05:43.3106014+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:06:01.3225623+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:06:01.5082290+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:06:01.5309633+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T12:06:01.5333462+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T13:28:47.3118890+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T13:28:48.0980362+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T13:28:48.1215482+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T13:28:48.1241445+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:11:40.0552006+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:11:40.4342536+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:11:40.4738665+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:11:40.4778063+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:14:14.9286663+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:14:15.2021259+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:14:15.2393926+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:14:15.2432553+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:14:53.6009836+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:14:53.9543642+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:14:54.0021411+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:14:54.0074186+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:16:34.8706246+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:16:35.1901388+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:16:35.2297197+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:16:35.2351011+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:16:40.1181293+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:16:40.3327860+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:16:40.3581003+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:16:40.3621438+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:17:31.2216955+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:17:31.4764924+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:17:31.5190754+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:17:31.5223501+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:17:37.0918321+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:17:37.4757699+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:17:37.5163520+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:17:37.5201319+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:17:41.3207261+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:17:41.6294751+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:17:41.6662855+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:17:41.6700142+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:42:39.2386024+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:42:39.5267164+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:42:39.5505314+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:42:39.5526305+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:44:04.7681934+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:44:04.9923922+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:44:05.0158176+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:44:05.0182538+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:44:46.4126209+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:44:46.7802720+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:44:46.8161784+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:44:46.8198400+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:19.3395423+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:19.6507193+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:19.6957149+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:19.7012562+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:23.9723798+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:24.2068476+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:24.2366538+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:24.2419109+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:26.8256830+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:27.0937770+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:27.1289176+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:27.1327237+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:29.3800378+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:29.6385185+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:29.6790833+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:29.6828546+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:36.6380729+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:36.9270842+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:36.9641491+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:36.9718719+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:49.7242995+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:50.1142117+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:50.1578280+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:45:50.1620350+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:49:07.6821798+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:49:08.0241701+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:49:08.0554399+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:49:08.0585415+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:50:43.4955714+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:50:43.7183866+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:50:43.7439408+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:50:43.7475073+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:50:46.5000087+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:50:46.7434251+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:50:46.7738875+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T14:50:46.7778520+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:00:52.0975953+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:00:52.3821973+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:00:52.4275813+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:00:52.4304083+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:00:54.9784805+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:00:55.2787309+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:00:55.3138788+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:00:55.3177672+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:03:32.3071726+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:03:32.5814375+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:03:32.6146886+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:03:32.6177693+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:04:20.5344285+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:04:20.8243948+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:04:20.8609148+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:04:20.8691172+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:04:33.7716762+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:04:34.0687311+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:04:34.1059427+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:04:34.1097159+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:04:37.8493821+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:04:38.0885784+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:04:38.1183758+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:04:38.1216352+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:05:04.6387230+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:05:05.0155798+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:05:05.0600922+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:05:05.0646468+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:07:01.8584884+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:07:02.2435181+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:07:02.2812367+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:07:02.2848868+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:07:37.1702571+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:07:37.3832949+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:07:37.4097699+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:07:37.4127122+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:07:59.8567651+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:00.1770191+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:00.2119282+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:00.2155981+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:05.7590912+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:06.1434009+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:06.1838277+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:06.1883045+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:10.1335612+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:10.4645651+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:10.5040468+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:10.5079092+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:18.8551927+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:19.2258183+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:19.2684076+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:08:19.2730530+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:09:08.2980523+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:09:08.7780740+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:09:08.8153047+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:09:08.8190467+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:09:43.3375135+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:09:43.7142651+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:09:43.7516032+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:09:43.7550485+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:09:48.8613171+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:09:49.0618296+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:09:49.0866534+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:09:49.0891877+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:04.6797872+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:04.9901672+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:05.0241731+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:05.0277852+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:08.2104516+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:08.6209648+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:08.6610716+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:08.6658609+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:17.0319216+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:17.2781594+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:17.3025290+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:17.3049297+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:27.6062179+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:28.0811248+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:28.1232761+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:10:28.1269109+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:11.6203395+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:12.2352269+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:12.2978571+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:12.3033396+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:26.7850653+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:27.1867007+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:27.2262672+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:27.2310790+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:38.1011909+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:38.7919330+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:38.8553161+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:38.8605013+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:47.2065476+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:47.7499969+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:47.8013186+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:11:47.8066085+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:34.6684763+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:34.8713794+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:34.8943180+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:34.8974493+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:38.5300477+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:38.9096708+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:38.9515287+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:38.9563696+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:46.2437057+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:46.4547046+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:46.4771640+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:46.4796008+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:51.8787789+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:52.2114773+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:52.2442507+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:13:52.2490756+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:14:13.6307202+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:14:13.9580648+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:14:13.9784517+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:14:13.9807968+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:15:23.0543089+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:15:23.3968101+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:15:23.4479267+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:15:23.4537204+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:17:30.3535304+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:17:30.5816452+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:17:30.6066449+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:17:30.6097656+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:17:47.2101040+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:17:47.4183800+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:17:47.4561166+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:17:47.4602354+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:20:23.3788416+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:20:23.8806088+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:20:23.9242423+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:20:23.9279533+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:21:02.2957317+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:21:02.5117137+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:21:02.5390831+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:21:02.5422683+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:21:11.8819368+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:21:12.2480198+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:21:12.2685265+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T15:21:12.2708559+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:24:51.5340863+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:24:54.0196832+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:28:32.9378257+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:28:34.7722979+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:30:16.6963057+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:30:18.1716337+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:30:18.2769151+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:30:18.2827841+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:33:11.3462490+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:33:16.2601671+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:33:16.2920913+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:33:16.2953199+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:08.0783431+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:08.4925421+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:08.5391383+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:08.5435444+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:15.1182946+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:15.3948811+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:15.4359721+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:15.4415240+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:23.5788097+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:23.8046716+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:23.8329113+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:23.8359311+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:31.6430231+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:45.3830344+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:51.5196349+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:51.5513322+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:51.5995054+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:51.6050549+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:51.6125751+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:38:51.6270335+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:46:26.4250010+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:46:28.9896700+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:47:36.4113986+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:48:59.6744874+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:49:01.9260539+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:49:23.0710742+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:49:24.0981003+03:00","Level":"Information","MessageTemplate":"GetByRefTypeId Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:49:52.3656268+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:49:52.5322537+03:00","Level":"Information","MessageTemplate":"GetByRefTypeId Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:50:22.2875701+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:50:22.4321138+03:00","Level":"Information","MessageTemplate":"GetByRefTypeId Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:51:12.1763101+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:51:12.3542688+03:00","Level":"Information","MessageTemplate":"GetByRefTypeId Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:51:12.4287607+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:51:12.8678591+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:51:13.0061447+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:51:13.0131930+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:51:37.5196452+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:51:37.6696212+03:00","Level":"Information","MessageTemplate":"GetByRefTypeId Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:51:37.7116035+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:51:37.9878367+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:51:38.0312665+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:51:38.0358541+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:52:33.3245981+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:52:33.5674247+03:00","Level":"Information","MessageTemplate":"GetByRefTypeId Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:52:33.6500570+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:52:34.1136853+03:00","Level":"Information","MessageTemplate":"GetLastByNumber Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:52:34.1543167+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:52:34.1587801+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:52:41.7843010+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:52:41.9744324+03:00","Level":"Information","MessageTemplate":"GetByRefTypeId Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:52:46.2164455+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetById","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T16:52:46.3920571+03:00","Level":"Information","MessageTemplate":"GetByRefTypeId Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T22:12:41.0407256+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T22:12:41.0792171+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T22:12:41.1126961+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T22:12:41.1128716+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T22:12:41.9150372+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-02T22:12:42.1387768+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T08:11:43.0445989+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T08:11:43.0445990+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T08:11:43.1152974+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T08:11:43.1186805+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T08:11:43.8822334+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T08:11:44.0911065+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T21:57:18.7264058+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T21:57:21.3852081+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T21:57:21.3852204+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T21:57:21.4825311+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T21:57:21.4825256+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T21:57:23.4486219+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-03T21:57:23.4513264+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-04T08:00:54.6262225+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-04T08:00:54.6267275+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-04T08:00:54.6631658+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefValue/GetRefValuesByPage","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-04T08:00:54.6648371+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-04T08:00:54.8958591+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-03-04T08:00:54.9418901+03:00","Level":"Information","MessageTemplate":"GetRefValuesByPage Operation is succeeded.","Properties":{"Application":"app"}}

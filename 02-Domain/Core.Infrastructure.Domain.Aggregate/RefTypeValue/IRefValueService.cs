@@ -13,5 +13,6 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         ResponseDTO<AddRefValueResponseDTO> Create(AddRefValueRequestDTO DTO);
         ResponseListDTO<RefValueDTO> GetRefValuesByPage();
         ResponseListDTO<RefValueDTO> GetLastByNumber(int i);
+        ResponseDTO<RefValueDTO> GetRefValueById(long id);
     }
 }

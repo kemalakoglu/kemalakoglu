@@ -41,6 +41,9 @@ namespace Core.Infrastructure.Application.Service
         /// <returns></returns>
         public async Task<ApplicationUser> GetUserByEmail(string requestEmail) =>
             await this.userManagerService.GetUserByEmail(requestEmail);
+
+        public ResponseDTO<RefValueDTO> GetRefValueById(long Id) => this.refValueService.GetRefValueById(Id);
+
         /// <summary>
         /// Registers the specified user.
         /// </summary>

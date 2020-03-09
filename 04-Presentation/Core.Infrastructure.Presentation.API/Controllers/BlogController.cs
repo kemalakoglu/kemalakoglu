@@ -26,5 +26,17 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         {
             return Ok(this.appService.GetHomeData());
         }
+
+
+        /// <summary>
+        /// Gets the home data.
+        /// </summary>
+        /// <returns></returns>
+        [Route("api/Blog/GetById")]
+        [HttpGet]
+        public IActionResult GetById(long Id)
+        {
+            return Ok(this.appService.GetRefValueById(Id));
+        }
     }
 }
