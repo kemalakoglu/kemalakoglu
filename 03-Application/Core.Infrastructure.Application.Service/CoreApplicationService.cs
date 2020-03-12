@@ -42,8 +42,6 @@ namespace Core.Infrastructure.Application.Service
         public async Task<ApplicationUser> GetUserByEmail(string requestEmail) =>
             await this.userManagerService.GetUserByEmail(requestEmail);
 
-        public ResponseDTO<RefValueDTO> GetRefValueById(long Id) => this.refValueService.GetRefValueById(Id);
-
         /// <summary>
         /// Registers the specified user.
         /// </summary>
@@ -233,6 +231,14 @@ namespace Core.Infrastructure.Application.Service
             response.FeaturedPosts = posts.TakeLast(2);
             return CreateResponse<GetHomeDataResponse>.Return(response, "GetHomeData");
         }
+
+        public ResponseDTO<GetRefValueByIdResponseDTO> GetRefValueById(long Id)
+        {
+            GetRefValueByIdResponseDTO response = new GetRefValueByIdResponseDTO();
+            response.Content = this.refValueService.GetRefValueById(Id).Data;
+            response.Sections = this.refTypeService.GetByParent(1).Data;
+            return CreateResponse<GetRefValueByIdResponseDTO>.Return(response, "GetRefValueById");
+        } 
         #endregion
     }
 }

@@ -101,7 +101,7 @@ namespace Core.Infrastructure.Application.Contract.Services
         /// </summary>
         /// <param name="Id">The identifier.</param>
         /// <returns></returns>
-        ResponseDTO<RefValueDTO> GetRefValueById(long Id);
+        ResponseDTO<GetRefValueByIdResponseDTO> GetRefValueById(long Id);
 
         #endregion
 
