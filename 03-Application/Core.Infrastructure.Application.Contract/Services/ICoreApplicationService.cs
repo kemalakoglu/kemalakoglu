@@ -54,7 +54,7 @@ namespace Core.Infrastructure.Application.Contract.Services
         /// </summary>
         /// <param name="refTypeId">The reference type identifier.</param>
         /// <returns></returns>
-        ResponseListDTO<RefValueDTO> GeRefValuesByRefTypeId(long refTypeId);
+        ResponseListDTO<RefValueDTO> GetRefValuesByRefTypeId(long refTypeId);
 
         /// <summary>
         /// Adds the reference value.
@@ -94,7 +94,7 @@ namespace Core.Infrastructure.Application.Contract.Services
         /// Gets the home data.
         /// </summary>
         /// <returns></returns>
-        ResponseDTO<GetHomeDataResponse> GetHomeData();
+        ResponseDTO<GetHomeDataResponseDTO> GetHomeData();
 
         /// <summary>
         /// Gets the reference value by identifier.
@@ -102,6 +102,21 @@ namespace Core.Infrastructure.Application.Contract.Services
         /// <param name="Id">The identifier.</param>
         /// <returns></returns>
         ResponseDTO<GetRefValueByIdResponseDTO> GetRefValueById(long Id);
+
+        /// <summary>
+        /// Gets the reference value for blogs by reference type identifier.
+        /// </summary>
+        /// <param name="id">The identifier.</param>
+        /// <returns></returns>
+        ResponseDTO<GetRefValueForBlogsByRefTypeIdResponseDTO> GetRefValueForBlogsByRefTypeId(long id);
+
+        /// <summary>
+        /// Gets the reference value for blogs by archive.
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <param name="month">The month.</param>
+        /// <returns></returns>
+        ResponseDTO<GetRefValueForBlogsByArchiveResponseDTO> GetRefValueForBlogsByArchive(string year, string month);
 
         #endregion
 
@@ -198,6 +213,5 @@ namespace Core.Infrastructure.Application.Contract.Services
         void RefreshSignInAsync(ApplicationUser appUser);
 
         #endregion
-
     }
 }

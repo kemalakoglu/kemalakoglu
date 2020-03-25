@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using AutoMapper;
 using Core.Infrastructure.Core.Contract;
 using Core.Infrastructure.Core.Helper;
+using Core.Infrastructure.Domain.Contract.DTO.Blog;
 using Core.Infrastructure.Domain.Contract.DTO.RefValue;
+using Remotion.Linq.Utilities;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
@@ -96,6 +99,42 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             var entity = this.uow.Repository<RefValue>().Query().Filter(x => x.Id == id).Get().FirstOrDefault();
 
             return CreateResponse<RefValueDTO>.Return(Mapper.Map(entity, new RefValueDTO()), "GetByRefTypeId");
+        }
+
+        /// <summary>
+        /// Gets the archives.
+        /// </summary>
+        /// <returns></returns>
+        public ResponseDTO<IEnumerable<ArchivesDTO>> GetArchives()
+        {
+            List<ArchivesDTO> response= new List<ArchivesDTO>();
+            var entity = this.uow.Repository<RefValue>().Get().GroupBy(x=> new{ x.InsertDate.Value.Year, x.InsertDate.Value.Month });
+            foreach (var item in entity)
+            {
+                ArchivesDTO responseItem = new ArchivesDTO
+                {
+                    Title =
+                        new DateTime(item.Key.Year, item.Key.Month, 1).ToString("MMM", CultureInfo.InvariantCulture) +
+                        " " + item.Key.Year,
+                    Url = "Archive?Year="+item.Key.Year +"&Month="+item.Key.Month
+                };
+                response.Add(responseItem);
+            }
+
+            return CreateResponse<IEnumerable<ArchivesDTO>>.Return(response, "GetArchives");
+        }
+
+        /// <summary>
+        /// Gets the reference value for blogs by archive.
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <param name="month">The month.</param>
+        /// <returns></returns>
+        public ResponseDTO<IEnumerable<RefValueDTO>> GetRefValueForBlogsByArchive(string year, string month)
+        {
+            var entity = this.uow.Repository<RefValue>().Query().Filter(x =>
+                x.InsertDate.Value.Month == Convert.ToInt32(month) && x.InsertDate.Value.Year == Convert.ToInt32(year)).Get();
+            return CreateResponse<IEnumerable<RefValueDTO>>.Return(Mapper.Map<RefValue[],RefValueDTO[]>(entity.ToArray()), "GetRefValueForBlogsByArchive");
         }
 
         /// <summary>

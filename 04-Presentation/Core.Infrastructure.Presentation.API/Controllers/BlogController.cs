@@ -38,5 +38,24 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         {
             return Ok(this.appService.GetRefValueById(Id));
         }
+
+        /// <summary>
+        /// Ges the reference values by reference type identifier.
+        /// </summary>
+        /// <param name="Id">The identifier.</param>
+        /// <returns></returns>
+        [Route("api/Blog/GetRefValueForBlogsByRefTypeId")]
+        [HttpGet]
+        public IActionResult GetRefValueForBlogsByRefTypeId(long Id)
+        {
+            return Ok(this.appService.GetRefValueForBlogsByRefTypeId(Id));
+        }
+
+        [Route("api/Blog/GetRefValueForBlogsByArchive")]
+        [HttpGet]
+        public IActionResult GetRefValueForBlogsByArchive(string Year, string Month)
+        {
+            return Ok(this.appService.GetRefValueForBlogsByArchive(Year,Month));
+        }
     }
 }
