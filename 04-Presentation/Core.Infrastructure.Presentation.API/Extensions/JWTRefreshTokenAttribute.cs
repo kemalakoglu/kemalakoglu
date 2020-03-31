@@ -34,7 +34,11 @@ namespace Core.Infrastructure.Presentation.API.Extensions
             var tokenHandler = new JwtSecurityTokenHandler();
             LoginResponseDTO tokenData = JsonConvert.DeserializeObject<LoginResponseDTO>(key);
             ApplicationUser appUser = Task.FromResult(this.appService.GetUserByEmail(tokenData.Username)).Result.Result;
-            this.appService.RefreshSignInAsync(appUser);
+            if (tokenData.Username!=appUser.UserName)
+            {
+                throw new Exception("Invalid Token");
+            }
+            //this.appService.RefreshSignInAsync(appUser);
         }
 
         public void OnActionExecuted(ActionExecutedContext context)

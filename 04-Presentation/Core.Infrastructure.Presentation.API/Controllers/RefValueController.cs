@@ -31,7 +31,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         [HttpGet]
         public IActionResult GeRefValuesByRefTypeId(long refTypeId)
         {
-            return Ok(this.appService.GeRefValuesByRefTypeId(refTypeId));
+            return Ok(this.appService.GetRefValuesByRefTypeId(refTypeId));
         }
 
         /// <summary>

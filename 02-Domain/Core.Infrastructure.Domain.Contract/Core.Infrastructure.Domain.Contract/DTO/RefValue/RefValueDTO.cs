@@ -13,5 +13,8 @@ namespace Core.Infrastructure.Domain.Contract.DTO.RefValue
         [DataMember] public string Value { get; set; }
         [DataMember] public RefTypeDTO RefType { get; set; }
         [DataMember] public string Name { get; set; }
+        [DataMember] public string Description { get; set; }
+        [DataMember] public string Image { get; set; }
+        [DataMember] public string ImageText { get; set; }
     }
 }

@@ -41,7 +41,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Infrastructure.Domain.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Infrastructure.Core.Logger", "01-Core\Core.Infrastructure.Core.Logger\Core.Infrastructure.Core.Logger.csproj", "{167369F5-79E3-4ECF-AB47-17512C60DC2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Infrastructure.Domain.Contract", "02-Domain\Core.Infrastructure.Domain.Contract\Core.Infrastructure.Domain.Contract\Core.Infrastructure.Domain.Contract.csproj", "{69871AF5-9C48-47AA-AEC9-425D6A9B5C46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Infrastructure.Domain.Contract", "02-Domain\Core.Infrastructure.Domain.Contract\Core.Infrastructure.Domain.Contract\Core.Infrastructure.Domain.Contract.csproj", "{69871AF5-9C48-47AA-AEC9-425D6A9B5C46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Documentation", "06-Documentation", "{2035F95B-B05E-4056-B565-EB20E2F5FE71}"
+	ProjectSection(SolutionItems) = preProject
+		06-Documentation\usr.sql = 06-Documentation\usr.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using AutoMapper;
 using Core.Infrastructure.Core.Contract;
 using Core.Infrastructure.Core.Helper;
+using Core.Infrastructure.Domain.Contract.DTO.Blog;
 using Core.Infrastructure.Domain.Contract.DTO.RefValue;
+using Remotion.Linq.Utilities;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
@@ -50,7 +53,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         /// <returns></returns>
         public ResponseDTO<AddRefValueResponseDTO> Create(AddRefValueRequestDTO DTO)
         {
-            RefValue entity = new RefValue(DTO.Value, true, DateTime.Now, null, DTO.IsActive, this.uow.Repository<RefType>().GetByKey(DTO.RefTypeId), DTO.Name);
+            RefValue entity = new RefValue(DTO.Value, true, DateTime.Now, null, DTO.IsActive, this.uow.Repository<RefType>().GetByKey(DTO.RefTypeId), DTO.Name, DTO.Description, DTO.Image, DTO.ImageText);
             this.uow.Repository<RefValue>().Create(entity);
             this.uow.EndTransaction();
             return CreateResponse<AddRefValueResponseDTO>.Return(new AddRefValueResponseDTO { Succeed = true }, "Create");
@@ -86,6 +89,55 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         }
 
         /// <summary>
+        /// Gets the reference value by identifier.
+        /// </summary>
+        /// <param name="id">The identifier.</param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public ResponseDTO<RefValueDTO> GetRefValueById(long id)
+        {
+            var entity = this.uow.Repository<RefValue>().Query().Filter(x => x.Id == id).Get().FirstOrDefault();
+
+            return CreateResponse<RefValueDTO>.Return(Mapper.Map(entity, new RefValueDTO()), "GetByRefTypeId");
+        }
+
+        /// <summary>
+        /// Gets the archives.
+        /// </summary>
+        /// <returns></returns>
+        public ResponseDTO<IEnumerable<ArchivesDTO>> GetArchives()
+        {
+            List<ArchivesDTO> response= new List<ArchivesDTO>();
+            var entity = this.uow.Repository<RefValue>().Get().GroupBy(x=> new{ x.InsertDate.Value.Year, x.InsertDate.Value.Month });
+            foreach (var item in entity)
+            {
+                ArchivesDTO responseItem = new ArchivesDTO
+                {
+                    Title =
+                        new DateTime(item.Key.Year, item.Key.Month, 1).ToString("MMM", CultureInfo.InvariantCulture) +
+                        " " + item.Key.Year,
+                    Url = "Archive?Year="+item.Key.Year +"&Month="+item.Key.Month
+                };
+                response.Add(responseItem);
+            }
+
+            return CreateResponse<IEnumerable<ArchivesDTO>>.Return(response, "GetArchives");
+        }
+
+        /// <summary>
+        /// Gets the reference value for blogs by archive.
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <param name="month">The month.</param>
+        /// <returns></returns>
+        public ResponseDTO<IEnumerable<RefValueDTO>> GetRefValueForBlogsByArchive(string year, string month)
+        {
+            var entity = this.uow.Repository<RefValue>().Query().Filter(x =>
+                x.InsertDate.Value.Month == Convert.ToInt32(month) && x.InsertDate.Value.Year == Convert.ToInt32(year)).Get();
+            return CreateResponse<IEnumerable<RefValueDTO>>.Return(Mapper.Map<RefValue[],RefValueDTO[]>(entity.ToArray()), "GetRefValueForBlogsByArchive");
+        }
+
+        /// <summary>
         /// Updates the specified dto.
         /// </summary>
         /// <param name="DTO">The dto.</param>
@@ -94,7 +146,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         {
             RefValue entity = this.uow.Repository<RefValue>().GetByKey(DTO.Id);
             entity.Update(DTO.Name, DTO.IsActive,
-                this.uow.Repository<RefType>().GetByKey(DTO.RefType.Id), DTO.Value);
+                this.uow.Repository<RefType>().GetByKey(DTO.RefType.Id), DTO.Value, DTO.Description, DTO.Image, DTO.ImageText);
             this.uow.Repository<RefValue>().Update(entity);
             this.uow.EndTransaction();
             DTO.UpdateDate = entity.UpdateDate;

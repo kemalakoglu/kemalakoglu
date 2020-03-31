@@ -52,14 +52,20 @@ namespace Core.Infrastructure.Presentation.API.Controllers
             if (signInResult.Succeeded)
             {
                 var checkToken = await this.appService.FindByLoginAsync(appUser.PasswordHash, appUser.SecurityStamp);
-                if (checkToken == null)
+                if (checkToken != null)
                 {
-                    var token = await GenerateJwtToken(model.Email, appUser);
-                    UserLoginInfo userLoginInfo = new UserLoginInfo(appUser.PasswordHash, appUser.SecurityStamp, token.ToString());
-                    var result = await this.appService.AddLoginAsync(appUser, userLoginInfo);
-                    var tokenResult = await this.appService.UpdateExternalAuthenticationTokensAsync(appUser, token.ToString());
-                    if (result.Succeeded && tokenResult.Succeeded) return await Task.FromResult(new LoginResponseDTO{Token = token.ToString(), Username= appUser.UserName});
+                    var removeTokenResult = await
+                        this.appService.RemoveAuthenticationTokenAsync(appUser, appUser.PasswordHash, appUser.PasswordHash);
+                    var removeLoginresult = await this.appService.RemoveLoginAsync(appUser, appUser.PasswordHash, appUser.SecurityStamp);
+                    if (removeLoginresult.Succeeded && removeTokenResult.Succeeded)
+                        await this.appService.SignOutAsync();
                 }
+
+                var token = await GenerateJwtToken(model.Email, appUser);
+                UserLoginInfo userLoginInfo = new UserLoginInfo(appUser.PasswordHash, appUser.SecurityStamp, token.ToString());
+                var result = await this.appService.AddLoginAsync(appUser, userLoginInfo);
+                var tokenResult = await this.appService.UpdateExternalAuthenticationTokensAsync(appUser, token.ToString());
+                if (result.Succeeded && tokenResult.Succeeded) return await Task.FromResult(new LoginResponseDTO { Token = token.ToString(), Username = appUser.UserName });
             }
 
             throw new ApplicationException("INVALID_LOGIN_ATTEMPT");
@@ -88,7 +94,7 @@ namespace Core.Infrastructure.Presentation.API.Controllers
         {
             string hash = "956E90B4-BBB5-4F85-9101-583C2B3B3D89";
             string password = Convert.ToBase64String(GenerateSaltedHash(Encoding.UTF8.GetBytes(model.Password), Encoding.UTF8.GetBytes(hash)));
-            var user = new ApplicationUser { UserName = model.Email, Email = model.Email};
+            var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
             var result = await this.appService.CreateAsync(user, password);
             if (result.Succeeded) await this.appService.SignInAsync(user, false);
 
@@ -112,13 +118,13 @@ namespace Core.Infrastructure.Presentation.API.Controllers
                 this.appService.RemoveAuthenticationTokenAsync(appUser, appUser.PasswordHash, appUser.PasswordHash);
             var result = await this.appService.RemoveLoginAsync(appUser, appUser.PasswordHash, appUser.SecurityStamp);
             if (result.Succeeded && removeTokenResult.Succeeded)
-            await this.appService.SignOutAsync();
+                await this.appService.SignOutAsync();
 
             if (result.Succeeded)
                 return await Task.FromResult(new LoginResponseDTO { Token = string.Empty });
             throw new ApplicationException("UNKNOWN_ERROR");
 
-        } 
+        }
 
         /// <summary>
         /// Generates the JWT token.

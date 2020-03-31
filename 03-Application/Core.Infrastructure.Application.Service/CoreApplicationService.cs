@@ -41,6 +41,7 @@ namespace Core.Infrastructure.Application.Service
         /// <returns></returns>
         public async Task<ApplicationUser> GetUserByEmail(string requestEmail) =>
             await this.userManagerService.GetUserByEmail(requestEmail);
+
         /// <summary>
         /// Registers the specified user.
         /// </summary>
@@ -181,7 +182,7 @@ namespace Core.Infrastructure.Application.Service
         /// </summary>
         /// <param name="refTypeId">The reference type identifier.</param>
         /// <returns></returns>
-        public ResponseListDTO<RefValueDTO> GeRefValuesByRefTypeId(long refTypeId) => this.refValueService.GetByRefTypeId(refTypeId);
+        public ResponseListDTO<RefValueDTO> GetRefValuesByRefTypeId(long refTypeId) => this.refValueService.GetByRefTypeId(refTypeId);
 
         /// <summary>
         /// Adds the reference value.
@@ -221,14 +222,55 @@ namespace Core.Infrastructure.Application.Service
         /// Gets the home data.
         /// </summary>
         /// <returns></returns>
-        public ResponseDTO<GetHomeDataResponse> GetHomeData()
+        public ResponseDTO<GetHomeDataResponseDTO> GetHomeData()
         {
-            GetHomeDataResponse response = new GetHomeDataResponse();
+            GetHomeDataResponseDTO response = new GetHomeDataResponseDTO();
             IEnumerable<RefValueDTO> posts = this.refValueService.GetLastByNumber(5).Data;
             response.Sections = this.refTypeService.GetByParent(1).Data;
             response.LatestPosts = posts.Take(3);
             response.FeaturedPosts = posts.TakeLast(2);
-            return CreateResponse<GetHomeDataResponse>.Return(response, "GetHomeData");
+            response.Archives = this.refValueService.GetArchives().Data;
+            return CreateResponse<GetHomeDataResponseDTO>.Return(response, "GetHomeData");
+        }
+
+        /// <summary>
+        /// Gets the reference value by identifier.
+        /// </summary>
+        /// <param name="Id">The identifier.</param>
+        /// <returns></returns>
+        public ResponseDTO<GetRefValueByIdResponseDTO> GetRefValueById(long Id)
+        {
+            GetRefValueByIdResponseDTO response = new GetRefValueByIdResponseDTO();
+            response.Content = this.refValueService.GetRefValueById(Id).Data;
+            response.Sections = this.refTypeService.GetByParent(1).Data;
+            return CreateResponse<GetRefValueByIdResponseDTO>.Return(response, "GetRefValueById");
+        }
+
+        /// <summary>
+        /// Ges the reference values by reference type identifier.
+        /// </summary>
+        /// <param name="refTypeId">The reference type identifier.</param>
+        /// <returns></returns>
+        public ResponseDTO<GetRefValueForBlogsByRefTypeIdResponseDTO> GetRefValueForBlogsByRefTypeId(long refTypeId)
+        {
+            GetRefValueForBlogsByRefTypeIdResponseDTO response= new GetRefValueForBlogsByRefTypeIdResponseDTO();
+            response.Contents = this.refValueService.GetByRefTypeId(refTypeId).Data;
+            response.Sections = this.refTypeService.GetByParent(1).Data;
+            return CreateResponse<GetRefValueForBlogsByRefTypeIdResponseDTO>.Return(response, "GetRefValueForBlogsByRefTypeId");
+        }
+
+        /// <summary>
+        /// Gets the reference value for blogs by archive.
+        /// </summary>
+        /// <param name="year">The year.</param>
+        /// <param name="month">The month.</param>
+        /// <returns></returns>
+        public ResponseDTO<GetRefValueForBlogsByArchiveResponseDTO> GetRefValueForBlogsByArchive(string year, string month)
+        {
+            GetRefValueForBlogsByArchiveResponseDTO response= new GetRefValueForBlogsByArchiveResponseDTO();
+            response.Sections = this.refTypeService.GetByParent(1).Data;
+            response.Contents = this.refValueService.GetRefValueForBlogsByArchive(year, month).Data;
+            return CreateResponse<GetRefValueForBlogsByArchiveResponseDTO>.Return(response, "GetRefValueForBlogsByArchive");
         }
         #endregion
     }
