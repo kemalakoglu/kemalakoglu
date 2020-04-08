@@ -13671,3 +13671,4 @@
 {"Timestamp":"2020-03-25T18:35:45.8005906+03:00","Level":"Information","MessageTemplate":"GetByParent Operation is succeeded.","Properties":{"Application":"app"}}
 {"Timestamp":"2020-03-25T18:35:45.8238611+03:00","Level":"Information","MessageTemplate":"GetArchives Operation is succeeded.","Properties":{"Application":"app"}}
 {"Timestamp":"2020-03-25T18:35:45.8258901+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-08T13:20:15.0191755+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
