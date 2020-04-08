@@ -6,7 +6,6 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-
 using Core.Infrastructure.Application.Contract.Services;
 using Core.Infrastructure.Domain.Aggregate.User;
 using Core.Infrastructure.Domain.Contract.DTO;

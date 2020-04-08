@@ -45,6 +45,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Infrastructure.Domain.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Documentation", "06-Documentation", "{2035F95B-B05E-4056-B565-EB20E2F5FE71}"
 	ProjectSection(SolutionItems) = preProject
+		06-Documentation\data.sql = 06-Documentation\data.sql
 		06-Documentation\usr.sql = 06-Documentation\usr.sql
 	EndProjectSection
 EndProject
