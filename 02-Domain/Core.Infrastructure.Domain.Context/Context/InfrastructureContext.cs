@@ -29,7 +29,7 @@ namespace Core.Infrastructure.Domain.Context.Context
         {
             if (!optionsBuilder.IsConfigured)
                 optionsBuilder.UseSqlServer(
-                    "Data Source=TRISTICTL46W10;Initial Catalog=kemalakoglu; Persist Security Info=True;User ID=sa;Password=User123**;MultipleActiveResultSets=True;");
+                    "Data Source=.;Initial Catalog=kemalakoglu; Persist Security Info=True;User ID=kemalakoglu;Password=user123!!;MultipleActiveResultSets=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

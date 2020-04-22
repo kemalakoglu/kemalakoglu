@@ -15,10 +15,12 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
     public class RefTypeService : IRefTypeService
     {
         private readonly IUnitOfWork unitOfWork;
+        private readonly IMapper mapper;
 
-        public RefTypeService(IUnitOfWork unitOfWork)
+        public RefTypeService(IUnitOfWork unitOfWork, IMapper mapper)
         {
             this.unitOfWork = unitOfWork;
+            this.mapper = mapper;
         }
 
         public ResponseDTO<RefTypeDTO> GetByKey(long key)
@@ -40,7 +42,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             unitOfWork.Repository<RefType>().Create(entity);
             unitOfWork.EndTransaction();
             DTO.Id = entity.Id;
-            return CreateResponse<AddRefTypeResponseDTO>.Return(Mapper.Map(DTO,new AddRefTypeResponseDTO()), "Create");
+            return CreateResponse<AddRefTypeResponseDTO>.Return(mapper.Map(DTO,new AddRefTypeResponseDTO()), "Create");
         }
 
         public ResponseDTO<RefTypeDTO> Update(RefTypeDTO DTO)
@@ -71,7 +73,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             entity.SetStatus(false);
             unitOfWork.Repository<RefType>().Update(entity);
             unitOfWork.EndTransaction();
-            return CreateResponse<RefTypeDTO>.Return(Mapper.Map<RefType,RefTypeDTO>(entity),"RefType Soft Delete");
+            return CreateResponse<RefTypeDTO>.Return(mapper.Map<RefType,RefTypeDTO>(entity),"RefType Soft Delete");
         }
 
         public ResponseListDTO<RefTypeDTO> GetByParent(long parentId)
@@ -85,7 +87,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             unitOfWork.EndTransaction();
 
             //List<RefTypeDTO> response = new List<RefTypeDTO>();
-            return CreateResponse<RefTypeDTO>.Return(Mapper.Map<RefType[], IEnumerable<RefTypeDTO>>(entity.ToArray()), "GetByParent");
+            return CreateResponse<RefTypeDTO>.Return(mapper.Map<RefType[], IEnumerable<RefTypeDTO>>(entity.ToArray()), "GetByParent");
         }
     }
 }

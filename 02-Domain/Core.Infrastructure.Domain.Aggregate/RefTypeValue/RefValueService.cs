@@ -8,21 +8,22 @@ using Core.Infrastructure.Core.Contract;
 using Core.Infrastructure.Core.Helper;
 using Core.Infrastructure.Domain.Contract.DTO.Blog;
 using Core.Infrastructure.Domain.Contract.DTO.RefValue;
-using Remotion.Linq.Utilities;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
     public class RefValueService : IRefValueService
     {
         private readonly IUnitOfWork uow;
+        private readonly IMapper mapper;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="RefValueService"/> class.
         /// </summary>
         /// <param name="uow">The uow.</param>
-        public RefValueService(IUnitOfWork uow)
+        public RefValueService(IUnitOfWork uow, IMapper mapper)
         {
             this.uow = uow;
+            this.mapper = mapper;
         }
 
         /// <summary>
@@ -32,7 +33,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         /// <returns></returns>
         public ResponseDTO<RefValueDTO> GetByKey(long key)
         {
-            return CreateResponse<RefValueDTO>.Return(Mapper.Map(this.uow.Repository<RefValue>().GetByKey(key), new RefValueDTO()), "GetByKey");
+            return CreateResponse<RefValueDTO>.Return(mapper.Map(this.uow.Repository<RefValue>().GetByKey(key), new RefValueDTO()), "GetByKey");
         }
 
         /// <summary>
@@ -69,7 +70,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
                 this.uow.Repository<RefValue>().Query().Filter(x => x.RefType.Parent.Id == 1).Get();
             this.uow.EndTransaction();
 
-            return CreateResponse<RefValueDTO>.Return(Mapper.Map<RefValue[], RefValueDTO[]>(entityList.ToArray()),
+            return CreateResponse<RefValueDTO>.Return(mapper.Map<RefValue[], RefValueDTO[]>(entityList.ToArray()),
                 "GetRefValuesByPage");
         }
 
@@ -84,7 +85,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
                 this.uow.Repository<RefValue>().Query().Filter(x => x.RefType.Parent.Id == 1).Get().TakeLast(i);
             this.uow.EndTransaction();
 
-            return CreateResponse<RefValueDTO>.Return(Mapper.Map<RefValue[], RefValueDTO[]>(entityList.ToArray()),
+            return CreateResponse<RefValueDTO>.Return(mapper.Map<RefValue[], RefValueDTO[]>(entityList.ToArray()),
                 "GetLastByNumber");
         }
 
@@ -98,7 +99,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         {
             var entity = this.uow.Repository<RefValue>().Query().Filter(x => x.Id == id).Get().FirstOrDefault();
 
-            return CreateResponse<RefValueDTO>.Return(Mapper.Map(entity, new RefValueDTO()), "GetByRefTypeId");
+            return CreateResponse<RefValueDTO>.Return(mapper.Map(entity, new RefValueDTO()), "GetByRefTypeId");
         }
 
         /// <summary>
@@ -134,7 +135,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         {
             var entity = this.uow.Repository<RefValue>().Query().Filter(x =>
                 x.InsertDate.Value.Month == Convert.ToInt32(month) && x.InsertDate.Value.Year == Convert.ToInt32(year)).Get();
-            return CreateResponse<IEnumerable<RefValueDTO>>.Return(Mapper.Map<RefValue[],RefValueDTO[]>(entity.ToArray()), "GetRefValueForBlogsByArchive");
+            return CreateResponse<IEnumerable<RefValueDTO>>.Return(mapper.Map<RefValue[],RefValueDTO[]>(entity.ToArray()), "GetRefValueForBlogsByArchive");
         }
 
         /// <summary>
@@ -178,7 +179,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             entity.SetStatus(false);
             this.uow.Repository<RefValue>().Update(entity);
             this.uow.EndTransaction();
-            return CreateResponse<RefValueDTO>.Return(Mapper.Map<RefValueDTO>(entity),
+            return CreateResponse<RefValueDTO>.Return(mapper.Map<RefValueDTO>(entity),
                 "GetRefValuesByPage");
         }
 
@@ -191,7 +192,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         {
             var entity = this.uow.Repository<RefValue>().Query().Filter(x => x.RefType.Id == refTypeId).Get();
            
-            return CreateResponse<RefValueDTO>.Return(Mapper.Map<RefValue[],RefValueDTO[]>(entity.ToArray()), "GetByRefTypeId");
+            return CreateResponse<RefValueDTO>.Return(mapper.Map<RefValue[],RefValueDTO[]>(entity.ToArray()), "GetByRefTypeId");
         }
     }
 }

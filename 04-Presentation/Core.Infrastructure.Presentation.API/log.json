@@ -13672,3 +13672,30 @@
 {"Timestamp":"2020-03-25T18:35:45.8238611+03:00","Level":"Information","MessageTemplate":"GetArchives Operation is succeeded.","Properties":{"Application":"app"}}
 {"Timestamp":"2020-03-25T18:35:45.8258901+03:00","Level":"Information","MessageTemplate":"GetHomeData Operation is succeeded.","Properties":{"Application":"app"}}
 {"Timestamp":"2020-04-08T13:20:15.0191755+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-11T20:54:32.2533366+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:36:23.2108954+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:37:45.5724886+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:40:03.9113594+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:44:18.3641313+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:45:24.3656442+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:52:14.9150024+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:54:08.8428478+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:55:18.9444152+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:56:46.5974815+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:59:16.6524660+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:59:19.4040478+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:59:28.6355252+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:59:28.6627041+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:59:28.7332290+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui.css","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:59:28.7368443+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui-bundle.js","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:59:28.7369534+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui-standalone-preset.js","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:59:29.0195328+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T10:59:29.0393856+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/favicon-32x32.png","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T11:11:51.2027579+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Blog/GetHomeData","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T11:12:28.5121045+03:00","Level":"Error","MessageTemplate":"A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T12:14:43.1747984+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T12:14:44.8166430+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T12:17:40.6980995+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T12:17:41.0709597+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T12:21:25.6480702+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2020-04-13T12:21:26.1996405+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}

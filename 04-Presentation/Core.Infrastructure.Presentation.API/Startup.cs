@@ -25,20 +25,33 @@ namespace Core.Infrastructure.Presentation.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Configuring API's
             services.ConfigureAuthentication(Configuration);
             services.AddMvc().AddFluentValidation();
+            services.AddControllers();
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                    builder.SetIsOriginAllowed(_ => true)
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+            });
+
+            //Configure Third Parties
             services.ConfigureLogger(Configuration);
             services.ConfigureCors();
             services.ConfigureMySqlContext(Configuration);
             services.ConfigureUnitOfWork();
             services.ConfigureSwagger();
-            services.AddAutoMapper();
+            //services.AddAutoMapper();
+            services.AddAutoMapper(typeof(Startup));
             services.ConfigureApplicationService();
             services.ConfigureAttributes();
             services.ConfigureDomainService();
             services.ConfigureFluentValidation();
             services.ConfigureRedisCache();
-            Mapping.ConfigureMapping();
+            //Mapping.ConfigureMapping();
             //services.Configure<PasswordHasherOptions>(options =>
             //    options.CompatibilityMode = PasswordHasherCompatibilityMode.IdentityV2
             //);
@@ -56,29 +69,38 @@ namespace Core.Infrastructure.Presentation.API
             app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseMiddleware(typeof(ErrorHandlingMiddleware));
-            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            //app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            //app.UseCors("CorsPolicy");
             app.UseStaticFiles();
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/CoreInfrastructure/swagger.json", "CoreInfrastructure"); });
-            app.UseIdentity();
-            app.UseMvc(routes =>
+            //app.UseIdentity();
+            // Runs matching. An endpoint is selected and set on the HttpContext if a match is found.
+            app.UseRouting();
+            // Executes the endpoint that was selected by routing.
+            app.UseEndpoints(endpoints =>
             {
-                routes.MapRoute(
-                    "default",
-                    "api/{controller}/{action}");
-                //defaults: new { controller = "RefType" });
-                //routes.MapRoute(
-                //    name: "LogsId",
-                //    template: "api/[controller]/ID/{id}",
-                //    defaults: new { controller = "BXLogs", action = "GetById" });
-
-                //routes.MapRoute(
-                //    name: "LogsAPI",
-                //    template: "api/[controller]/API/{apiname}",
-                //    defaults: new { controller = "BXLogs", action = "GetByAPI" });
+                // Mapping of endpoints goes here:
+                endpoints.MapControllers();
             });
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //        "default",
+            //        "api/{controller}/{action}");
+            //    //defaults: new { controller = "RefType" });
+            //    //routes.MapRoute(
+            //    //    name: "LogsId",
+            //    //    template: "api/[controller]/ID/{id}",
+            //    //    defaults: new { controller = "BXLogs", action = "GetById" });
+
+            //    //routes.MapRoute(
+            //    //    name: "LogsAPI",
+            //    //    template: "api/[controller]/API/{apiname}",
+            //    //    defaults: new { controller = "BXLogs", action = "GetByAPI" });
+            //});
         }
     }
 }

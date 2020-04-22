@@ -1,4 +1,5 @@
 ﻿using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Core.Infrastructure.Domain.Context.Migrations

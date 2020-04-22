@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
-using Core.Infrastructure.Core.Resources;
 using Dapper;
+using Microsoft.Data.SqlClient;
 
 namespace Core.Infrastructure.Core.Dapper
 {
